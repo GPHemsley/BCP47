@@ -24,6 +24,8 @@ def getLanguageSubtags():
 
 	most_recent_date = '1995-03-01'
 
+	overrides = {"el":"Greek","ia":"Interlingua","km":"Khmer","ms":"Malay","oc":"Occitan","sw":"Swahili"}
+
 	for language in languages.readlines():
 		# Values are separated by a tab
 		line_split = re.split( '\t', string.rstrip( language ) )
@@ -65,6 +67,9 @@ def getLanguageSubtags():
 #			single_name = names[2]
 #		elif( subtag == 'qq' ):
 #			single_name = 'not in the list'
+
+		if (subtag in overrides):
+			single_name = overrides[subtag]
 
 		if( single_name != name ):
 			langNames.write( '# ' + name + "\n" );
