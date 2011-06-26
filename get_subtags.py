@@ -51,7 +51,15 @@ def getLanguageSubtags():
 		single_name = names[0]
 
 		# Override name selection
-		if( subtag == 'ht' ):
+		if( subtag == 'dv' ):
+			single_name = names[1]
+		elif( subtag == 'ht' ):
+			single_name = names[1]
+		elif( subtag == 'ny' ):
+			single_name = names[2]
+		elif( subtag == 'pa' ):
+			single_name = names[1]
+		elif( subtag == 'ps' ):
 			single_name = names[1]
 #		elif( subtag == 'xx' ):
 #			single_name = names[2]
