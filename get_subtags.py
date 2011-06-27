@@ -24,11 +24,25 @@ def getLanguageSubtags():
 
 	most_recent_date = '1995-03-01'
 
-	overrides = {"el":"Greek","ia":"Interlingua","km":"Khmer","ms":"Malay","oc":"Occitan","sw":"Swahili"}
+	override_choice = {
+		'cu':	1,
+		'dv':	1,
+		'ht':	1,
+		'ny':	2,
+		'pa':	1,
+		'ps':	1,
+	}
+
+	override_rename = {
+		'el':	'Greek',
+		'ia':	'Interlingua',
+		'km':	'Khmer',
+		'oc':	'Occitan',
+	}
 
 	for language in languages.readlines():
 		# Values are separated by a tab
-		line_split = re.split( '\t', string.rstrip( language ) )
+		line_split = re.split( "\t", string.rstrip( language ) )
 
 		subtag = date = name = suppress_script = scope = ''
 
@@ -52,24 +66,13 @@ def getLanguageSubtags():
 		names = re.split( ' / ', name )
 		single_name = names[0]
 
-		# Override name selection
-		if( subtag == 'dv' ):
-			single_name = names[1]
-		elif( subtag == 'ht' ):
-			single_name = names[1]
-		elif( subtag == 'ny' ):
-			single_name = names[2]
-		elif( subtag == 'pa' ):
-			single_name = names[1]
-		elif( subtag == 'ps' ):
-			single_name = names[1]
-#		elif( subtag == 'xx' ):
-#			single_name = names[2]
-#		elif( subtag == 'qq' ):
-#			single_name = 'not in the list'
+		# Override name selection by choice
+		if( subtag in override_choice ):
+			single_name = names[override_choice[subtag]]
 
-		if (subtag in overrides):
-			single_name = overrides[subtag]
+		# Override name selection by renaming
+		if( subtag in override_rename ):
+			single_name = override_rename[subtag]
 
 		if( single_name != name ):
 			langNames.write( '# ' + name + "\n" );
@@ -106,9 +109,15 @@ def getScriptSubtags():
 
 	most_recent_date = '1995-03-01'
 
+	override_choice = {
+	}
+
+	override_rename = {
+	}
+
 	for script in scripts.readlines():
 		# Values are separated by a tab
-		line_split = re.split( '\t', string.rstrip( script ) )
+		line_split = re.split( "\t", string.rstrip( script ) )
 
 		subtag = date = name = ''
 
@@ -125,11 +134,13 @@ def getScriptSubtags():
 		names = re.split( ' / ', name )
 		single_name = names[0]
 
-		# Override name selection
-#		if( subtag == 'xx' ):
-#			single_name = names[2]
-#		elif( subtag == 'qq' ):
-#			single_name = 'not in the list'
+		# Override name selection by choice
+		if( subtag in override_choice ):
+			single_name = names[override_choice[subtag]]
+
+		# Override name selection by renaming
+		if( subtag in override_rename ):
+			single_name = override_rename[subtag]
 
 		if( single_name != name ):
 			scriptNames.write( '# ' + name + "\n" );
@@ -163,9 +174,15 @@ def getRegionSubtags():
 
 	most_recent_date = '1995-03-01'
 
+	override_choice = {
+	}
+
+	override_rename = {
+	}
+
 	for region in regions.readlines():
 		# Values are separated by a tab
-		line_split = re.split( '\t', string.rstrip( region ) )
+		line_split = re.split( "\t", string.rstrip( region ) )
 
 		subtag = date = name = ''
 
@@ -182,11 +199,13 @@ def getRegionSubtags():
 		names = re.split( ' / ', name )
 		single_name = names[0]
 
-		# Override name selection
-#		if( subtag == 'xx' ):
-#			single_name = names[2]
-#		elif( subtag == 'qq' ):
-#			single_name = 'not in the list'
+		# Override name selection by choice
+		if( subtag in override_choice ):
+			single_name = names[override_choice[subtag]]
+
+		# Override name selection by renaming
+		if( subtag in override_rename ):
+			single_name = override_rename[subtag]
 
 		if( single_name != name ):
 			regionNames.write( '# ' + name + "\n" );
@@ -220,9 +239,15 @@ def getVariantSubtags():
 
 	most_recent_date = '1995-03-01'
 
+	override_choice = {
+	}
+
+	override_rename = {
+	}
+
 	for variant in variants.readlines():
 		# Values are separated by a tab
-		line_split = re.split( '\t', string.rstrip( variant ) )
+		line_split = re.split( "\t", string.rstrip( variant ) )
 
 		subtag = date = name = prefix = ''
 
@@ -243,11 +268,13 @@ def getVariantSubtags():
 		names = re.split( ' / ', name )
 		single_name = names[0]
 
-		# Override name selection
-#		if( subtag == 'xx' ):
-#			single_name = names[2]
-#		elif( subtag == 'qq' ):
-#			single_name = 'not in the list'
+		# Override name selection by choice
+		if( subtag in override_choice ):
+			single_name = names[override_choice[subtag]]
+
+		# Override name selection by renaming
+		if( subtag in override_rename ):
+			single_name = override_rename[subtag]
 
 		if( single_name != name ):
 			variantNames.write( '# ' + name + "\n" );
