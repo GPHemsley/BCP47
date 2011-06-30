@@ -1,4 +1,5 @@
 #!/usr/local/bin/python
+# -*- coding: UTF-8 -*-
 
 import string, re, urllib
 
@@ -8,9 +9,135 @@ import string, re, urllib
 #       Even some of the information that *is* present in the
 #       LangTag.net text files is not used in the generated output files.
 
+def parseRegistry():
+	registryFile = urllib.urlopen( 'http://www.iana.org/assignments/language-subtag-registry' )
+	registryFileString = registryFile.read()
+
+	ALPHA = '[A-Za-z]'
+	DIGIT = '[0-9]'
+	CRLF = r"\n" # "\r\n"
+	field_name = '((?:' + ALPHA + '|' + DIGIT + ')(?:(?:' + ALPHA + '|' + DIGIT + '|-)*(?:' + ALPHA + '|' + DIGIT + '))?)'
+	field_sep = ' *: *'
+	field_body = '(.*?(?:' + CRLF + '^\s+.*?)*)' #'(((( ' + CRLF + ')? +)?.+?)*)'
+	field = '(?:' + field_name + field_sep + field_body + ')'# + CRLF + ')'
+	record = '(?:^' + field + '$)+' + "\n"
+
+	tags = []
+
+	for fullRecord in registryFileString.split( "%%\n" ):
+		add_tag = {}
+
+		# NOTE: This regular expression doesn't strictly match the ABNF notation in BCP 47
+		recordResults = re.findall( record, fullRecord, re.M )
+
+		for fullField in recordResults:
+			fullField = ( fullField[0], ' '.join( fullField[1].split( "\n  " ) ) )
+
+			if( fullField[0] in ['Description', 'Comments', 'Prefix'] ):
+				if( fullField[0] not in add_tag ):
+					add_tag[fullField[0]] = []
+
+				add_tag[fullField[0]].append( fullField[1] )
+			else:
+				add_tag[fullField[0]] = fullField[1]
+
+		if( 'File-Date' not in add_tag ):
+			if( ( 'Type' not in add_tag ) or ( ( 'Subtag' not in add_tag ) and ( 'Tag' not in add_tag ) ) or ( 'Description' not in add_tag ) or ( 'Added' not in add_tag ) ):
+				print 'ERROR: BAD ENTRY'
+				print add_tag
+				continue
+
+		tags.append( add_tag )
+
+#	print tags
+#	print record
+
+	file_date = '1995-03-01'
+
+	languageFile = open( 'language.txt', 'w+' )
+	extlangFile = open( 'extlang.txt', 'w+' )
+	scriptFile = open( 'script.txt', 'w+' )
+	regionFile = open( 'region.txt', 'w+' )
+	variantFile = open( 'variant.txt', 'w+' )
+	grandfatheredFile = open( 'grandfathered.txt', 'w+' )
+
+	for tag in tags:
+		# Just the date of the file
+		if( 'File-Date' in tag ):
+			file_date = tag['File-Date']
+			languageFile.write( file_date + "\n" )
+			extlangFile.write( file_date + "\n" )
+			scriptFile.write( file_date + "\n" )
+			regionFile.write( file_date + "\n" )
+			variantFile.write( file_date + "\n" )
+			continue
+		# Grandfathered or redundant tag
+		elif( 'Tag' in tag ):
+			if( tag['Type'] == 'redundant' ):
+				# We don't care about redundant tags
+				continue
+			# TODO: Handle grandfathered tags
+			pass
+		# Regular tag
+		elif( 'Subtag' in tag ):
+			line = tag['Subtag'] + "\t" + tag['Added'] + "\t" + ' / '.join( tag['Description'] )
+
+			if( tag['Type'] in ['extlang', 'variant'] ):
+				line += "\t"
+				if( 'Prefix' in tag ):
+					line += ' / '.join( tag['Prefix'] )
+
+			if( tag['Type'] in ['language', 'extlang'] ):
+				line += "\t"
+				if( 'Suppress-Script' in tag ):
+					line += tag['Suppress-Script']
+
+				line += "\t"
+				if( 'Scope' in tag ):
+					line += tag['Scope']
+
+				line += "\t"
+				if( 'Macrolanguage' in tag ):
+					line += tag['Macrolanguage']
+
+			line += "\t"
+			if( 'Deprecated' in tag ):
+				line += tag['Deprecated']
+
+			line += "\t"
+			if( 'Preferred-Value' in tag ):
+				line += tag['Preferred-Value']
+
+			line += "\t"
+			if( 'Comments' in tag ):
+				line += '# ' + ' / '.join( tag['Comments'] )
+
+			line += "\n"
+
+			if( tag['Type'] == 'language' ):
+				languageFile.write( line )
+			elif( tag['Type'] == 'extlang' ):
+				extlangFile.write( line )
+			elif( tag['Type'] == 'script' ):
+				scriptFile.write( line )
+			elif( tag['Type'] == 'region' ):
+				regionFile.write( line )
+			elif( tag['Type'] == 'variant' ):
+				variantFile.write( line )
+
+	print 'Registry:', file_date
+
+	languageFile.close()
+	extlangFile.close()
+	scriptFile.close()
+	regionFile.close()
+	variantFile.close()
+	grandfatheredFile.close()
+
 def getLanguageSubtags():
 	langNames = open( 'languageNames.properties', 'w+' )
-	languages = urllib.urlopen( 'http://www.langtag.net/registries/lsr-language-utf8.txt' )
+#	languages = urllib.urlopen( 'http://www.langtag.net/registries/lsr-language-utf8.txt' )
+	languages = open( 'language.txt', 'r' )
 
 	langNames.write( "#\n" )
 	langNames.write( '# Language names from IANA Language Subtag Registry' + "\n" )
@@ -21,8 +148,6 @@ def getLanguageSubtags():
 	langNames.write( "#\n" )
 	langNames.write( '# Names can be overridden in the generating script.' + "\n" )
 	langNames.write( "#\n" )
-
-	most_recent_date = '1995-03-01'
 
 	override_choice = {
 		'cu':	1,
@@ -42,24 +167,23 @@ def getLanguageSubtags():
 
 	for language in languages.readlines():
 		# Values are separated by a tab
-		line_split = re.split( "\t", string.rstrip( language ) )
+		line_split = re.split( "\t", string.rstrip( language, "\n" ) )
 
-		subtag = date = name = suppress_script = scope = ''
-
-		if( len( line_split ) == 5 ):
-			# Language has Suppress-Script and Scope value specified
-			subtag, date, name, suppress_script, scope = line_split
-		elif( len( line_split ) == 4 ):
-			# Language has a Suppress-Script value specified
-			subtag, date, name, suppress_script = line_split
-		elif( len( line_split ) == 3 ):
-			# No Suppress-Script value
-			subtag, date, name = line_split
-		else:
+		# This is the date of the file
+		if( len( line_split ) == 1 ):
+			file_date = line_split[0].strip()
+			print 'language:', file_date
 			continue
 
-		if( date > most_recent_date ):
-			most_recent_date = date
+		subtag = line_split[0]
+		added_date = line_split[1]
+		name = line_split[2]
+		suppress_script = line_split[3]
+		scope = line_split[4]
+		macrolanguage = line_split[5]
+		deprecated_date = line_split[6]
+		preferred_value = line_split[7]
+		comments = line_split[8]
 
 		# Multiple names for a given subtag are separated by a slash
 		# For simplicity, arbitrarily choose the first one
@@ -82,20 +206,21 @@ def getLanguageSubtags():
 
 		langNames.write( subtag + ' = ' + single_name + "\n" )
 
-		if( suppress_script ):
-			print subtag + ' (' + suppress_script + ')' + "\t" + single_name
-		else:
-			print subtag + "\t\t" + single_name
+#		if( suppress_script ):
+#			print subtag + ' (' + suppress_script + ')' + "\t" + single_name
+#		else:
+#			print subtag + "\t\t" + single_name
 
 	langNames.write( "#\n" )
-	langNames.write( '# Current as of: ' + most_recent_date + "\n" )
+	langNames.write( '# Registry: ' + file_date + "\n" )
 	langNames.write( "#\n" )
 
 	langNames.close()
 
 def getScriptSubtags():
 	scriptNames = open( 'scriptNames.properties', 'w+' )
-	scripts = urllib.urlopen( 'http://www.langtag.net/registries/lsr-script-utf8.txt' )
+#	scripts = urllib.urlopen( 'http://www.langtag.net/registries/lsr-script-utf8.txt' )
+	scripts = open( 'script.txt', 'r' )
 
 	scriptNames.write( "#\n" )
 	scriptNames.write( '# Script names from IANA Language Subtag Registry' + "\n" )
@@ -107,8 +232,6 @@ def getScriptSubtags():
 	scriptNames.write( '# Names can be overridden in the generating script.' + "\n" )
 	scriptNames.write( "#\n" )
 
-	most_recent_date = '1995-03-01'
-
 	override_choice = {
 	}
 
@@ -117,17 +240,20 @@ def getScriptSubtags():
 
 	for script in scripts.readlines():
 		# Values are separated by a tab
-		line_split = re.split( "\t", string.rstrip( script ) )
+		line_split = re.split( "\t", string.rstrip( script, "\n" ) )
 
-		subtag = date = name = ''
-
-		if( len( line_split ) == 3 ):
-			subtag, date, name = line_split
-		else:
+		# This is the date of the file
+		if( len( line_split ) == 1 ):
+			file_date = line_split[0].strip()
+			print 'script:', file_date
 			continue
 
-		if( date > most_recent_date ):
-			most_recent_date = date
+		subtag = line_split[0]
+		added_date = line_split[1]
+		name = line_split[2]
+		deprecated_date = line_split[3]
+		preferred_value = line_split[4]
+		comments = line_split[5]
 
 		# Multiple names for a given subtag are separated by a slash
 		# For simplicity, arbitrarily choose the first one
@@ -150,17 +276,18 @@ def getScriptSubtags():
 
 		scriptNames.write( subtag + ' = ' + single_name + "\n" )
 
-		print subtag + "\t\t" + single_name
+#		print subtag + "\t\t" + single_name
 
 	scriptNames.write( "#\n" )
-	scriptNames.write( '# Current as of: ' + most_recent_date + "\n" )
+	scriptNames.write( '# Registry: ' + file_date + "\n" )
 	scriptNames.write( "#\n" )
 
 	scriptNames.close()
 
 def getRegionSubtags():
 	regionNames = open( 'regionNames.properties', 'w+' )
-	regions = urllib.urlopen( 'http://www.langtag.net/registries/lsr-region-utf8.txt' )
+#	regions = urllib.urlopen( 'http://www.langtag.net/registries/lsr-region-utf8.txt' )
+	regions = open( 'region.txt', 'r' )
 
 	regionNames.write( "#\n" )
 	regionNames.write( '# Region names from IANA Language Subtag Registry' + "\n" )
@@ -172,8 +299,6 @@ def getRegionSubtags():
 	regionNames.write( '# Names can be overridden in the generating script.' + "\n" )
 	regionNames.write( "#\n" )
 
-	most_recent_date = '1995-03-01'
-
 	override_choice = {
 	}
 
@@ -182,17 +307,20 @@ def getRegionSubtags():
 
 	for region in regions.readlines():
 		# Values are separated by a tab
-		line_split = re.split( "\t", string.rstrip( region ) )
+		line_split = re.split( "\t", string.rstrip( region, "\n" ) )
 
-		subtag = date = name = ''
-
-		if( len( line_split ) == 3 ):
-			subtag, date, name = line_split
-		else:
+		# This is the date of the file
+		if( len( line_split ) == 1 ):
+			file_date = line_split[0].strip()
+			print 'region:', file_date
 			continue
 
-		if( date > most_recent_date ):
-			most_recent_date = date
+		subtag = line_split[0]
+		added_date = line_split[1]
+		name = line_split[2]
+		deprecated_date = line_split[3]
+		preferred_value = line_split[4]
+		comments = line_split[5]
 
 		# Multiple names for a given subtag are separated by a slash
 		# For simplicity, arbitrarily choose the first one
@@ -215,17 +343,18 @@ def getRegionSubtags():
 
 		regionNames.write( subtag + ' = ' + single_name + "\n" )
 
-		print subtag + "\t\t" + single_name
+#		print subtag + "\t\t" + single_name
 
 	regionNames.write( "#\n" )
-	regionNames.write( '# Current as of: ' + most_recent_date + "\n" )
+	regionNames.write( '# Registry: ' + file_date + "\n" )
 	regionNames.write( "#\n" )
 
 	regionNames.close()
 
 def getVariantSubtags():
 	variantNames = open( 'variantNames.properties', 'w+' )
-	variants = urllib.urlopen( 'http://www.langtag.net/registries/lsr-variant-utf8.txt' )
+#	variants = urllib.urlopen( 'http://www.langtag.net/registries/lsr-variant-utf8.txt' )
+	variants = open( 'variant.txt', 'r' )
 
 	variantNames.write( "#\n" )
 	variantNames.write( '# Variant names from IANA Language Subtag Registry' + "\n" )
@@ -237,8 +366,6 @@ def getVariantSubtags():
 	variantNames.write( '# Names can be overridden in the generating script.' + "\n" )
 	variantNames.write( "#\n" )
 
-	most_recent_date = '1995-03-01'
-
 	override_choice = {
 	}
 
@@ -247,21 +374,21 @@ def getVariantSubtags():
 
 	for variant in variants.readlines():
 		# Values are separated by a tab
-		line_split = re.split( "\t", string.rstrip( variant ) )
+		line_split = re.split( "\t", string.rstrip( variant, "\n" ) )
 
-		subtag = date = name = prefix = ''
-
-		if( len( line_split ) == 4 ):
-			# Variant has a Prefix value specified
-			subtag, date, name, prefix = line_split
-		elif( len( line_split ) == 3 ):
-			# No Prefix value
-			subtag, date, name = line_split
-		else:
+		# This is the date of the file
+		if( len( line_split ) == 1 ):
+			file_date = line_split[0].strip()
+			print 'variant:', file_date
 			continue
 
-		if( date > most_recent_date ):
-			most_recent_date = date
+		subtag = line_split[0]
+		added_date = line_split[1]
+		name = line_split[2]
+		prefix = line_split[3]
+		deprecated_date = line_split[4]
+		preferred_value = line_split[5]
+		comments = line_split[6]
 
 		# Multiple names for a given subtag are separated by a slash
 		# For simplicity, arbitrarily choose the first one
@@ -284,18 +411,19 @@ def getVariantSubtags():
 
 		variantNames.write( subtag + ' = ' + single_name + "\n" )
 
-		if( prefix ):
-			print subtag + ' (' + prefix + ')' + "\t" + single_name
-		else:
-			print subtag + "\t\t" + single_name
+#		if( prefix ):
+#			print subtag + ' (' + prefix + ')' + "\t" + single_name
+#		else:
+#			print subtag + "\t\t" + single_name
 
 	variantNames.write( "#\n" )
-	variantNames.write( '# Current as of: ' + most_recent_date + "\n" )
+	variantNames.write( '# Registry: ' + file_date + "\n" )
 	variantNames.write( "#\n" )
 
 	variantNames.close()
 
 def main():
+	parseRegistry()
 	getLanguageSubtags()
 	getScriptSubtags()
 	getRegionSubtags()

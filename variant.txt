@@ -1,0 +1,55 @@
+2011-01-11
+1606nict	2007-03-20	Late Middle French (to 1606)	frm			# 16th century French as in Jean Nicot, "Thresor de la langue francoyse", 1606, but also including some French similar to that of Rabelais
+1694acad	2007-03-20	Early Modern French	fr			# 17th century French, as catalogued in the "Dictionnaire de l'académie françoise", 4eme ed. 1694; frequently includes elements of Middle French, as this is a transitional period
+1901	2005-10-16	Traditional German orthography	de			
+1959acad	2008-09-30	"Academic" ("governmental") variant of Belarusian as codified in 1959	be			
+1994	2007-07-28	Standardized Resian orthography	sl-rozaj / sl-rozaj-biske / sl-rozaj-njiva / sl-rozaj-osojs / sl-rozaj-solba			# For standardized Resian an orthography was published in 1994.
+1996	2005-10-16	German orthography of 1996	de			
+alalc97	2009-12-09	ALA-LC Romanization, 1997 edition				# Romanizations recommended by the American Library Association and the Library of Congress, in "ALA-LC Romanization Tables: Transliteration Schemes for Non-Roman Scripts" (1997), ISBN 978-0-8444-0940-5.
+aluku	2009-09-05	Aluku dialect / Boni dialect	djk			# Aluku dialect of the "Busi Nenge Tongo" English-based Creole continuum in Eastern Suriname and Western French Guiana
+arevela	2006-09-18	Eastern Armenian	hy			
+arevmda	2006-09-18	Western Armenian	hy			
+baku1926	2007-04-18	Unified Turkic Latin Alphabet (Historical)	az / ba / crh / kk / krc / ky / sah / tk / tt / uz			# Denotes alphabet used in Turkic republics/regions of the former USSR in late 1920s, and throughout 1930s, which aspired to represent equivalent phonemes in a unified fashion. Also known as: New Turkic Alphabet; Birlәşdirilmiş Jeni Tyrk Әlifbasь (Birlesdirilmis Jeni Tyrk Elifbasi); Jaŋalif (Janalif).
+bauddha	2010-07-28	Buddhist Hybrid Sanskrit	sa			
+biscayan	2010-04-13	Biscayan dialect of Basque	eu			
+biske	2007-07-05	The San Giorgio dialect of Resian / The Bila dialect of Resian	sl-rozaj			# The dialect of San Giorgio/Bila is one of the four major local dialects of Resian
+boont	2006-09-18	Boontling	en			# Jargon embedded in American English
+fonipa	2006-12-11	International Phonetic Alphabet				
+fonupa	2006-12-11	Uralic Phonetic Alphabet				
+fonxsamp	2010-10-23	X-SAMPA transcription				# Indicates that the content is transcribed according to X-SAMPA
+hepburn	2009-10-01	Hepburn romanization	ja-Latn			
+heploc	2009-10-01	Hepburn romanization, Library of Congress method	ja-Latn-hepburn	2010-02-07	alalc97	# Preferred tag is ja-Latn-alalc97
+hognorsk	2010-01-02	Norwegian in Høgnorsk (High Norwegian) orthography	nn			# Norwegian following Ivar Aasen's orthographical principles, including modern usage.
+itihasa	2010-07-28	Epic Sanskrit	sa			
+jauer	2010-06-29	Jauer dialect of Romansh	rm			# The spoken dialect of the Val Müstair, which has no written standard.
+jyutping	2010-10-23	Jyutping Cantonese Romanization	yue			# Jyutping romanization of Cantonese
+kkcor	2008-10-14	Common Cornish orthography of Revived Cornish	kw			
+laukika	2010-07-28	Classical Sanskrit	sa			
+lipaw	2007-08-11	The Lipovaz dialect of Resian / The Lipovec dialect of Resian	sl-rozaj			# The dialect of Lipovaz/Lipovec is one of the minor local dialects of Resian
+luna1918	2010-10-10	Post-1917 Russian orthography	ru			# Russian orthography as established by the 1917/1918 orthographic reforms
+monoton	2006-12-11	Monotonic Greek	el			
+ndyuka	2009-09-05	Ndyuka dialect / Aukan dialect	djk			# Ndyuka dialect of the "Busi Nenge Tongo" English-based Creole continuum in Eastern Suriname and Western French Guiana
+nedis	2005-10-16	Natisone dialect / Nadiza dialect	sl			
+njiva	2007-07-05	The Gniva dialect of Resian / The Njiva dialect of Resian	sl-rozaj			# The dialect of Gniva/Njiva is one of the four major local dialects of Resian
+osojs	2007-07-05	The Oseacco dialect of Resian / The Osojane dialect of Resian	sl-rozaj			# The dialect of Oseacco/Osojane is one of the four major local dialects of Resian
+pamaka	2009-09-05	Pamaka dialect	djk			# Pamaka dialect of the "Busi Nenge Tongo" English-based Creole continuum in Eastern Suriname and Western French Guiana
+petr1708	2010-10-10	Petrine orthography	ru			# Russian orthography from the Petrine orthographic reforms of 1708 to the 1917 orthographic reform
+pinyin	2008-10-14	Pinyin romanization	zh-Latn / bo-Latn			
+polyton	2006-12-11	Polytonic Greek	el			
+puter	2010-06-29	Puter idiom of Romansh	rm			# Puter is one of the five traditional written standards or "idioms" of the Romansh language.
+rozaj	2005-10-16	Resian / Resianic / Rezijan	sl			
+rumgr	2010-06-29	Rumantsch Grischun	rm			# Supraregional Romansh written standard
+scotland	2007-08-31	Scottish Standard English	en			
+scouse	2006-09-18	Scouse	en			# English Liverpudlian dialect known as 'Scouse'
+solba	2007-07-05	The Stolvizza dialect of Resian / The Solbica dialect of Resian	sl-rozaj			# The dialect of Stolvizza/Solbica is one of the four major local dialects of Resian
+surmiran	2010-06-29	Surmiran idiom of Romansh	rm			# Surmiran is one of the five traditional written standards or "idioms" of the Romansh language.
+sursilv	2010-06-29	Sursilvan idiom of Romansh	rm			# Sursilvan is one of the five traditional written standards or "idioms" of the Romansh language.
+sutsilv	2010-06-29	Sutsilvan idiom of Romansh	rm			# Sutsilvan is one of the five traditional written standards or "idioms" of the Romansh language.
+tarask	2007-04-27	Belarusian in Taraskievica orthography	be			# The subtag represents Branislau Taraskievic's Belarusian orthography as published in "Bielaruski klasycny pravapis" by Juras Buslakou, Vincuk Viacorka, Zmicier Sanko, and Zmicier Sauka (Vilnia- Miensk 2005).
+uccor	2008-10-14	Unified Cornish orthography of Revived Cornish	kw			
+ucrcor	2008-10-14	Unified Cornish Revised orthography of Revived Cornish	kw			
+ulster	2010-04-10	Ulster dialect of Scots	sco			
+vaidika	2010-07-28	Vedic Sanskrit	sa			# The most ancient dialect of Sanskrit used in verse and prose composed until about the 4th century B.C.E.
+valencia	2007-03-06	Valencian	ca			# Variety spoken in the "Comunidad Valenciana" region of Spain, where it is co-official with Spanish.
+vallader	2010-06-29	Vallader idiom of Romansh	rm			# Vallader is one of the five traditional written standards or "idioms" of the Romansh language.
+wadegile	2008-10-03	Wade-Giles romanization	zh-Latn			

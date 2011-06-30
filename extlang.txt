@@ -1,0 +1,226 @@
+2011-01-11
+aao	2009-07-29	Algerian Saharan Arabic	ar			ar		aao	
+abh	2009-07-29	Tajiki Arabic	ar			ar		abh	
+abv	2009-07-29	Baharna Arabic	ar			ar		abv	
+acm	2009-07-29	Mesopotamian Arabic	ar			ar		acm	
+acq	2009-07-29	Ta'izzi-Adeni Arabic	ar			ar		acq	
+acw	2009-07-29	Hijazi Arabic	ar			ar		acw	
+acx	2009-07-29	Omani Arabic	ar			ar		acx	
+acy	2009-07-29	Cypriot Arabic	ar			ar		acy	
+adf	2009-07-29	Dhofari Arabic	ar			ar		adf	
+ads	2009-07-29	Adamorobe Sign Language	sgn					ads	
+aeb	2009-07-29	Tunisian Arabic	ar			ar		aeb	
+aec	2009-07-29	Saidi Arabic	ar			ar		aec	
+aed	2009-07-29	Argentine Sign Language	sgn					aed	
+aen	2009-07-29	Armenian Sign Language	sgn					aen	
+afb	2009-07-29	Gulf Arabic	ar			ar		afb	
+afg	2009-07-29	Afghan Sign Language	sgn					afg	
+ajp	2009-07-29	South Levantine Arabic	ar			ar		ajp	
+apc	2009-07-29	North Levantine Arabic	ar			ar		apc	
+apd	2009-07-29	Sudanese Arabic	ar			ar		apd	
+arb	2009-07-29	Standard Arabic	ar			ar		arb	
+arq	2009-07-29	Algerian Arabic	ar			ar		arq	
+ars	2009-07-29	Najdi Arabic	ar			ar		ars	
+ary	2009-07-29	Moroccan Arabic	ar			ar		ary	
+arz	2009-07-29	Egyptian Arabic	ar			ar		arz	
+ase	2009-07-29	American Sign Language	sgn					ase	
+asf	2009-07-29	Australian Sign Language	sgn					asf	
+asp	2009-07-29	Algerian Sign Language	sgn					asp	
+asq	2009-07-29	Austrian Sign Language	sgn					asq	
+asw	2009-07-29	Australian Aborigines Sign Language	sgn					asw	
+auz	2009-07-29	Uzbeki Arabic	ar			ar		auz	
+avl	2009-07-29	Eastern Egyptian Bedawi Arabic	ar			ar		avl	
+ayh	2009-07-29	Hadrami Arabic	ar			ar		ayh	
+ayl	2009-07-29	Libyan Arabic	ar			ar		ayl	
+ayn	2009-07-29	Sanaani Arabic	ar			ar		ayn	
+ayp	2009-07-29	North Mesopotamian Arabic	ar			ar		ayp	
+bbz	2009-07-29	Babalia Creole Arabic	ar			ar		bbz	
+bfi	2009-07-29	British Sign Language	sgn					bfi	
+bfk	2009-07-29	Ban Khor Sign Language	sgn					bfk	
+bjn	2009-07-29	Banjar	ms			ms		bjn	
+bog	2009-07-29	Bamako Sign Language	sgn					bog	
+bqn	2009-07-29	Bulgarian Sign Language	sgn					bqn	
+bqy	2009-07-29	Bengkala Sign Language	sgn					bqy	
+btj	2009-07-29	Bacanese Malay	ms			ms		btj	
+bve	2009-07-29	Berau Malay	ms			ms		bve	
+bvl	2009-07-29	Bolivian Sign Language	sgn					bvl	
+bvu	2009-07-29	Bukit Malay	ms			ms		bvu	
+bzs	2009-07-29	Brazilian Sign Language	sgn					bzs	
+cdo	2009-07-29	Min Dong Chinese	zh			zh		cdo	
+cds	2009-07-29	Chadian Sign Language	sgn					cds	
+cjy	2009-07-29	Jinyu Chinese	zh			zh		cjy	
+cmn	2009-07-29	Mandarin Chinese	zh			zh		cmn	
+coa	2009-07-29	Cocos Islands Malay	ms			ms		coa	
+cpx	2009-07-29	Pu-Xian Chinese	zh			zh		cpx	
+csc	2009-07-29	Catalan Sign Language / Lengua de señas catalana / Llengua de Signes Catalana	sgn					csc	
+csd	2009-07-29	Chiangmai Sign Language	sgn					csd	
+cse	2009-07-29	Czech Sign Language	sgn					cse	
+csf	2009-07-29	Cuba Sign Language	sgn					csf	
+csg	2009-07-29	Chilean Sign Language	sgn					csg	
+csl	2009-07-29	Chinese Sign Language	sgn					csl	
+csn	2009-07-29	Colombian Sign Language	sgn					csn	
+csq	2009-07-29	Croatia Sign Language	sgn					csq	
+csr	2009-07-29	Costa Rican Sign Language	sgn					csr	
+czh	2009-07-29	Huizhou Chinese	zh			zh		czh	
+czo	2009-07-29	Min Zhong Chinese	zh			zh		czo	
+doq	2009-07-29	Dominican Sign Language	sgn					doq	
+dse	2009-07-29	Dutch Sign Language	sgn					dse	
+dsl	2009-07-29	Danish Sign Language	sgn					dsl	
+dup	2009-07-29	Duano	ms			ms		dup	
+ecs	2009-07-29	Ecuadorian Sign Language	sgn					ecs	
+esl	2009-07-29	Egypt Sign Language	sgn					esl	
+esn	2009-07-29	Salvadoran Sign Language	sgn					esn	
+eso	2009-07-29	Estonian Sign Language	sgn					eso	
+eth	2009-07-29	Ethiopian Sign Language	sgn					eth	
+fcs	2009-07-29	Quebec Sign Language	sgn					fcs	
+fse	2009-07-29	Finnish Sign Language	sgn					fse	
+fsl	2009-07-29	French Sign Language	sgn					fsl	
+fss	2009-07-29	Finland-Swedish Sign Language / finlandssvenskt teckenspråk / suomenruotsalainen viittomakieli	sgn					fss	
+gan	2009-07-29	Gan Chinese	zh			zh		gan	
+gom	2009-07-29	Goan Konkani	kok			kok		gom	
+gse	2009-07-29	Ghanaian Sign Language	sgn					gse	
+gsg	2009-07-29	German Sign Language	sgn					gsg	
+gsm	2009-07-29	Guatemalan Sign Language	sgn					gsm	
+gss	2009-07-29	Greek Sign Language	sgn					gss	
+gus	2009-07-29	Guinean Sign Language	sgn					gus	
+hab	2009-07-29	Hanoi Sign Language	sgn					hab	
+haf	2009-07-29	Haiphong Sign Language	sgn					haf	
+hak	2009-07-29	Hakka Chinese	zh			zh		hak	
+hds	2009-07-29	Honduras Sign Language	sgn					hds	
+hji	2009-07-29	Haji	ms			ms		hji	
+hks	2009-07-29	Hong Kong Sign Language / Heung Kong Sau Yue	sgn					hks	
+hos	2009-07-29	Ho Chi Minh City Sign Language	sgn					hos	
+hps	2009-07-29	Hawai'i Pidgin Sign Language	sgn					hps	
+hsh	2009-07-29	Hungarian Sign Language	sgn					hsh	
+hsl	2009-07-29	Hausa Sign Language	sgn					hsl	
+hsn	2009-07-29	Xiang Chinese	zh			zh		hsn	
+icl	2009-07-29	Icelandic Sign Language	sgn					icl	
+ils	2009-07-29	International Sign	sgn					ils	
+inl	2009-07-29	Indonesian Sign Language	sgn					inl	
+ins	2009-07-29	Indian Sign Language	sgn					ins	
+ise	2009-07-29	Italian Sign Language	sgn					ise	
+isg	2009-07-29	Irish Sign Language	sgn					isg	
+isr	2009-07-29	Israeli Sign Language	sgn					isr	
+jak	2009-07-29	Jakun	ms			ms		jak	
+jax	2009-07-29	Jambi Malay	ms			ms		jax	
+jcs	2009-07-29	Jamaican Country Sign Language	sgn					jcs	
+jhs	2009-07-29	Jhankot Sign Language	sgn					jhs	
+jls	2010-03-11	Jamaican Sign Language	sgn					jls	
+jos	2009-07-29	Jordanian Sign Language	sgn					jos	
+jsl	2009-07-29	Japanese Sign Language	sgn					jsl	
+jus	2009-07-29	Jumla Sign Language	sgn					jus	
+kgi	2009-07-29	Selangor Sign Language	sgn					kgi	
+knn	2009-07-29	Konkani (individual language)	kok			kok		knn	
+kvb	2009-07-29	Kubu	ms			ms		kvb	
+kvk	2009-07-29	Korean Sign Language	sgn					kvk	
+kvr	2009-07-29	Kerinci	ms			ms		kvr	
+kxd	2009-07-29	Brunei	ms			ms		kxd	
+lbs	2009-07-29	Libyan Sign Language	sgn					lbs	
+lce	2009-07-29	Loncong	ms			ms		lce	
+lcf	2009-07-29	Lubu	ms			ms		lcf	
+liw	2009-07-29	Col	ms			ms		liw	
+lls	2009-07-29	Lithuanian Sign Language	sgn					lls	
+lsg	2009-07-29	Lyons Sign Language	sgn					lsg	
+lsl	2009-07-29	Latvian Sign Language	sgn					lsl	
+lso	2009-07-29	Laos Sign Language	sgn					lso	
+lsp	2009-07-29	Panamanian Sign Language / Lengua de Señas Panameñas	sgn					lsp	
+lst	2009-07-29	Trinidad and Tobago Sign Language	sgn					lst	
+lsy	2010-03-11	Mauritian Sign Language	sgn					lsy	
+ltg	2010-03-11	Latgalian	lv			lv		ltg	
+lvs	2010-03-11	Standard Latvian	lv			lv		lvs	
+lzh	2009-07-29	Literary Chinese	zh			zh		lzh	
+max	2009-07-29	North Moluccan Malay	ms			ms		max	
+mdl	2009-07-29	Maltese Sign Language	sgn					mdl	
+meo	2009-07-29	Kedah Malay	ms			ms		meo	
+mfa	2009-07-29	Pattani Malay	ms			ms		mfa	
+mfb	2009-07-29	Bangka	ms			ms		mfb	
+mfs	2009-07-29	Mexican Sign Language	sgn					mfs	
+min	2009-07-29	Minangkabau	ms			ms		min	
+mnp	2009-07-29	Min Bei Chinese	zh			zh		mnp	
+mqg	2009-07-29	Kota Bangun Kutai Malay	ms			ms		mqg	
+mre	2009-07-29	Martha's Vineyard Sign Language	sgn					mre	
+msd	2009-07-29	Yucatec Maya Sign Language	sgn					msd	
+msi	2009-07-29	Sabah Malay	ms			ms		msi	
+msr	2009-07-29	Mongolian Sign Language	sgn					msr	
+mui	2009-07-29	Musi	ms			ms		mui	
+mzc	2009-07-29	Madagascar Sign Language	sgn					mzc	
+mzg	2009-07-29	Monastic Sign Language	sgn					mzg	
+mzy	2009-07-29	Mozambican Sign Language	sgn					mzy	
+nan	2009-07-29	Min Nan Chinese	zh			zh		nan	
+nbs	2009-07-29	Namibian Sign Language	sgn					nbs	
+ncs	2009-07-29	Nicaraguan Sign Language	sgn					ncs	
+nsi	2009-07-29	Nigerian Sign Language	sgn					nsi	
+nsl	2009-07-29	Norwegian Sign Language	sgn					nsl	
+nsp	2009-07-29	Nepalese Sign Language	sgn					nsp	
+nsr	2009-07-29	Maritime Sign Language	sgn					nsr	
+nzs	2009-07-29	New Zealand Sign Language	sgn					nzs	
+okl	2009-07-29	Old Kentish Sign Language	sgn					okl	
+orn	2009-07-29	Orang Kanaq	ms			ms		orn	
+ors	2009-07-29	Orang Seletar	ms			ms		ors	
+pel	2009-07-29	Pekal	ms			ms		pel	
+pga	2009-07-29	Sudanese Creole Arabic	ar			ar		pga	
+pks	2009-07-29	Pakistan Sign Language	sgn					pks	
+prl	2009-07-29	Peruvian Sign Language	sgn					prl	
+prz	2009-07-29	Providencia Sign Language	sgn					prz	
+psc	2009-07-29	Persian Sign Language	sgn					psc	
+psd	2009-07-29	Plains Indian Sign Language	sgn					psd	
+pse	2009-07-29	Central Malay	ms			ms		pse	
+psg	2009-07-29	Penang Sign Language	sgn					psg	
+psl	2009-07-29	Puerto Rican Sign Language	sgn					psl	
+pso	2009-07-29	Polish Sign Language	sgn					pso	
+psp	2009-07-29	Philippine Sign Language	sgn					psp	
+psr	2009-07-29	Portuguese Sign Language	sgn					psr	
+pys	2010-03-11	Paraguayan Sign Language / Lengua de Señas del Paraguay	sgn					pys	
+rms	2009-07-29	Romanian Sign Language	sgn					rms	
+rsi	2009-07-29	Rennellese Sign Language	sgn					rsi	
+rsl	2009-07-29	Russian Sign Language	sgn					rsl	
+sdl	2009-07-29	Saudi Arabian Sign Language	sgn					sdl	
+sfb	2009-07-29	Langue des signes de Belgique Francophone / French Belgian Sign Language	sgn					sfb	
+sfs	2009-07-29	South African Sign Language	sgn					sfs	
+sgg	2009-07-29	Swiss-German Sign Language	sgn					sgg	
+sgx	2009-07-29	Sierra Leone Sign Language	sgn					sgx	
+shu	2009-07-29	Chadian Arabic	ar			ar		shu	
+slf	2009-07-29	Swiss-Italian Sign Language	sgn					slf	
+sls	2009-07-29	Singapore Sign Language	sgn					sls	
+sqs	2009-07-29	Sri Lankan Sign Language	sgn					sqs	
+ssh	2009-07-29	Shihhi Arabic	ar			ar		ssh	
+ssp	2009-07-29	Spanish Sign Language	sgn					ssp	
+ssr	2009-07-29	Swiss-French Sign Language	sgn					ssr	
+svk	2009-07-29	Slovakian Sign Language	sgn					svk	
+swc	2009-07-29	Congo Swahili	sw			sw		swc	
+swh	2009-07-29	Swahili (individual language) / Kiswahili	sw			sw		swh	
+swl	2009-07-29	Swedish Sign Language	sgn					swl	
+syy	2009-07-29	Al-Sayyid Bedouin Sign Language	sgn					syy	
+tmw	2009-07-29	Temuan	ms			ms		tmw	
+tse	2009-07-29	Tunisian Sign Language	sgn					tse	
+tsm	2009-07-29	Turkish Sign Language / Türk İşaret Dili	sgn					tsm	
+tsq	2009-07-29	Thai Sign Language	sgn					tsq	
+tss	2009-07-29	Taiwan Sign Language	sgn					tss	
+tsy	2009-07-29	Tebul Sign Language	sgn					tsy	
+tza	2009-07-29	Tanzanian Sign Language	sgn					tza	
+ugn	2009-07-29	Ugandan Sign Language	sgn					ugn	
+ugy	2009-07-29	Uruguayan Sign Language	sgn					ugy	
+ukl	2009-07-29	Ukrainian Sign Language	sgn					ukl	
+uks	2009-07-29	Urubú-Kaapor Sign Language / Kaapor Sign Language	sgn					uks	
+urk	2009-07-29	Urak Lawoi'	ms			ms		urk	
+uzn	2009-07-29	Northern Uzbek	uz			uz		uzn	
+uzs	2009-07-29	Southern Uzbek	uz			uz		uzs	
+vgt	2009-07-29	Vlaamse Gebarentaal / Flemish Sign Language	sgn					vgt	
+vkk	2009-07-29	Kaur	ms			ms		vkk	
+vkt	2009-07-29	Tenggarong Kutai Malay	ms			ms		vkt	
+vsi	2009-07-29	Moldova Sign Language	sgn					vsi	
+vsl	2009-07-29	Venezuelan Sign Language	sgn					vsl	
+vsv	2009-07-29	Valencian Sign Language / Llengua de signes valenciana	sgn					vsv	
+wuu	2009-07-29	Wu Chinese	zh			zh		wuu	
+xki	2009-07-29	Kenyan Sign Language	sgn					xki	
+xml	2009-07-29	Malaysian Sign Language	sgn					xml	
+xmm	2009-07-29	Manado Malay	ms			ms		xmm	
+xms	2009-07-29	Moroccan Sign Language	sgn					xms	
+yds	2009-07-29	Yiddish Sign Language	sgn					yds	
+ysl	2009-07-29	Yugoslavian Sign Language	sgn					ysl	
+yue	2009-07-29	Yue Chinese	zh			zh		yue	
+zib	2009-07-29	Zimbabwe Sign Language	sgn					zib	
+zlm	2009-07-29	Malay (individual language)	ms			ms		zlm	
+zmi	2009-07-29	Negeri Sembilan Malay	ms			ms		zmi	
+zsl	2009-07-29	Zambian Sign Language	sgn					zsl	
+zsm	2009-07-29	Standard Malay	ms			ms		zsm	
