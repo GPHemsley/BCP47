@@ -194,6 +194,7 @@ def getSubtagNames():
 		targetFile.write( "#\n" )
 
 		file_date = '1995-03-01'
+		previous_footnotes = False
 
 		for sourceLine in sourceFile.readlines():
 			date_line = re.search( '^(\d{4}-\d{2}-\d{2})$', string.strip( sourceLine ) )
@@ -237,13 +238,38 @@ def getSubtagNames():
 			if( subtag in override_rename[subtagType] ):
 				single_name = override_rename[subtagType][subtag]
 
+			footnotes = ''
+
 			if( single_name != name ):
-				targetFile.write( '# ' + name + "\n" );
+				footnotes += '# ' + name + "\n"
 
 			if( single_name != names[0] ):
-				targetFile.write( '# [Default Overridden]' + "\n" );
+				footnotes += '# [Default Overridden]' + "\n"
+
+			if( comments ):
+				footnotes += comments + "\n"
+
+			if( prefix ):
+				footnotes += '# Prefix: ' + prefix + "\n"
+
+			if( scope ):
+				footnotes += '# Scope: ' + scope + "\n"
+
+			if( macrolanguage ):
+				footnotes += '# Macrolanguage: ' + macrolanguage + "\n"
+
+			if( footnotes ):
+				if( not previous_footnotes ):
+					targetFile.write( "\n" )
+				targetFile.write( footnotes )
 
 			targetFile.write( subtag + ' = ' + single_name + "\n" )
+
+			if( footnotes ):
+				targetFile.write( "\n" )
+				previous_footnotes = True
+			else:
+				previous_footnotes = False
 
 		targetFile.close()
 
