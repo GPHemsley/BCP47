@@ -134,299 +134,138 @@ def parseRegistry():
 	variantFile.close()
 	grandfatheredFile.close()
 
-def getLanguageSubtags():
-	langNames = open( 'languageNames.properties', 'w+' )
-#	languages = urllib.urlopen( 'http://www.langtag.net/registries/lsr-language-utf8.txt' )
-	languages = open( 'language.txt', 'r' )
+def getSubtagNames():
 
-	langNames.write( "#\n" )
-	langNames.write( '# Language names from IANA Language Subtag Registry' + "\n" )
-	langNames.write( '# http://www.iana.org/assignments/language-subtag-registry' + "\n" )
-	langNames.write( "#\n" )
-	langNames.write( '# If a subtag has multiple names associated with it, the first one is chosen' + "\n" )
-	langNames.write( '# by default and the full list is written in a comment above the definition.' + "\n" )
-	langNames.write( "#\n" )
-	langNames.write( '# Names can be overridden in the generating script.' + "\n" )
-	langNames.write( "#\n" )
+	subtagTypes = ['language', 'extlang', 'script', 'region', 'variant']
 
 	override_choice = {
-		'cu':	1,
-		'dv':	1,
-		'ht':	1,
-		'ny':	2,
-		'pa':	1,
-		'ps':	1,
+		'language':	{
+			'cu':	1,
+			'dv':	1,
+			'ht':	1,
+			'ny':	2,
+			'pa':	1,
+			'ps':	1,
+		},
+		'extlang':	{
+
+		},
+		'script':	{
+
+		},
+		'region':	{
+
+		},
+		'variant':	{
+
+		},
 	}
 
 	override_rename = {
-		'el':	'Greek',
-		'ia':	'Interlingua',
-		'km':	'Khmer',
-		'oc':	'Occitan',
+		'language':	{
+			'el':	'Greek',
+			'ia':	'Interlingua',
+			'km':	'Khmer',
+			'oc':	'Occitan',
+		},
+		'extlang':	{
+
+		},
+		'script':	{
+
+		},
+		'region':	{
+
+		},
+		'variant':	{
+
+		},
 	}
 
-	for language in languages.readlines():
-		# Values are separated by a tab
-		line_split = re.split( "\t", string.rstrip( language, "\n" ) )
+	for subtagType in subtagTypes:
+		sourceFile = open( subtagType + '.txt', 'r' )
+		targetFile = open( subtagType + 'Names.properties', 'w+' )
 
-		# This is the date of the file
-		if( len( line_split ) == 1 ):
-			file_date = line_split[0].strip()
-			print 'language:', file_date
-			continue
+		targetFile.write( "#\n" )
+		targetFile.write( '# ' + subtagType.capitalize() + ' names from IANA Language Subtag Registry' + "\n" )
+		targetFile.write( '# http://www.iana.org/assignments/language-subtag-registry' + "\n" )
+		targetFile.write( "#\n" )
+		targetFile.write( '# If a subtag has multiple names associated with it, the first one is chosen' + "\n" )
+		targetFile.write( '# by default and the full list is written in a comment above the definition.' + "\n" )
+		targetFile.write( "#\n" )
+		targetFile.write( '# Names can be overridden in the generating script.' + "\n" )
+		targetFile.write( "#\n" )
 
-		subtag = line_split[0]
-		added_date = line_split[1]
-		name = line_split[2]
-		suppress_script = line_split[3]
-		scope = line_split[4]
-		macrolanguage = line_split[5]
-		deprecated_date = line_split[6]
-		preferred_value = line_split[7]
-		comments = line_split[8]
+		for sourceLine in sourceFile.readlines():
+			# Values are separated by a tab
+			line_split = re.split( "\t", string.rstrip( sourceLine, "\n" ) )
 
-		# Multiple names for a given subtag are separated by a slash
-		# For simplicity, arbitrarily choose the first one
-		names = re.split( ' / ', name )
-		single_name = names[0]
+			# This is the date of the file
+			if( len( line_split ) == 1 ):
+				file_date = line_split[0].strip()
+				print subtagType + ':', file_date
+				continue
 
-		# Override name selection by choice
-		if( subtag in override_choice ):
-			single_name = names[override_choice[subtag]]
+			# Common to all subtag types
+			subtag = line_split[0]
+			added_date = line_split[1]
+			name = line_split[2]
 
-		# Override name selection by renaming
-		if( subtag in override_rename ):
-			single_name = override_rename[subtag]
+			# NOTE: None of these variables ever come into play when selecting the subtag name.
+			if( subtagType == 'language' ):
+				suppress_script = line_split[3]
+				scope = line_split[4]
+				macrolanguage = line_split[5]
+				deprecated_date = line_split[6]
+				preferred_value = line_split[7]
+				comments = line_split[8]
+			elif( subtagType == 'extlang' ):
+				prefix = line_split[3]
+				suppress_script = line_split[4]
+				scope = line_split[5]
+				macrolanguage = line_split[6]
+				deprecated_date = line_split[7]
+				preferred_value = line_split[8]
+				comments = line_split[9]
+			elif( subtagType in ['script', 'region'] ):
+				deprecated_date = line_split[3]
+				preferred_value = line_split[4]
+				comments = line_split[5]
+			elif( subtagType == 'variant' ):
+				prefix = line_split[3]
+				deprecated_date = line_split[4]
+				preferred_value = line_split[5]
+				comments = line_split[6]
 
-		if( single_name != name ):
-			langNames.write( '# ' + name + "\n" );
+			# Multiple names for a given subtag are separated by a slash
+			# For simplicity, arbitrarily choose the first one
+			names = re.split( ' / ', name )
+			single_name = names[0]
 
-		if( single_name != names[0] ):
-			langNames.write( '# [Default Overridden]' + "\n" );
+			# Override name selection by choice
+			if( subtag in override_choice[subtagType] ):
+				single_name = names[override_choice[subtagType][subtag]]
 
-		langNames.write( subtag + ' = ' + single_name + "\n" )
+			# Override name selection by renaming
+			if( subtag in override_rename[subtagType] ):
+				single_name = override_rename[subtagType][subtag]
 
-#		if( suppress_script ):
-#			print subtag + ' (' + suppress_script + ')' + "\t" + single_name
-#		else:
-#			print subtag + "\t\t" + single_name
+			if( single_name != name ):
+				targetFile.write( '# ' + name + "\n" );
 
-	langNames.write( "#\n" )
-	langNames.write( '# Registry: ' + file_date + "\n" )
-	langNames.write( "#\n" )
+			if( single_name != names[0] ):
+				targetFile.write( '# [Default Overridden]' + "\n" );
 
-	langNames.close()
+			targetFile.write( subtag + ' = ' + single_name + "\n" )
 
-def getScriptSubtags():
-	scriptNames = open( 'scriptNames.properties', 'w+' )
-#	scripts = urllib.urlopen( 'http://www.langtag.net/registries/lsr-script-utf8.txt' )
-	scripts = open( 'script.txt', 'r' )
+		targetFile.write( "#\n" )
+		targetFile.write( '# Registry: ' + file_date + "\n" )
+		targetFile.write( "#\n" )
 
-	scriptNames.write( "#\n" )
-	scriptNames.write( '# Script names from IANA Language Subtag Registry' + "\n" )
-	scriptNames.write( '# http://www.iana.org/assignments/language-subtag-registry' + "\n" )
-	scriptNames.write( "#\n" )
-	scriptNames.write( '# If a subtag has multiple names associated with it, the first one is chosen' + "\n" )
-	scriptNames.write( '# by default and the full list is written in a comment above the definition.' + "\n" )
-	scriptNames.write( "#\n" )
-	scriptNames.write( '# Names can be overridden in the generating script.' + "\n" )
-	scriptNames.write( "#\n" )
-
-	override_choice = {
-	}
-
-	override_rename = {
-	}
-
-	for script in scripts.readlines():
-		# Values are separated by a tab
-		line_split = re.split( "\t", string.rstrip( script, "\n" ) )
-
-		# This is the date of the file
-		if( len( line_split ) == 1 ):
-			file_date = line_split[0].strip()
-			print 'script:', file_date
-			continue
-
-		subtag = line_split[0]
-		added_date = line_split[1]
-		name = line_split[2]
-		deprecated_date = line_split[3]
-		preferred_value = line_split[4]
-		comments = line_split[5]
-
-		# Multiple names for a given subtag are separated by a slash
-		# For simplicity, arbitrarily choose the first one
-		names = re.split( ' / ', name )
-		single_name = names[0]
-
-		# Override name selection by choice
-		if( subtag in override_choice ):
-			single_name = names[override_choice[subtag]]
-
-		# Override name selection by renaming
-		if( subtag in override_rename ):
-			single_name = override_rename[subtag]
-
-		if( single_name != name ):
-			scriptNames.write( '# ' + name + "\n" );
-
-		if( single_name != names[0] ):
-			scriptNames.write( '# [Default Overridden]' + "\n" );
-
-		scriptNames.write( subtag + ' = ' + single_name + "\n" )
-
-#		print subtag + "\t\t" + single_name
-
-	scriptNames.write( "#\n" )
-	scriptNames.write( '# Registry: ' + file_date + "\n" )
-	scriptNames.write( "#\n" )
-
-	scriptNames.close()
-
-def getRegionSubtags():
-	regionNames = open( 'regionNames.properties', 'w+' )
-#	regions = urllib.urlopen( 'http://www.langtag.net/registries/lsr-region-utf8.txt' )
-	regions = open( 'region.txt', 'r' )
-
-	regionNames.write( "#\n" )
-	regionNames.write( '# Region names from IANA Language Subtag Registry' + "\n" )
-	regionNames.write( '# http://www.iana.org/assignments/language-subtag-registry' + "\n" )
-	regionNames.write( "#\n" )
-	regionNames.write( '# If a subtag has multiple names associated with it, the first one is chosen' + "\n" )
-	regionNames.write( '# by default and the full list is written in a comment above the definition.' + "\n" )
-	regionNames.write( "#\n" )
-	regionNames.write( '# Names can be overridden in the generating script.' + "\n" )
-	regionNames.write( "#\n" )
-
-	override_choice = {
-	}
-
-	override_rename = {
-	}
-
-	for region in regions.readlines():
-		# Values are separated by a tab
-		line_split = re.split( "\t", string.rstrip( region, "\n" ) )
-
-		# This is the date of the file
-		if( len( line_split ) == 1 ):
-			file_date = line_split[0].strip()
-			print 'region:', file_date
-			continue
-
-		subtag = line_split[0]
-		added_date = line_split[1]
-		name = line_split[2]
-		deprecated_date = line_split[3]
-		preferred_value = line_split[4]
-		comments = line_split[5]
-
-		# Multiple names for a given subtag are separated by a slash
-		# For simplicity, arbitrarily choose the first one
-		names = re.split( ' / ', name )
-		single_name = names[0]
-
-		# Override name selection by choice
-		if( subtag in override_choice ):
-			single_name = names[override_choice[subtag]]
-
-		# Override name selection by renaming
-		if( subtag in override_rename ):
-			single_name = override_rename[subtag]
-
-		if( single_name != name ):
-			regionNames.write( '# ' + name + "\n" );
-
-		if( single_name != names[0] ):
-			regionNames.write( '# [Default Overridden]' + "\n" );
-
-		regionNames.write( subtag + ' = ' + single_name + "\n" )
-
-#		print subtag + "\t\t" + single_name
-
-	regionNames.write( "#\n" )
-	regionNames.write( '# Registry: ' + file_date + "\n" )
-	regionNames.write( "#\n" )
-
-	regionNames.close()
-
-def getVariantSubtags():
-	variantNames = open( 'variantNames.properties', 'w+' )
-#	variants = urllib.urlopen( 'http://www.langtag.net/registries/lsr-variant-utf8.txt' )
-	variants = open( 'variant.txt', 'r' )
-
-	variantNames.write( "#\n" )
-	variantNames.write( '# Variant names from IANA Language Subtag Registry' + "\n" )
-	variantNames.write( '# http://www.iana.org/assignments/language-subtag-registry' + "\n" )
-	variantNames.write( "#\n" )
-	variantNames.write( '# If a subtag has multiple names associated with it, the first one is chosen' + "\n" )
-	variantNames.write( '# by default and the full list is written in a comment above the definition.' + "\n" )
-	variantNames.write( "#\n" )
-	variantNames.write( '# Names can be overridden in the generating script.' + "\n" )
-	variantNames.write( "#\n" )
-
-	override_choice = {
-	}
-
-	override_rename = {
-	}
-
-	for variant in variants.readlines():
-		# Values are separated by a tab
-		line_split = re.split( "\t", string.rstrip( variant, "\n" ) )
-
-		# This is the date of the file
-		if( len( line_split ) == 1 ):
-			file_date = line_split[0].strip()
-			print 'variant:', file_date
-			continue
-
-		subtag = line_split[0]
-		added_date = line_split[1]
-		name = line_split[2]
-		prefix = line_split[3]
-		deprecated_date = line_split[4]
-		preferred_value = line_split[5]
-		comments = line_split[6]
-
-		# Multiple names for a given subtag are separated by a slash
-		# For simplicity, arbitrarily choose the first one
-		names = re.split( ' / ', name )
-		single_name = names[0]
-
-		# Override name selection by choice
-		if( subtag in override_choice ):
-			single_name = names[override_choice[subtag]]
-
-		# Override name selection by renaming
-		if( subtag in override_rename ):
-			single_name = override_rename[subtag]
-
-		if( single_name != name ):
-			variantNames.write( '# ' + name + "\n" );
-
-		if( single_name != names[0] ):
-			variantNames.write( '# [Default Overridden]' + "\n" );
-
-		variantNames.write( subtag + ' = ' + single_name + "\n" )
-
-#		if( prefix ):
-#			print subtag + ' (' + prefix + ')' + "\t" + single_name
-#		else:
-#			print subtag + "\t\t" + single_name
-
-	variantNames.write( "#\n" )
-	variantNames.write( '# Registry: ' + file_date + "\n" )
-	variantNames.write( "#\n" )
-
-	variantNames.close()
+		targetFile.close()
 
 def main():
 	parseRegistry()
-	getLanguageSubtags()
-	getScriptSubtags()
-	getRegionSubtags()
-	getVariantSubtags()
+	getSubtagNames()
 
 main()
