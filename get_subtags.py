@@ -246,6 +246,12 @@ def getSubtagNames():
 			if( single_name != names[0] ):
 				footnotes += '# [Default Overridden]' + "\n"
 
+			if( deprecated_date ):
+				footnotes += '# Deprecated: ' + deprecated_date + "\n"
+
+			if( preferred_value ):
+				footnotes += '# Preferred-Value: ' + preferred_value + "\n"
+
 			if( comments ):
 				footnotes += comments + "\n"
 
@@ -368,15 +374,16 @@ def getDeprecatedSubtags():
 			if( deprecated_date ):
 				targetFile.write( "\n" )
 
+				targetFile.write( '# ' + name + "\n" )
+				targetFile.write( '# Deprecated: ' + deprecated_date + "\n" )
+
+				if( comments ):
+					targetFile.write( comments + "\n" )
+
 				if( preferred_value ):
 					targetFile.write( subtag + ' = ' + preferred_value + "\n" )
 				else:
 					targetFile.write( '# ' + subtag + "\n" )
-
-				targetFile.write( '# Deprecated ' + deprecated_date + "\n" )
-
-				if( comments ):
-					targetFile.write( comments + "\n" )
 			elif( preferred_value ):
 				# Mostly limited to extlang
 #				print subtag, deprecated_date, preferred_value, comments
