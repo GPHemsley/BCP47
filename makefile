@@ -4,7 +4,7 @@ all: languageNames-l10n.properties
 # Get version of languageNames.properties before the overhaul
 moz-current.txt: FORCE
 	wget -O $@ 'http://hg.mozilla.org/mozilla-central/raw-file/444e087c6e27/toolkit/locales/en-US/chrome/global/languageNames.properties' 2> /dev/null
-	sed -i 's/ .*//' $@
+	sed -i'.bak' 's/ .*//' $@
 
 # Stable URL on my site that lists language codes for which there is a
 # FLOSS spell checker in existence (summarizing the more extensive
