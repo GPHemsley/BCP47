@@ -429,10 +429,71 @@ def getDeprecatedSubtags():
 
 		targetFile.close()
 
+def getScopedSubtags():
+	global lineFormat
+
+	subtagTypes = ['language', 'extlang']
+
+	for subtagType in subtagTypes:
+		sourceFile = open( subtagType + '.txt', 'r' )
+		targetFile = open( subtagType + 'Scope.properties', 'w+' )
+
+		targetFile.write( "#\n" )
+		targetFile.write( '# Scoped ' + subtagType + ' values from IANA Language Subtag Registry' + "\n" )
+		targetFile.write( '# http://www.iana.org/assignments/language-subtag-registry' + "\n" )
+		targetFile.write( "#\n" )
+
+		file_date = '1995-03-01'
+
+		for sourceLine in sourceFile.readlines():
+			date_line = re.search( '^(\d{4}-\d{2}-\d{2})$', string.strip( sourceLine ) )
+			if( date_line ):
+				file_date = date_line.group( 1 )
+
+				targetFile.write( '# Registry Version: ' + file_date + "\n" )
+				targetFile.write( "#\n" )
+
+				print 'Scoped ' + subtagType + ':', file_date
+				continue
+
+			line_split = re.search( lineFormat, string.rstrip( sourceLine, "\n" ) )
+
+			# If something is broken, announce it.
+			if( line_split == None ):
+				print sourceLine
+				continue
+
+			subtag = line_split.group( 1 )
+			added_date = line_split.group( 2 )
+			name = line_split.group( 3 )
+			prefix = line_split.group( 4 )
+			suppress_script = line_split.group( 5 )
+			scope = line_split.group( 6 )
+			macrolanguage = line_split.group( 7 )
+			deprecated_date = line_split.group( 8 )
+			preferred_value = line_split.group( 9 )
+			comments = line_split.group( 10 )
+
+			if( scope ):
+				targetFile.write( "\n" )
+
+				targetFile.write( '# ' + name + "\n" )
+
+				if( comments ):
+					targetFile.write( comments + "\n" )
+
+				if( preferred_value ):
+					targetFile.write( '# Preferred-Value: ' + preferred_value + "\n" )
+
+				targetFile.write( subtag + ' = ' + scope + "\n" )
+
+		targetFile.close()
+
 def main():
 	parseRegistry()
 	getSubtagNames()
 	getSuppressScripts()
 	getDeprecatedSubtags()
+	getScopedSubtags()
 
 main()
