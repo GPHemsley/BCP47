@@ -210,7 +210,23 @@ def getSubtagNames():
 
 		},
 		'region':	{
-
+			'CD':	'Congo-Kinshasa',
+			'CG':	'Congo-Brazzaville',
+#			'CI':	'Ivory Coast',
+#			'FM':	'Micronesia',
+			'IR':	'Iran',
+			'KP':	'North Korea',
+			'KR':	'South Korea',
+			'LA':	'Laos',
+			'LY':	'Libya',
+			'MF':	'Saint-Martin',
+			'MK':	'Macedonia, F.Y.R. of',
+			'SX':	'Sint Maarten',
+			'SY':	'Syria',
+			'TW':	'Taiwan',
+			'TZ':	'Tanzania',
+			'VA':	'Vatican City',
+			'VN':	'Vietnam',
 		},
 		'variant':	{
 
