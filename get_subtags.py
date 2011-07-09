@@ -357,7 +357,7 @@ def getSuppressScripts():
 			print 'Suppress-Script:', file_date
 			continue
 
-		line_split = re.search( "^([A-Za-z0-9]{2,8}(?:\.\.[A-Za-z0-9]{2,8})?)\t(\d{4}-\d{2}-\d{2})\t(.*?)(?:\t([A-Za-z0-9 /-]+)?)?(?:\t([A-Za-z]{4})?\t(macrolanguage|collection|special|private-use)?\t([A-Za-z]{2,3})?)?\t(\d{4}-\d{2}-\d{2})?\t([A-Za-z0-9-]+)?\t(?:# (.*))?$", string.rstrip( sourceLine, "\n" ) )
+		line_split = re.search( lineFormat, string.rstrip( sourceLine, "\n" ) )
 
 		# If something is broken, announce it.
 		if( line_split == None ):
