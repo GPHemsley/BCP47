@@ -232,6 +232,28 @@ var BCP47 = {
 		return parsedTag;
 	},
 
+	parseAcceptLanguage:	function( acceptLanguage ) {
+		var languages = acceptLanguage.split( ',' );
+		var acceptLangs = [];
+
+		for( var i = 0; i < languages.length; i++ ) {
+			var langSplit = languages[i].split( ';' );
+			var langTag = langSplit[0];
+
+			acceptLangs[i] = { tag: langTag, q: 1.000 };
+
+			for( var j = 1; j < langSplit.length; j++ ) {
+				var langParam = langSplit[j].split( '=' );
+
+				if( langParam[0] == 'q' ) {
+					acceptLangs[i] = { tag: langTag, q: parseFloat( langParam[j] ) };
+				}
+			}
+		}
+
+		return acceptLangs;
+	},
+
 	runTests:			function () {
 		// Tests
 		console.log( this.parseTag( 'sr-Latn-RS' ), this.parseTag( 'es-419' ), this.parseTag( 'sr-Cyrl-RS' ) );
