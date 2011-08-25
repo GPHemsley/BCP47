@@ -212,16 +212,16 @@ def getSubtagNames():
 		'region':	{
 			'CD':	'Congo-Kinshasa',
 			'CG':	'Congo-Brazzaville',
-#			'CI':	'Ivory Coast',
-#			'FM':	'Micronesia',
+#			'CI':	'Ivory Coast',			# The French name is the preferred name now
+#			'FM':	'Micronesia',			# The extended name is the preferred name for the nation
 			'IR':	'Iran',
 			'KP':	'North Korea',
 			'KR':	'South Korea',
 			'LA':	'Laos',
 			'LY':	'Libya',
-			'MF':	'Saint-Martin',
-			'MK':	'Macedonia, F.Y.R. of',
-			'SX':	'Sint Maarten',
+			'MF':	'Saint-Martin',			# French part
+			'MK':	'Macedonia, f.Y.R. of',	# The lowercase 'f' is the preferred abbreviation for 'former'
+			'SX':	'Sint Maarten',			# Dutch part
 			'SY':	'Syria',
 			'TW':	'Taiwan',
 			'TZ':	'Tanzania',
