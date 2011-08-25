@@ -1,4 +1,4 @@
-2011-01-11
+2011-08-24
 aa	2005-10-16	Afar						
 ab	2005-10-16	Abkhazian	Cyrl					
 ae	2005-10-16	Avestan						
@@ -515,7 +515,7 @@ apk	2009-07-29	Kiowa Apache
 apl	2009-07-29	Lipan Apache						
 apm	2009-07-29	Mescalero-Chiricahua Apache						
 apn	2009-07-29	Apinayé						
-apo	2009-07-29	Apalik						
+apo	2009-07-29	Ambul						
 app	2009-07-29	Apma						
 apq	2009-07-29	A-Pucikwar						
 apr	2009-07-29	Arop-Lokep						
@@ -529,6 +529,7 @@ apy	2009-07-29	Apalaí
 apz	2009-07-29	Safeyoka						
 aqa	2009-07-29	Alacalufan languages		collection				
 aqc	2009-07-29	Archi						
+aqd	2011-08-16	Ampari Dogon						
 aqg	2009-07-29	Arigidi						
 aql	2009-07-29	Algic languages		collection				
 aqm	2009-07-29	Atohwaim						
@@ -686,7 +687,7 @@ ayr	2009-07-29	Central Aymara			ay
 ays	2009-07-29	Sorsogon Ayta						
 ayt	2009-07-29	Magbukun Ayta						
 ayu	2009-07-29	Ayu						
-ayx	2009-07-29	Ayi (China)						
+ayx	2009-07-29	Ayi (China)				2011-08-16	nun	
 ayy	2009-07-29	Tayabas Ayta						
 ayz	2009-07-29	Mai Brat						
 aza	2009-07-29	Azha						
@@ -899,7 +900,7 @@ bhx	2009-07-29	Bhalay
 bhy	2009-07-29	Bhele						
 bhz	2009-07-29	Bada (Indonesia)						
 bia	2009-07-29	Badimaya						
-bib	2009-07-29	Bissa						
+bib	2009-07-29	Bissa / Bisa						
 bic	2009-07-29	Bikaru						
 bid	2009-07-29	Bidiyo						
 bie	2009-07-29	Bepour						
@@ -936,7 +937,7 @@ bjl	2009-07-29	Bulu (Papua New Guinea)
 bjm	2009-07-29	Bajelani						
 bjn	2009-07-29	Banjar			ms			
 bjo	2009-07-29	Mid-Southern Banda						
-bjq	2009-07-29	Southern Betsimisaraka Malagasy			mg			
+bjq	2009-07-29	Southern Betsimisaraka Malagasy			mg	2011-08-16		# see bzc, tkg
 bjr	2009-07-29	Binumarien						
 bjs	2009-07-29	Bajan						
 bjt	2009-07-29	Balanta-Ganja						
@@ -967,7 +968,7 @@ bks	2009-07-29	Northern Sorsoganon
 bkt	2009-07-29	Boloki						
 bku	2009-07-29	Buhid						
 bkv	2009-07-29	Bekwarra						
-bkw	2009-07-29	Bekwil						
+bkw	2009-07-29	Bekwel						
 bkx	2009-07-29	Baikeno						
 bky	2009-07-29	Bokyi						
 bkz	2009-07-29	Bungku						
@@ -1016,7 +1017,7 @@ bmq	2009-07-29	Bomu
 bmr	2009-07-29	Muinane						
 bms	2009-07-29	Bilma Kanuri						
 bmt	2009-07-29	Biao Mon						
-bmu	2009-07-29	Burum-Mindik						
+bmu	2009-07-29	Somba-Siawari						
 bmv	2009-07-29	Bum						
 bmw	2009-07-29	Bomwali						
 bmx	2009-07-29	Baimak						
@@ -1317,6 +1318,7 @@ byy	2009-07-29	Buya
 byz	2009-07-29	Banaro						
 bza	2009-07-29	Bandi						
 bzb	2009-07-29	Andio						
+bzc	2011-08-16	Southern Betsimisaraka Malagasy						
 bzd	2009-07-29	Bribri						
 bze	2009-07-29	Jenaama Bozo						
 bzf	2009-07-29	Boikin						
@@ -1337,7 +1339,7 @@ bzt	2009-07-29	Brithenig
 bzu	2009-07-29	Burmeso						
 bzv	2009-07-29	Bebe						
 bzw	2009-07-29	Basa (Nigeria)						
-bzx	2009-07-29	Hainyaxo Bozo						
+bzx	2009-07-29	Kɛlɛngaxo Bozo						
 bzy	2009-07-29	Obanliku						
 bzz	2009-07-29	Evant						
 caa	2009-07-29	Chortí						
@@ -1749,7 +1751,7 @@ dgs	2009-07-29	Dogoso
 dgu	2009-07-29	Degaru						
 dgx	2009-07-29	Doghoro						
 dgz	2009-07-29	Daga						
-dha	2009-07-29	Dhanwar (India)						
+dha	2009-07-29	Dhanwar (India)				2011-08-16		
 dhd	2009-07-29	Dhundari			mwr			
 dhg	2009-07-29	Dhangu						
 dhi	2009-07-29	Dhimal						
@@ -1803,7 +1805,7 @@ dju	2009-07-29	Kapriman
 djw	2009-07-29	Djawi						
 dka	2009-07-29	Dakpakha						
 dkk	2009-07-29	Dakka						
-dkl	2009-07-29	Kolum So Dogon						
+dkl	2009-07-29	Kolum So Dogon				2011-08-16		# see aqd, dmb
 dkr	2009-07-29	Kuijau						
 dks	2009-07-29	Southeastern Dinka			din			
 dkx	2009-07-29	Mazagway						
@@ -1811,6 +1813,7 @@ dlg	2009-07-29	Dolgan
 dlm	2009-07-29	Dalmatian						
 dln	2009-07-29	Darlong						
 dma	2009-07-29	Duma						
+dmb	2011-08-16	Mombo Dogon						
 dmc	2009-07-29	Dimir						
 dme	2009-07-29	Dugwor						
 dmg	2009-07-29	Upper Kinabatangan						
@@ -1861,6 +1864,7 @@ doz	2009-07-29	Dorze
 dpp	2009-07-29	Papar						
 dra	2005-10-16	Dravidian languages		collection				
 drb	2009-07-29	Dair						
+drc	2011-08-16	Minderico						
 drd	2009-07-29	Darmiya						
 dre	2009-07-29	Dolpo						
 drg	2009-07-29	Rungus						
@@ -1886,6 +1890,7 @@ dso	2009-07-29	Desiya
 dsq	2009-07-29	Tadaksahak						
 dta	2009-07-29	Daur						
 dtb	2009-07-29	Labuk-Kinabatangan Kadazan						
+dtd	2011-08-16	Ditidaht						
 dti	2009-07-29	Ana Tinga Dogon						
 dtk	2009-07-29	Tene Kan Dogon						
 dtm	2009-07-29	Tomo Kan Dogon						
@@ -1904,7 +1909,7 @@ dug	2009-07-29	Duruma / Chiduruma
 duh	2009-07-29	Dungra Bhil						
 dui	2009-07-29	Dumun						
 duj	2009-07-29	Dhuwal						
-duk	2009-07-29	Duduela						
+duk	2009-07-29	Uyajitaya						
 dul	2009-07-29	Alabat Island Agta						
 dum	2005-10-16	Middle Dutch (ca. 1050-1350)						
 dun	2009-07-29	Dusun Deyah						
@@ -2227,7 +2232,7 @@ geh	2009-07-29	Hutterite German / Hutterisch
 gei	2009-07-29	Gebe						
 gej	2009-07-29	Gen						
 gek	2009-07-29	Yiwom						
-gel	2009-07-29	Kag-Fer-Jiir-Koor-Ror-Us-Zuksun						
+gel	2009-07-29	ut-Ma'in						
 gem	2005-10-16	Germanic languages		collection				
 geq	2009-07-29	Geme						
 ges	2009-07-29	Geser-Gorom						
@@ -3292,7 +3297,7 @@ koj	2009-07-29	Sara Dunjo
 kok	2005-10-16	Konkani (macrolanguage)	Deva	macrolanguage				
 kol	2009-07-29	Kol (Papua New Guinea)						
 koo	2009-07-29	Konzo						
-kop	2009-07-29	Kwato						
+kop	2009-07-29	Waube						
 koq	2009-07-29	Kota (Gabon)						
 kos	2005-10-16	Kosraean						
 kot	2009-07-29	Lagwan						
@@ -4133,7 +4138,7 @@ miw	2009-07-29	Akoye
 mix	2009-07-29	Mixtepec Mixtec						
 miy	2009-07-29	Ayutla Mixtec						
 miz	2009-07-29	Coatzospan Mixtec						
-mja	2009-07-29	Mahei						
+mja	2009-07-29	Mahei				2011-08-16		
 mjc	2009-07-29	San Juan Colorado Mixtec						
 mjd	2009-07-29	Northwest Maidu						
 mje	2009-07-29	Muskum						
@@ -4278,7 +4283,7 @@ mov	2009-07-29	Mohave
 mow	2009-07-29	Moi (Congo)						
 mox	2009-07-29	Molima						
 moy	2009-07-29	Shekkacho						
-moz	2009-07-29	Mukulu						
+moz	2009-07-29	Mukulu / Gergiko						
 mpa	2009-07-29	Mpoto						
 mpb	2009-07-29	Mullukmulluk						
 mpc	2009-07-29	Mangarayi						
@@ -4335,7 +4340,7 @@ mrc	2009-07-29	Maricopa
 mrd	2009-07-29	Western Magar						
 mre	2009-07-29	Martha's Vineyard Sign Language						
 mrf	2009-07-29	Elseng						
-mrg	2009-07-29	Miri						
+mrg	2009-07-29	Mising						
 mrh	2009-07-29	Mara Chin						
 mrj	2009-07-29	Western Mari			chm			
 mrk	2009-07-29	Hmwaveke						
@@ -4583,7 +4588,7 @@ nbb	2009-07-29	Ndoe
 nbc	2009-07-29	Chang Naga						
 nbd	2009-07-29	Ngbinda						
 nbe	2009-07-29	Konyak Naga						
-nbf	2009-07-29	Naxi						
+nbf	2009-07-29	Naxi				2011-08-16		# see nru, nxq
 nbg	2009-07-29	Nagarchal						
 nbh	2009-07-29	Ngamo						
 nbi	2009-07-29	Mao Naga						
@@ -4652,7 +4657,7 @@ nea	2009-07-29	Eastern Ngad'a
 neb	2009-07-29	Toura (Côte d'Ivoire)						
 nec	2009-07-29	Nedebang						
 ned	2009-07-29	Nde-Gbite						
-nee	2009-07-29	Kumak						
+nee	2009-07-29	Nêlêmwa-Nixumwak						
 nef	2009-07-29	Nefamese						
 neg	2009-07-29	Negidal						
 neh	2009-07-29	Nyenkha						
@@ -4726,7 +4731,7 @@ nhx	2009-07-29	Isthmus-Mecayapan Nahuatl
 nhy	2009-07-29	Northern Oaxaca Nahuatl						
 nhz	2009-07-29	Santa María La Alta Nahuatl						
 nia	2005-10-16	Nias						
-nib	2009-07-29	Nakama						
+nib	2009-07-29	Nakame						
 nic	2005-10-16	Niger-Kordofanian languages		collection				
 nid	2009-07-29	Ngandi						
 nie	2009-07-29	Niellim						
@@ -4869,7 +4874,7 @@ noj	2010-03-11	Nonuya
 nok	2009-07-29	Nooksack						
 nom	2009-07-29	Nocamán						
 non	2005-10-16	Old Norse						
-noo	2009-07-29	Nootka						
+noo	2009-07-29	Nootka				2011-08-16		# see dtd, nuk
 nop	2009-07-29	Numanggang						
 noq	2009-07-29	Ngongo						
 nos	2009-07-29	Eastern Nisu						
@@ -4905,6 +4910,7 @@ nrn	2009-07-29	Norn
 nrp	2009-07-29	North Picene						
 nrr	2009-07-29	Norra						
 nrt	2009-07-29	Northern Kalapuya						
+nru	2011-08-16	Narua						
 nrx	2009-07-29	Ngurmbur						
 nrz	2009-07-29	Lala						
 nsa	2009-07-29	Sangtam Naga						
@@ -4953,9 +4959,10 @@ nug	2009-07-29	Nungali
 nuh	2009-07-29	Ndunda						
 nui	2009-07-29	Ngumbi						
 nuj	2009-07-29	Nyole						
+nuk	2011-08-16	Nuu-chah-nulth / Nuuchahnulth						
 nul	2009-07-29	Nusa Laut						
 num	2009-07-29	Niuafo'ou						
-nun	2009-07-29	Nung (Myanmar)						
+nun	2009-07-29	Anong						
 nuo	2009-07-29	Nguôn						
 nup	2009-07-29	Nupe-Nupe-Tako						
 nuq	2009-07-29	Nukumanu						
@@ -4987,6 +4994,7 @@ nxi	2009-07-29	Nindi
 nxl	2009-07-29	South Nuaulu						
 nxm	2009-07-29	Numidian						
 nxn	2009-07-29	Ngawun						
+nxq	2011-08-16	Naxi						
 nxr	2009-07-29	Ninggerum						
 nxu	2009-07-29	Narau						
 nxx	2009-07-29	Nafri						
@@ -5175,7 +5183,7 @@ oty	2009-07-29	Old Tamil
 otz	2009-07-29	Ixtenco Otomi						
 oua	2009-07-29	Tagargrent						
 oub	2009-07-29	Glio-Oubi						
-oue	2009-07-29	Ounge						
+oue	2009-07-29	Oune						
 oui	2009-07-29	Old Uighur						
 oum	2009-07-29	Ouma						
 oun	2009-07-29	!O!ung						
@@ -5279,6 +5287,7 @@ pga	2009-07-29	Sudanese Creole Arabic			ar
 pgg	2009-07-29	Pangwali						
 pgi	2009-07-29	Pagi						
 pgk	2009-07-29	Rerep						
+pgl	2011-08-16	Primitive Irish						
 pgn	2009-07-29	Paelignian						
 pgs	2009-07-29	Pangseng						
 pgu	2009-07-29	Pagu						
@@ -6416,7 +6425,7 @@ thz	2009-07-29	Tayart Tamajeq			tmh
 tia	2009-07-29	Tidikelt Tamazight						
 tic	2009-07-29	Tira						
 tid	2009-07-29	Tidong						
-tie	2009-07-29	Tingal						
+tie	2009-07-29	Tingal				2011-08-16	ras	
 tif	2009-07-29	Tifal						
 tig	2005-10-16	Tigre						
 tih	2009-07-29	Timugon Murut						
@@ -6450,7 +6459,8 @@ tkb	2009-07-29	Buksa
 tkd	2009-07-29	Tukudede						
 tke	2009-07-29	Takwane						
 tkf	2009-07-29	Tukumanféd						
-tkk	2009-07-29	Takpa						
+tkg	2011-08-16	Tesaka Malagasy						
+tkk	2009-07-29	Takpa				2011-08-16	twm	
 tkl	2005-10-16	Tokelau	Latn					
 tkm	2009-07-29	Takelma						
 tkn	2009-07-29	Toku-No-Shima						
@@ -6635,6 +6645,7 @@ tsp	2009-07-29	Northern Toussian
 tsq	2009-07-29	Thai Sign Language						
 tsr	2009-07-29	Akei						
 tss	2009-07-29	Taiwan Sign Language						
+tst	2011-08-16	Tondi Songway Kiini						
 tsu	2009-07-29	Tsou						
 tsv	2009-07-29	Tsogo						
 tsw	2009-07-29	Tsishingini						
@@ -7023,7 +7034,7 @@ wea	2009-07-29	Wewaw
 wec	2009-07-29	Wè Western						
 wed	2009-07-29	Wedau						
 weh	2009-07-29	Weh						
-wei	2009-07-29	Were						
+wei	2009-07-29	Kiunum						
 wem	2009-07-29	Weme Gbe						
 wen	2005-10-16	Sorbian languages		collection				
 weo	2009-07-29	North Wemale						
@@ -7154,7 +7165,7 @@ wsr	2009-07-29	Owenia
 wss	2009-07-29	Wasa						
 wsu	2009-07-29	Wasu						
 wsv	2009-07-29	Wotapuri-Katarqalai						
-wtf	2009-07-29	Dumpu						
+wtf	2009-07-29	Watiwa						
 wti	2009-07-29	Berta						
 wtk	2009-07-29	Watakataui						
 wtm	2009-07-29	Mewati						
@@ -7304,7 +7315,7 @@ xly	2009-07-29	Elymian
 xma	2009-07-29	Mushungulu						
 xmb	2009-07-29	Mbonga						
 xmc	2009-07-29	Makhuwa-Marrevone						
-xmd	2009-07-29	Mbedam						
+xmd	2009-07-29	Mbudum						
 xme	2009-07-29	Median						
 xmf	2009-07-29	Mingrelian						
 xmg	2009-07-29	Mengaka						
@@ -7321,7 +7332,7 @@ xmr	2009-07-29	Meroitic
 xms	2009-07-29	Moroccan Sign Language						
 xmt	2009-07-29	Matbat						
 xmu	2009-07-29	Kamu						
-xmv	2009-07-29	Antankarana Malagasy			mg			
+xmv	2009-07-29	Antankarana Malagasy / Tankarana Malagasy			mg			
 xmw	2009-07-29	Tsimihety Malagasy			mg			
 xmx	2009-07-29	Maden						
 xmy	2009-07-29	Mayaguduna						
@@ -7592,7 +7603,7 @@ yoi	2009-07-29	Yonaguni
 yok	2009-07-29	Yokuts						
 yol	2009-07-29	Yola						
 yom	2009-07-29	Yombe						
-yon	2009-07-29	Yonggom						
+yon	2009-07-29	Yongkom						
 yos	2009-07-29	Yos						
 yox	2009-07-29	Yoron						
 yoy	2009-07-29	Yoy						
@@ -7715,6 +7726,7 @@ zhx	2009-07-29	Chinese (family)		collection
 zia	2009-07-29	Zia						
 zib	2009-07-29	Zimbabwe Sign Language						
 zik	2009-07-29	Zimakani						
+zil	2011-08-16	Zialo						
 zim	2009-07-29	Mesme						
 zin	2009-07-29	Zinza						
 zir	2009-07-29	Ziriya						

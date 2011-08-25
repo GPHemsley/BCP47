@@ -1,4 +1,4 @@
-2011-01-11
+2011-08-24
 Afak	2011-01-07	Afaka			
 Arab	2005-10-16	Arabic			
 Armi	2007-12-05	Imperial Aramaic			
@@ -49,7 +49,7 @@ Hant	2005-10-16	Han (Traditional variant)
 Hebr	2005-10-16	Hebrew			
 Hira	2005-10-16	Hiragana			
 Hmng	2005-10-16	Pahawh Hmong			
-Hrkt	2005-10-16	(alias for Hiragana + Katakana)			
+Hrkt	2005-10-16	Japanese syllabaries (alias for Hiragana + Katakana)			
 Hung	2005-10-16	Old Hungarian			
 Inds	2005-10-16	Indus / Harappan			
 Ital	2005-10-16	Old Italic (Etruscan, Oscan, etc.)			
@@ -60,6 +60,7 @@ Kali	2005-10-16	Kayah Li
 Kana	2005-10-16	Katakana			
 Khar	2005-10-16	Kharoshthi			
 Khmr	2005-10-16	Khmer			
+Khoj	2011-08-16	Khojki			
 Knda	2005-10-16	Kannada			
 Kore	2007-07-05	Korean (alias for Hangul + Han)			
 Kpel	2010-04-10	Kpelle			
@@ -142,6 +143,7 @@ Tglg	2005-10-16	Tagalog / Baybayin / Alibata
 Thaa	2005-10-16	Thaana			
 Thai	2005-10-16	Thai			
 Tibt	2005-10-16	Tibetan			
+Tirh	2011-08-16	Tirhuta			
 Ugar	2005-10-16	Ugaritic			
 Vaii	2005-10-16	Vai			
 Visp	2005-10-16	Visible Speech			

@@ -1,4 +1,4 @@
-2011-01-11
+2011-08-24
 1606nict	2007-03-20	Late Middle French (to 1606)	frm			# 16th century French as in Jean Nicot, "Thresor de la langue francoyse", 1606, but also including some French similar to that of Rabelais
 1694acad	2007-03-20	Early Modern French	fr			# 17th century French, as catalogued in the "Dictionnaire de l'académie françoise", 4eme ed. 1694; frequently includes elements of Middle French, as this is a transitional period
 1901	2005-10-16	Traditional German orthography	de			

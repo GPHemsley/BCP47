@@ -1,4 +1,4 @@
-2011-01-11
+2011-08-24
 AA	2005-10-16	Private use			
 AC	2009-07-29	Ascension Island			
 AD	2005-10-16	Andorra			
@@ -31,7 +31,7 @@ BL	2007-11-02	Saint Barthélemy
 BM	2005-10-16	Bermuda			
 BN	2005-10-16	Brunei Darussalam			
 BO	2005-10-16	Bolivia			
-BQ	2011-01-07	Bonaire, Saint Eustatius and Saba			
+BQ	2011-01-07	Bonaire, Sint Eustatius and Saba			
 BR	2005-10-16	Brazil			
 BS	2005-10-16	Bahamas			
 BT	2005-10-16	Bhutan			
