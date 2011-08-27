@@ -1,4 +1,4 @@
-2011-08-24
+2011-08-25
 AA	2005-10-16	Private use			
 AC	2009-07-29	Ascension Island			
 AD	2005-10-16	Andorra			
@@ -220,6 +220,7 @@ SM	2005-10-16	San Marino
 SN	2005-10-16	Senegal			
 SO	2005-10-16	Somalia			
 SR	2005-10-16	Suriname			
+SS	2011-08-25	South Sudan			
 ST	2005-10-16	Sao Tome and Principe			
 SU	2005-10-16	Union of Soviet Socialist Republics	1992-08-30		
 SV	2005-10-16	El Salvador			
