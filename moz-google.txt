@@ -66,6 +66,7 @@ la
 lg
 ln
 lo
+loz
 lt
 lua
 lv
@@ -90,6 +91,7 @@ oc
 om
 or
 pa
+pcm
 pl
 ps
 pt-BR
