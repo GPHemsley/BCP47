@@ -181,6 +181,7 @@ def getSubtagNames():
 			'ny':	2,
 			'pa':	1,
 			'ps':	1,
+			'ug':	1,
 		},
 		'extlang':	{
 
