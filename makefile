@@ -42,10 +42,9 @@ languageNames-l10n.properties: moz-current.txt moz-google.txt moz-spell.txt moz-
 	(cat moz-current.txt; (cat moz-google.txt | egrep -v '^xx-'; cat moz-spell.txt moz-teams.txt; cat moz-wiki.txt | egrep -v '^(als|nrm|simple)$$'; echo "lzh nan rup sgs vro yue" | tr " " "\n") | sed 's/-.*//') | LC_ALL=C sort -u > cll-codes.txt
 
 	# Exclude deprecated subtags
-	( printf '^('; ( cat languageDeprecated.properties | sed 's/^#.*//' | sed 's/ = .*//' | tr -s "\n" | tail +2l | tr "\n" '|' ); printf '[^a-z]) = ' ) > dep-regexp.txt
+	printf '^(%s) = ' `cat languageDeprecated.properties | sed 's/^#.*//' | sed 's/ = .*//' | tr -s "\n" | tail +2l | tr "\n" '|' | sed 's/.$$//'` > dep-regexp.txt
 
 	( cat languageNames.properties | egrep '^[a-z]* =' | LC_ALL=C sort -k1,1 | join - cll-codes.txt | sed '/^.. /s/^/A/' | LC_ALL=C sort -k1,1 | sed 's/^A//' ) | egrep -v -f dep-regexp.txt > $@
-	rm -f dep-regexp.txt
-	rm -f cll-codes.txt
+	rm -f dep-regexp.txt cll-codes.txt
 
 FORCE:
