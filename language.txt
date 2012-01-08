@@ -1,4 +1,4 @@
-2011-08-25
+2012-01-04
 aa	2005-10-16	Afar						
 ab	2005-10-16	Abkhazian	Cyrl					
 ae	2005-10-16	Avestan						

@@ -1,4 +1,4 @@
-2011-08-25
+2012-01-04
 AA	2005-10-16	Private use			
 AC	2009-07-29	Ascension Island			
 AD	2005-10-16	Andorra			
@@ -146,7 +146,7 @@ LS	2005-10-16	Lesotho
 LT	2005-10-16	Lithuania			
 LU	2005-10-16	Luxembourg			
 LV	2005-10-16	Latvia			
-LY	2005-10-16	Libyan Arab Jamahiriya			
+LY	2005-10-16	Libya			
 MA	2005-10-16	Morocco			
 MC	2005-10-16	Monaco			
 MD	2005-10-16	Moldova			

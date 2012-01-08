@@ -1,4 +1,4 @@
-2011-08-25
+2012-01-04
 Afak	2011-01-07	Afaka			
 Arab	2005-10-16	Arabic			
 Armi	2007-12-05	Imperial Aramaic			
@@ -48,6 +48,7 @@ Hans	2005-10-16	Han (Simplified variant)
 Hant	2005-10-16	Han (Traditional variant)			
 Hebr	2005-10-16	Hebrew			
 Hira	2005-10-16	Hiragana			
+Hluw	2011-12-28	Anatolian Hieroglyphs / Luwian Hieroglyphs / Hittite Hieroglyphs			
 Hmng	2005-10-16	Pahawh Hmong			
 Hrkt	2005-10-16	Japanese syllabaries (alias for Hiragana + Katakana)			
 Hung	2005-10-16	Old Hungarian			

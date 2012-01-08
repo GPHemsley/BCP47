@@ -219,7 +219,6 @@ def getSubtagNames():
 			'KP':	'North Korea',
 			'KR':	'South Korea',
 			'LA':	'Laos',
-			'LY':	'Libya',
 			'MF':	'Saint-Martin',			# French part
 			'MK':	'Macedonia, f.Y.R. of',	# The lowercase 'f' is the preferred abbreviation for 'former'
 			'SX':	'Sint Maarten',			# Dutch part
