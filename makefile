@@ -40,7 +40,12 @@ moz-teams.txt: FORCE
 #   where deprecated ones are used by WP - lzh, nan, etc.
 languageNames-l10n.properties: moz-current.txt moz-google.txt moz-spell.txt moz-wiki.txt moz-teams.txt languageNames.properties
 	(cat moz-current.txt; (cat moz-google.txt | egrep -v '^xx-'; cat moz-spell.txt moz-teams.txt; cat moz-wiki.txt | egrep -v '^(als|nrm|simple)$$'; echo "lzh nan rup sgs vro yue" | tr " " "\n") | sed 's/-.*//') | LC_ALL=C sort -u > cll-codes.txt
-	cat languageNames.properties | egrep '^[a-z]* =' | LC_ALL=C sort -k1,1 | join - cll-codes.txt | sed '/^.. /s/^/A/' | LC_ALL=C sort -k1,1 | sed 's/^A//' > $@
+
+	# Exclude deprecated subtags
+	( printf '^('; ( cat languageDeprecated.properties | sed 's/^#.*//' | sed 's/ = .*//' | tr -s "\n" | tail +2l | tr "\n" '|' ); printf '[^a-z])' ) > dep-regexp.txt
+
+	( cat languageNames.properties | egrep '^[a-z]* =' | LC_ALL=C sort -k1,1 | join - cll-codes.txt | sed '/^.. /s/^/A/' | LC_ALL=C sort -k1,1 | sed 's/^A//' ) | egrep -v -f dep-regexp.txt > $@
+	rm -f dep-regexp.txt
 	rm -f cll-codes.txt
 
 FORCE:
