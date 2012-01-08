@@ -180,6 +180,7 @@ nn
 no
 nov
 nrm
+nso
 nv
 ny
 oc
