@@ -47,7 +47,7 @@ languageNames-l10n.properties: moz-current.txt moz-google.txt moz-spell.txt moz-
 	( cat languageNames.properties | egrep '^[a-z]* =' | LC_ALL=C sort -k1,1 | join - cll-codes.txt | sed '/^.. /s/^/A/' | LC_ALL=C sort -k1,1 | sed 's/^A//' ) | egrep -v -f dep-regexp.txt > $@
 
 	# Remove parentheticals without 'sed -i'
-	cat $@ | sed 's/ (.*)$$//' > stripped.txt
+	cat $@ | sed 's/^\([^ =]*\) *= *\(.*\)  *\((.*)\)$$/# \2 \3~\1 = \2/' | tr "~" "\n" > stripped.txt
 	mv -f stripped.txt $@
 
 	rm -f dep-regexp.txt cll-codes.txt
