@@ -107,14 +107,8 @@ pes
 pl
 plt
 pt
-pt-AO
 pt-BR
-pt-CV
-pt-GW
-pt-MZ
 pt-PT
-pt-ST
-pt-TL
 qu
 quh
 ro
