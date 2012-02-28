@@ -45,6 +45,10 @@ languageNames-l10n.properties: moz-current.txt moz-google.txt moz-spell.txt moz-
 	printf '^(%s) = ' `cat languageDeprecated.properties | sed 's/^#.*//' | sed 's/ = .*//' | tr -s "\n" | tail +2l | tr "\n" '|' | sed 's/.$$//'` > dep-regexp.txt
 
 	( cat languageNames.properties | egrep '^[a-z]* =' | LC_ALL=C sort -k1,1 | join - cll-codes.txt | sed '/^.. /s/^/A/' | LC_ALL=C sort -k1,1 | sed 's/^A//' ) | egrep -v -f dep-regexp.txt > $@
+
+	# Remove parentheticals
+#	cat $@ | sed -E 's/^([A-Za-z0-9]+)\s*=\s*(.+)(\s+\(.+\))$$/\# \2\3\1 = \2/p' > $@
+
 	rm -f dep-regexp.txt cll-codes.txt
 
 FORCE:
