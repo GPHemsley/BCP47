@@ -22,6 +22,9 @@ cv
 cy
 da
 de
+de-AT
+de-CH
+de-DE
 dsb
 dyu
 ekk
@@ -38,6 +41,8 @@ fi
 fj
 fo
 fr
+fr-CA
+fr-FR
 fr-x-jer
 fur
 fy
@@ -55,6 +60,7 @@ hr
 hsb
 ht
 hu
+hus
 hy
 ia
 id
@@ -115,6 +121,7 @@ ro
 ru
 rw
 sc
+sd
 se
 shs
 si
