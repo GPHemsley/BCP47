@@ -18,6 +18,7 @@ ca-valencia
 cop
 cs
 csb
+csk
 cv
 cy
 da
@@ -26,6 +27,7 @@ de-AT
 de-CH
 de-DE
 dsb
+dyo
 dyu
 ekk
 el
