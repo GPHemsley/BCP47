@@ -1,5 +1,5 @@
 
-all: languageNames-l10n.properties scriptNames-l10n.properties
+all: languageNames-l10n.properties scriptNames-l10n.properties regionNames-l10n.properties
 
 # Get version of languageNames.properties before the overhaul
 moz-current.txt: FORCE
@@ -44,24 +44,36 @@ languageNames-l10n.properties: moz-current.txt moz-google.txt moz-spell.txt moz-
 	# Exclude deprecated subtags
 	printf '^(%s) = ' `cat languageDeprecated.properties | sed 's/^#.*//' | sed 's/ = .*//' | egrep '[a-z]' | tr "\n" '|' | sed 's/.$$//'` > dep-language-regexp.txt
 
-	( cat languageNames.properties | egrep '^[a-z]* =' | LC_ALL=C sort -k1,1 | join - cll-codes.txt | sed '/^.. /s/^/A/' | LC_ALL=C sort -k1,1 | sed 's/^A//' ) | egrep -v -f dep-language-regexp.txt > $@
+	( cat languageNames.properties | egrep '^[a-z]{2,8} =' | LC_ALL=C sort -k1,1 | join - cll-codes.txt | sed '/^.. /s/^/@/' | LC_ALL=C sort -k1,1 | sed 's/^@//' ) | egrep -v -f dep-language-regexp.txt > $@
 
 	# Remove parentheticals without 'sed -i'
-	cat $@ | sed 's/^\([^ =]*\) *= *\(.*\)  *\((.*)\)$$/# \2 \3~\1 = \2/' | tr "~" "\n" > stripped.txt
+	cat $@ | sed 's/^\([^ =]*\) *= *\(.*\)  *\((.*)\)$$/# \2 \3~\1 = \2/' | tr "~" "\n" | sed 's/^\([a-z]\{2\} \)/\1 /' > stripped.txt
 	mv -f stripped.txt $@
 
 	rm -f dep-language-regexp.txt cll-codes.txt
 
 scriptNames-l10n.properties: FORCE
 	# Exclude deprecated subtags
-	printf '^(%s) = ' `cat scriptDeprecated.properties | sed 's/^#.*//' | sed 's/ = .*//' | egrep '[a-z]' | tr "\n" '|' | sed 's/.$$//'` > dep-script-regexp.txt
+	printf '^(%s) = ' `cat scriptDeprecated.properties | sed 's/^#.*//' | sed 's/ = .*//' | egrep '[A-Za-z]' | tr "\n" '|' | sed 's/.$$//'` > dep-script-regexp.txt
 
-	( cat scriptNames.properties | egrep '^[A-Z][a-z]{3} =' | LC_ALL=C sort -k1,1 | join - moz-scripts.txt ) | egrep -v -f dep-script-regexp.txt | perl -pe '$$_ = lcfirst($$_)' > $@
+	( cat scriptNames.properties | egrep '^[A-Z][a-z]{3} =' | LC_ALL=C sort -k1,1 ) | egrep -v -f dep-script-regexp.txt | egrep -v '^(Zinh|Zxxx|Zyyy|Zzzz)' | perl -pe '$$_ = lcfirst($$_)' > $@
 
 	# Remove parentheticals without 'sed -i'
 #	cat $@ | sed 's/^\([^ =]*\) *= *\(.*\)  *\((.*)\)$$/# \2 \3~\1 = \2/' | tr "~" "\n" > stripped.txt
 #	mv -f stripped.txt $@
 
 	rm -f dep-script-regexp.txt
+
+regionNames-l10n.properties: FORCE
+	# Exclude deprecated subtags
+	printf '^(%s) = ' `cat regionDeprecated.properties | sed 's/^#.*//' | sed 's/ = .*//' | egrep '[A-Z]' | tr "\n" '|' | sed 's/.$$//'` > dep-region-regexp.txt
+
+	( cat regionNames.properties | egrep '^([A-Z]{2}|[0-9]{3}) =' | LC_ALL=C sort -k1,1 | sed '/^[A-Z][A-Z] /s/^/!/' | LC_ALL=C sort -k1,1 | sed 's/^!//' ) | egrep -v -f dep-region-regexp.txt | egrep -v '^(AA|ZZ)' | perl -pe 's/^([A-Z]{2})/lc($$1) /e' | sed 's/^\([a-z]\{2\} \)/\1 /' > $@
+
+	# Remove parentheticals without 'sed -i'
+#	cat $@ | sed 's/^\([^ =]*\) *= *\(.*\)  *\((.*)\)$$/# \2 \3~\1 = \2/' | tr "~" "\n" > stripped.txt
+#	mv -f stripped.txt $@
+
+	rm -f dep-region-regexp.txt
 
 FORCE:

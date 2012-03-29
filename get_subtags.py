@@ -437,7 +437,8 @@ def getDeprecatedSubtags():
 				if( preferred_value ):
 					targetFile.write( subtag + ' = ' + preferred_value + "\n" )
 				else:
-					targetFile.write( '# ' + subtag + "\n" )
+#					targetFile.write( '# ' + subtag + "\n" )
+					targetFile.write( subtag + "\n" )
 			elif( preferred_value ):
 				# Mostly limited to extlang
 #				print subtag, deprecated_date, preferred_value, comments
