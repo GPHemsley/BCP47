@@ -1,5 +1,5 @@
 
-all: languageNames-l10n.properties
+all: languageNames-l10n.properties scriptNames-l10n.properties
 
 # Get version of languageNames.properties before the overhaul
 moz-current.txt: FORCE
@@ -42,14 +42,26 @@ languageNames-l10n.properties: moz-current.txt moz-google.txt moz-spell.txt moz-
 	(cat moz-current.txt; (cat moz-google.txt | egrep -v '^xx-'; cat moz-spell.txt moz-teams.txt; cat moz-wiki.txt | egrep -v '^(als|nrm|simple)$$'; echo "lzh nan rup sgs vro yue" | tr " " "\n") | sed 's/-.*//') | LC_ALL=C sort -u > cll-codes.txt
 
 	# Exclude deprecated subtags
-	printf '^(%s) = ' `cat languageDeprecated.properties | sed 's/^#.*//' | sed 's/ = .*//' | egrep '[a-z]' | tr "\n" '|' | sed 's/.$$//'` > dep-regexp.txt
+	printf '^(%s) = ' `cat languageDeprecated.properties | sed 's/^#.*//' | sed 's/ = .*//' | egrep '[a-z]' | tr "\n" '|' | sed 's/.$$//'` > dep-language-regexp.txt
 
-	( cat languageNames.properties | egrep '^[a-z]* =' | LC_ALL=C sort -k1,1 | join - cll-codes.txt | sed '/^.. /s/^/A/' | LC_ALL=C sort -k1,1 | sed 's/^A//' ) | egrep -v -f dep-regexp.txt > $@
+	( cat languageNames.properties | egrep '^[a-z]* =' | LC_ALL=C sort -k1,1 | join - cll-codes.txt | sed '/^.. /s/^/A/' | LC_ALL=C sort -k1,1 | sed 's/^A//' ) | egrep -v -f dep-language-regexp.txt > $@
 
 	# Remove parentheticals without 'sed -i'
 	cat $@ | sed 's/^\([^ =]*\) *= *\(.*\)  *\((.*)\)$$/# \2 \3~\1 = \2/' | tr "~" "\n" > stripped.txt
 	mv -f stripped.txt $@
 
-	rm -f dep-regexp.txt cll-codes.txt
+	rm -f dep-language-regexp.txt cll-codes.txt
+
+scriptNames-l10n.properties: FORCE
+	# Exclude deprecated subtags
+	printf '^(%s) = ' `cat scriptDeprecated.properties | sed 's/^#.*//' | sed 's/ = .*//' | egrep '[a-z]' | tr "\n" '|' | sed 's/.$$//'` > dep-script-regexp.txt
+
+	( cat scriptNames.properties | egrep '^[A-Z][a-z]{3} =' | LC_ALL=C sort -k1,1 | join - moz-scripts.txt ) | egrep -v -f dep-script-regexp.txt > $@
+
+	# Remove parentheticals without 'sed -i'
+#	cat $@ | sed 's/^\([^ =]*\) *= *\(.*\)  *\((.*)\)$$/# \2 \3~\1 = \2/' | tr "~" "\n" > stripped.txt
+#	mv -f stripped.txt $@
+
+	rm -f dep-script-regexp.txt
 
 FORCE:
