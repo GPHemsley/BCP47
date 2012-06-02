@@ -11,12 +11,34 @@
 
 		console.log( acceptLangs );
 
+		var priorityList = [];
+		var availableList = [ 'en-GB', 'en-US', 'en-ZA', 'es-AR', 'es-CL', 'es-ES', 'es-MX', 'ga-IE', 'zh-Hant', 'zh-Hans' ];
+
 		for( var i = 0; i < acceptLangs.length; i++ ) {
-			console.log( BCP47.parseTag( acceptLangs[i].tag ) );
+			var tag = BCP47.parseTag( acceptLangs[i].tag );
+			console.log( tag );
+			priorityList.push( tag.tag );
 		}
 
-//		console.log( BCP47.parseTag( 'zh-gan-hak-Hans-CN-1901-rozaj-2abc-t-fonipa-u-islamcal-myext-testing-x-private-testing' ) );
+		var testTag = 'zh-gan-hak-Hans-CN-1901-rozaj-2abc-t-fonipa-u-islamcal-myext-testing-x-private-testing';
+
+		console.log( BCP47.parseTag( testTag ) );
 //		BCP47.runTests();
+
+		console.log( availableList );
+
+		console.log( priorityList, BCP47.lookup( priorityList, availableList ) );
+
+		priorityList.shift();
+		console.log( priorityList, BCP47.lookup( priorityList, availableList ) );
+
+		priorityList.unshift( testTag );
+		console.log( priorityList, BCP47.lookup( priorityList, availableList ) );
+
+		priorityList.unshift( 'zh-Hans-CN' );
+		console.log( priorityList, BCP47.lookup( priorityList, availableList ) );
+
+		console.log( [], BCP47.lookup( [], availableList ) );
 	</script>
 </head>
 <body>

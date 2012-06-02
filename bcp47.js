@@ -57,6 +57,20 @@ var BCP47 = {
 		return parsedPrivateUse;
 	},
 
+	getRelatedTags:		function( tag ) {
+		var relatedTags = [];
+
+		switch( tag ) {
+			// XXX: This will cause an infinite loop if 'en-US' is not in availableList.
+			case 'en':
+			default:
+				relatedTags.push( 'en-US' );
+			break;
+		}
+
+		return relatedTags;
+	},
+
 	parseTag:			function ( tag ) {
 		const ALPHA = '[A-Za-z]';
 		const DIGIT = '[0-9]';
@@ -64,7 +78,7 @@ var BCP47 = {
 		const SINGLETON = '[A-WY-Za-wy-z0-9]';
 
 		var extlang = ALPHA + '{3}' + '(?:-' + ALPHA + '{3}){0,2}';
-		var language = '(' + ALPHA + '{2,3})' + '(?:-(' + extlang + '))?';
+		var language = '(' + ALPHA + '{2,3}|\\*)' + '(?:-(' + extlang + '))?';
 		var script = ALPHA + '{4}';
 		var region = '(?:' + ALPHA + '{2}|' + DIGIT + '{3})';
 		var variant = '(?:' + ALPHANUM + '{5,8}|' + DIGIT + ALPHANUM + '{3})';
@@ -78,7 +92,7 @@ var BCP47 = {
 
 		var languageTag = '^(?:' + grandfathered + '|' + privateuse + '|' + langtag + ')$';
 
-		var languageTagRE = new RegExp( languageTag );
+		var languageTagRE = new RegExp( languageTag, 'i' );
 
 		var subtags = languageTagRE.exec( tag );
 
@@ -102,7 +116,7 @@ var BCP47 = {
 
 		var parsedTag = ( !subtags ) ? false : {
 			tag:		tag,
-			type:		( ( subtags[1] ) ? 'grandfathered' : ( ( subtags[2] ) ? 'standard' : 'private' ) ),
+			type:		( ( subtags[1] ) ? 'grandfathered' : ( ( subtags[2] ) ? ( ( subtags[3] == '*' ) ? 'range' : 'standard' ) : 'private' ) ),
 			language:	( ( subtags[3] ) ? subtags[3] : null ),
 			extlangs:	this._parseExtlangs( subtags[4] ),
 			script:		( ( subtags[5] ) ? subtags[5] : null ),
@@ -232,6 +246,122 @@ var BCP47 = {
 		return parsedTag;
 	},
 
+	makeTag:				function( parsedTag ) {
+		// All valid parsed tags should have a 'tag' and a 'type'.
+		if( !parsedTag.tag || !parsedTag.type ) {
+			return false;
+		}
+
+		// Private-use and grandfathered tags are atomic.
+		if( ( parsedTag.type == 'private' ) || ( parsedTag.type == 'grandfathered' ) ) {
+			return parsedTag.tag;
+		}
+
+		var tag = parsedTag.language;
+
+		if( parsedTag.extlangs.length > 0 ) {
+			tag += '-' + parsedTag.extlangs.join( '-' );
+		}
+
+		if( parsedTag.script.length > 0 ) {
+			tag += '-' + parsedTag.script;
+		}
+
+		if( parsedTag.region.length > 0 ) {
+			tag += '-' + parsedTag.region;
+		}
+
+		if( parsedTag.variants.length > 0 ) {
+			tag += '-' + parsedTag.variants.join( '-' );
+		}
+
+		if( parsedTag.extensions.length > 0 ) {
+			for( var i = 'a'; i <= 'z'; i++ ) {
+				if( i == 'x' ) {
+					continue;
+				}
+
+				if( ( parsedTag.extensions[i] != undefined ) && ( parsedTag.extensions[i].length > 0 ) ) {
+					tag += '-' + i + '-' + parsedTag.extensions[i].join( '-' );
+				}
+			}
+		}
+
+		if( parsedTag.privateUse.length > 0 ) {
+			tag += '-x-' + parsedTag.privateUse.join( '-' );
+		}
+
+		return tag;
+	},
+
+	lookup:					function( priorityList, availableList ) {
+		// First check for exact matches.
+		for( var i = 0; i < priorityList.length; i++ ) {
+			priorityList = priorityList.concat( this.getRelatedTags( priorityList[i] ) );
+
+			if( availableList.indexOf( priorityList[i] ) > -1 ) {
+				return priorityList[i];
+			}
+		}
+
+		// No exact match, so do Lookup matching.
+		for( var i = 0; i < priorityList.length; i++ ) {
+/*			var tag = this.parseTag( priorityList[i] );
+
+			// Private-use and grandfathered tags are atomic.
+			if( ( tag.type == 'private' ) || ( tag.type == 'grandfathered' ) ) {
+				continue;
+			}
+
+			while( tag.privateUse.length > 0 ) {
+				tag.privateUse.pop();
+
+				tag = this.makeTag( tag );
+
+				if( availableList.indexOf( tag.tag ) > -1 ) {
+					return tag.tag;
+				}
+			}
+
+			while( tag.extensions.length > 0 ) {
+				for( var j = 'a'; j <= 'z'; j++ ) {
+					if( j == 'x' ) {
+						continue;
+					}
+
+					if( tag.extensions[j] != undefined ) {
+						while( tag.extensions[j].length > 0 ) {
+							tag.extensions[j].pop();
+
+							tag = this.makeTag( tag );
+
+							if( availableList.indexOf( tag.tag ) > -1 ) {
+								return tag.tag;
+							}
+						}
+					}
+				}
+			}*/
+
+			var tag = priorityList[i].split( '-' );
+
+			while( tag.length > 0 ) {
+				tag.pop();
+
+				var newTag = tag.join( '-' );
+
+				priorityList = priorityList.concat( this.getRelatedTags( newTag ) );
+
+				if( availableList.indexOf( newTag ) > -1 ) {
+					return newTag;
+				}
+			}
+		}
+
+		// XXX: This is the default. We might want to handle this differently.
+		return 'en-US';
+	},
+
 	parseAcceptLanguage:	function( acceptLanguage ) {
 		var languages = acceptLanguage.split( ',' );
 		var acceptLangs = [];
@@ -251,7 +381,20 @@ var BCP47 = {
 			}
 		}
 
-		return acceptLangs;
+		// Ensure language tags are sorted by quality value
+		function compareQualityValues( a, b ) {
+			if( a.q > b.q ) {
+				return -1;
+			}
+
+			if( a.q < b.q ) {
+				return 1;
+			}
+
+			return 0;
+		}
+
+		return acceptLangs.sort( compareQualityValues );
 	},
 
 	runTests:			function () {
