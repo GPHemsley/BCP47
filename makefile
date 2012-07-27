@@ -14,8 +14,8 @@ moz-spell.txt: FORCE
 
 # Get list of languages in which the Google search interface is available
 moz-google.txt: FORCE
-	wget -O google.html 'https://sites.google.com/site/tomihasa/google-language-codes' 2> /dev/null
-	egrep -o '\?hl=[^&"]+' google.html | sed 's/^\?hl=//' | LC_ALL=C sort -u > $@
+	wget -O google.html 'http://www.google.com/preferences' 2> /dev/null
+	egrep -o '<option value=[a-z][^>]+>' google.html | sed 's/^<option value=//' | sed 's/>//' | sed 's/ .*//' | LC_ALL=C sort -u > $@
 	rm -f google.html
 
 # Get list of active wikipedias
