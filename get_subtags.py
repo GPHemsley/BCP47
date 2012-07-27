@@ -203,6 +203,7 @@ def getSubtagNames():
 			'ia':	'Interlingua',
 			'km':	'Khmer',
 			'oc':	'Occitan',
+			'lez':	'Lezgian',
 		},
 		'extlang':	{
 
