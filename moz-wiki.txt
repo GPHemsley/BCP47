@@ -139,6 +139,7 @@ la
 lad
 lb
 lbe
+lez
 lg
 li
 lij
