@@ -16,7 +16,7 @@ moz-spell.txt: FORCE
 moz-google.txt: FORCE
 	wget -O google.html 'http://www.google.com/preferences' 2> /dev/null
 	egrep -o '<option value=[a-z][^>]+>' google.html | sed 's/^<option value=//' | sed 's/>//' | sed 's/ .*//' | LC_ALL=C sort -u > $@
-	rm -f google.html
+	rm -f preferences
 
 # Get list of active wikipedias
 moz-wiki.txt: FORCE
