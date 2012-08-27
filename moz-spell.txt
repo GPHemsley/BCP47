@@ -13,6 +13,7 @@ ber-Tfng
 bg
 bn
 br
+bs
 ca
 ca-valencia
 cop
