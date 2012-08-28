@@ -2919,6 +2919,7 @@ jiy	2009-07-29	Buyuan Jinuo
 jjr	2012-08-12	Bankal						
 jkm	2012-08-12	Mobwa Karen						
 jko	2009-07-29	Kubo						
+jkp	2012-08-12	Paku Karen						
 jkr	2012-08-12	Koro (India)						
 jku	2009-07-29	Labir						
 jle	2009-07-29	Ngile						
@@ -4933,6 +4934,7 @@ noz	2009-07-29	Nayi
 npa	2009-07-29	Nar Phu						
 npb	2009-07-29	Nupbikha						
 npg	2012-08-12	Ponyo-Gongwang Naga						
+nph	2009-07-29	Phom Naga						
 npi	2012-08-12	Nepali (individual language)			ne			
 npl	2009-07-29	Southeastern Puebla Nahuatl						
 npn	2009-07-29	Mondropolon						
@@ -6779,6 +6781,7 @@ tvm	2009-07-29	Tela-Masbuar
 tvn	2009-07-29	Tavoyan						
 tvo	2009-07-29	Tidore						
 tvs	2009-07-29	Taveta						
+tvt	2009-07-29	Tutsa Naga						
 tvu	2012-08-12	Tunen						
 tvw	2009-07-29	Sedoa						
 tvy	2009-07-29	Timor Pidgin						
