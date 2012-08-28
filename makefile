@@ -48,7 +48,9 @@ languageNames-l10n.properties: moz-current.txt moz-google.txt moz-spell.txt moz-
 
 	# Remove parentheticals without 'sed -i'
 	cat $@ | sed 's/^\([^ =]*\) *= *\(.*\)  *\((.*)\)$$/# \2 \3~\1 = \2/' | tr "~" "\n" | sed 's/^\([a-z]\{2\} \)/\1 /' > stripped.txt
-	mv -f stripped.txt $@
+
+	# Add MPL boilerplate
+	cat mpl_boilerplate.txt stripped.txt > $@
 
 	rm -f dep-language-regexp.txt cll-codes.txt
 
@@ -60,7 +62,10 @@ scriptNames-l10n.properties: FORCE
 
 	# Remove parentheticals without 'sed -i'
 #	cat $@ | sed 's/^\([^ =]*\) *= *\(.*\)  *\((.*)\)$$/# \2 \3~\1 = \2/' | tr "~" "\n" > stripped.txt
-#	mv -f stripped.txt $@
+	cat $@ > stripped.txt
+
+	# Add MPL boilerplate
+	cat mpl_boilerplate.txt stripped.txt > $@
 
 	rm -f dep-script-regexp.txt
 
@@ -72,7 +77,10 @@ regionNames-l10n.properties: FORCE
 
 	# Remove parentheticals without 'sed -i'
 #	cat $@ | sed 's/^\([^ =]*\) *= *\(.*\)  *\((.*)\)$$/# \2 \3~\1 = \2/' | tr "~" "\n" > stripped.txt
-#	mv -f stripped.txt $@
+	cat $@ > stripped.txt
+
+	# Add MPL boilerplate
+	cat mpl_boilerplate.txt stripped.txt > $@
 
 	rm -f dep-region-regexp.txt
 
