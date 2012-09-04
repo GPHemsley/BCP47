@@ -1,8 +1,10 @@
-var BCP47 = {
-	BCP47:				function ( tag ) {
-		return this.parseTag( tag );
-	},
+String.prototype.toUpperCaseFirst = function() {
+  return this.charAt(0).toUpperCase() + this.slice(1);
+};
 
+function BCP47Parser() {};
+
+BCP47Parser.prototype = {
 	_parseExtlangs:		function ( extlangs ) {
 		if( !extlangs ) {
 			return [];
@@ -71,7 +73,108 @@ var BCP47 = {
 		return relatedTags;
 	},
 
-	parseTag:			function ( tag ) {
+	// Get the Preferred-Value for a given grandfathered language tag.
+	getPreferredValue: function( tag ) {
+		var preferredValue;
+
+		switch( tag ) {
+			case 'i-ami':
+				preferredValue = 'ami';
+			break;
+
+			case 'i-bnn':
+				preferredValue = 'bnn';
+			break;
+
+			case 'i-hak':
+				preferredValue = 'hak';
+			break;
+
+			case 'i-klingon':
+				preferredValue = 'tlh';
+			break;
+
+			case 'i-lux':
+				preferredValue = 'lb';
+			break;
+
+			case 'i-navajo':
+				preferredValue = 'nv';
+			break;
+
+			case 'i-pwn':
+				preferredValue = 'pwn';
+			break;
+
+			case 'i-tao':
+				preferredValue = 'tao';
+			break;
+
+			case 'i-tay':
+				preferredValue = 'tay';
+			break;
+
+			case 'i-tsu':
+				preferredValue = 'tsu';
+			break;
+
+			case 'sgn-be-fr':
+				preferredValue = 'sfb';
+			break;
+
+			case 'sgn-be-nl':
+				preferredValue = 'vgt';
+			break;
+
+			case 'sgn-ch-de':
+				preferredValue = 'sgg';
+			break;
+
+			case 'art-lojban':
+				preferredValue = 'jbo';
+			break;
+
+			case 'no-bok':
+				preferredValue = 'nb';
+			break;
+
+			case 'no-nyn':
+				preferredValue = 'nn';
+			break;
+
+			case 'zh-guoyu':
+				preferredValue = 'cmn';
+			break;
+
+			case 'zh-hakka':
+				preferredValue = 'hak';
+			break;
+
+			case 'zh-min-nan':
+				preferredValue = 'nan';
+			break;
+
+			case 'zh-xiang':
+				preferredValue = 'hsn';
+			break;
+
+			case 'en-gb-oed':
+			case 'i-default':
+			case 'i-enochian':
+			case 'i-mingo':
+			case 'cel-gaulish':
+			case 'zh-min':
+			default:
+				// No 'Preferred-Value'
+				preferredValue = false;
+			break;
+		}
+
+		return preferredValue;
+	},
+
+	// Parse a language tag string into a parsedTag object.
+	parseTag: function ( tag ) {
 		const ALPHA = '[A-Za-z]';
 		const DIGIT = '[0-9]';
 		const ALPHANUM = '[A-Za-z0-9]';
@@ -94,7 +197,7 @@ var BCP47 = {
 
 		var languageTagRE = new RegExp( languageTag, 'i' );
 
-		var subtags = languageTagRE.exec( tag );
+		var subtags = languageTagRE.exec( tag.toLowerCase() );
 
 		/*
 			0 : full tag
@@ -114,16 +217,20 @@ var BCP47 = {
 				else (!1 && !2) private use tag
 		*/
 
-		var parsedTag = ( !subtags ) ? false : {
+		if (!subtags) {
+			return false;
+		}
+
+		var parsedTag = {
 			tag:		tag,
 			type:		( ( subtags[1] ) ? 'grandfathered' : ( ( subtags[2] ) ? ( ( subtags[3] == '*' ) ? 'range' : 'standard' ) : 'private' ) ),
 			language:	( ( subtags[3] ) ? subtags[3] : null ),
 			extlangs:	this._parseExtlangs( subtags[4] ),
-			script:		( ( subtags[5] ) ? subtags[5] : null ),
-			region:		( ( subtags[6] ) ? subtags[6] : null ),
+			script:		( ( subtags[5] ) ? subtags[5].toUpperCaseFirst() : null ),
+			region:		( ( subtags[6] ) ? subtags[6].toUpperCase() : null ),
 			variants:	this._parseVariants( subtags[7] ),
-			extensions:	this._parseExtensions( subtags[8] ),
-			privateUse:	this._parsePrivateUse( subtags[9] ),
+			extensions: this._parseExtensions( subtags[8] ),
+			privateUse: this._parsePrivateUse( subtags[9] ),
 		};
 
 		if( parsedTag.extensions === false ) {
@@ -137,100 +244,7 @@ var BCP47 = {
 			};
 		} else if( parsedTag.type == 'grandfathered' ) {
 			// Do fancy processing to parse equivalent tag
-			var preferredValue;
-
-			switch( parsedTag.tag ) {
-				case 'i-ami':
-					preferredValue = 'ami';
-				break;
-
-				case 'i-bnn':
-					preferredValue = 'bnn';
-				break;
-
-				case 'i-hak':
-					preferredValue = 'hak';
-				break;
-
-				case 'i-klingon':
-					preferredValue = 'tlh';
-				break;
-
-				case 'i-lux':
-					preferredValue = 'lb';
-				break;
-
-				case 'i-navajo':
-					preferredValue = 'nv';
-				break;
-
-				case 'i-pwn':
-					preferredValue = 'pwn';
-				break;
-
-				case 'i-tao':
-					preferredValue = 'tao';
-				break;
-
-				case 'i-tay':
-					preferredValue = 'tay';
-				break;
-
-				case 'i-tsu':
-					preferredValue = 'tsu';
-				break;
-
-				case 'sgn-BE-FR':
-					preferredValue = 'sfb';
-				break;
-
-				case 'sgn-BE-NL':
-					preferredValue = 'vgt';
-				break;
-
-				case 'sgn-CH-DE':
-					preferredValue = 'sgg';
-				break;
-
-				case 'art-lojban':
-					preferredValue = 'jbo';
-				break;
-
-				case 'no-bok':
-					preferredValue = 'nb';
-				break;
-
-				case 'no-nyn':
-					preferredValue = 'nn';
-				break;
-
-				case 'zh-guoyu':
-					preferredValue = 'cmn';
-				break;
-
-				case 'zh-hakka':
-					preferredValue = 'hak';
-				break;
-
-				case 'zh-min-nan':
-					preferredValue = 'nan';
-				break;
-
-				case 'zh-xiang':
-					preferredValue = 'hsn';
-				break;
-
-				case 'en-GB-oed':
-				case 'i-default':
-				case 'i-enochian':
-				case 'i-mingo':
-				case 'cel-gaulish':
-				case 'zh-min':
-				default:
-					// No 'Preferred-Value'
-					preferredValue = false;
-				break;
-			}
+			var preferredValue = this.getPreferredValue( parsedTag.tag );
 
 			if( preferredValue ) {
 				parsedTag = this.parseTag( preferredValue );
@@ -263,11 +277,11 @@ var BCP47 = {
 			tag += '-' + parsedTag.extlangs.join( '-' );
 		}
 
-		if( parsedTag.script.length > 0 ) {
+		if( parsedTag.script !== null ) {
 			tag += '-' + parsedTag.script;
 		}
 
-		if( parsedTag.region.length > 0 ) {
+		if( parsedTag.region !== null ) {
 			tag += '-' + parsedTag.region;
 		}
 
@@ -423,4 +437,313 @@ var BCP47 = {
 
 		console.log( this.parseTag( 'x-whatever' ) );
 	}
-}
+};
+
+var BCP47Parser = new BCP47Parser;
+
+function BCP47() {};
+
+BCP47.prototype = {
+	IsStructurallyValidLanguageTag: function(locale) {
+		return !!BCP47Parser.parseTag(locale);
+	},
+
+	CanonicalizeLanguageTag: function(locale) {
+		return BCP47Parser.makeTag(BCP47Parser.parseTag(locale));
+	},
+
+	DefaultLocale: function() {
+		return window.navigator.language;
+	},
+
+	CanonicalizeLocaleList: function(locales) {
+		if (locales === undefined) {
+			return [];
+		}
+
+		let seen = [];
+
+		if (typeof locales === 'string') {
+			locales = [ locales ];
+		}
+
+		let O = Object(locales);
+
+		// ToUint32(lenValue)
+		let len = O.length >>> 0;
+
+		for (let k = 0; k < len; k++) {
+			if (k in O) {
+				let kValue = O[k];
+
+				if (!(typeof kValue === 'string' || typeof kValue === 'object')) {
+					throw TypeError;
+				}
+
+				let tag = String(kValue);
+
+				if (!this.IsStructurallyValidLanguageTag(tag)) {
+					throw RangeError;
+				}
+
+				tag = this.CanonicalizeLanguageTag(tag);
+
+				if (!(tag in seen)) {
+					seen.push(tag);
+				}
+			}
+		}
+
+		return seen;
+	},
+
+	BestAvailableLocale: function(availableLocales, locale) {
+		if (!this.IsStructurallyValidLanguageTag(locale)) {
+			return undefined;
+		}
+
+		let candidate = this.CanonicalizeLanguageTag(locale);
+
+		while (candidate.length > 0) {
+			if (availableLocales.indexOf(candidate) !== -1) {
+				return candidate;
+			}
+
+			let pos = candidate.lastIndexOf('-');
+
+			if (pos === -1) {
+				return undefined;
+			}
+
+			// Skip singletons.
+			if (pos >= 2 && candidate[pos - 2] === '-' ) {
+				pos -= 2;
+			}
+
+			candidate = candidate.substring(0, pos);
+		}
+	},
+
+	LookupMatcher: function(availableLocales, requestedLocales) {
+		let len = requestedLocales.length;
+		let availableLocale = undefined;
+
+		for (let i = 0; i < len && availableLocale == undefined; i++) {
+			var locale = requestedLocales[i];
+
+			// XXX: We don't support the Unicode extensions yet.
+			var noExtensionsLocale = locale;
+
+			availableLocale = this.BestAvailableLocale(availableLocales, noExtensionsLocale);
+		}
+
+		// XXX: Is this a Record?
+		let result = {};
+
+		if (availableLocale !== undefined) {
+			result.locale = availableLocale;
+
+			// XXX: We don't support the Unicode extensions yet.
+			if (locale !== noExtensionsLocale) {
+				// XXX: These need to be expanded.
+				let extension;
+				let extensionIndex;
+
+				result.extension = extension;
+				result.extensionIndex = extensionIndex;
+			}
+		} else {
+			result.locale = this.DefaultLocale();
+		}
+
+		return result;
+	},
+
+	BestFitMatcher: function(availableLocales, requestedLocales) {
+		// XXX: Not yet implemented.
+		return undefined;
+	},
+
+	ResolveLocale: function(availableLocales, requestedLocales, options, relevantExtensionKeys, localeData) {
+		let matcher = options.localeMatcher;
+
+		if (matcher === 'lookup') {
+			var r = this.LookupMatcher(availableLocales, requestedLocales);
+		} else {
+			var r = this.BestFitMatcher(availableLocales, requestedLocales);
+		}
+
+		let foundLocale = r.locale;
+
+		if (r.hasOwnProperty('extension')) {
+			let extension = r.extension;
+			let extensionIndex = r.extensionIndex;
+
+			let extensionSubtags = extension.split('-');
+			let extensionSubtagsLength = extensionSubtags.length;
+		}
+
+		let result = {};
+
+		result.dataLocale = foundLocale;
+
+		let supportedExtension = '-u';
+
+		for (let i = 0, len = relevantExtensionKeys.length; i < len; i++) {
+			let key = relevantExtensionKeys[String(i)];
+			let foundDataLocale = localeData.foundLocale;
+			let keyLocaleData = foundLocaleData.key;
+			let value = keyLocaleData.'0';
+			let supportedExtensionAddition = '';
+
+			if (extensionSubtags !== undefined) {
+				let keyPos = extensionSubtags.indexOf(key);
+
+				if (keyPos !== -1) {
+					if ((keyPos + 1 < extensionSubtagsLength) && (extensionSubtags[String(keyPos + 1)] > 2)) {
+						let requestedValue = extensionSubtags[String(keyPos + 1)];
+						var valuePos = keyLocaleData.indexOf(requestedValue);
+
+						if (valuePos !== -1) {
+							var value = requestedValue;
+							var supportedExtensionAddition = '-' + key + '-' + value;
+						}
+					} else {
+						var valuePos = keyLocaleData.indexOf('true');
+
+						if (valuePos !== -1) {
+							var value = 'true';
+						}
+					}
+				}
+			}
+
+			// XXX: Is this the same as "has a field [[<key>]]"?
+			if (options.hasOwnProperty(key)) {
+				let optionsValue = options[key];
+
+				if (keyLocaleData.indexOf(optionsValue) !== -1) {
+					if (optionsValue !== value) {
+						var value = optionsValue;
+						var supportedExtensionAddition = '';
+					}
+				}
+			}
+
+			result[key] = value;
+			supportedExtension += supportedExtensionAddition;
+		}
+
+		if (supportedExtension.length > 2) {
+			// XXX: Check that this index is not off by one.
+			let preExtension = foundLocale.substring(0, extensionIndex - 1);
+			let postExtension = foundLocale.substring(extensionIndex);
+			foundLocale = preExtension + supportedExtension + postExtension;
+		}
+
+		result.locale = foundLocale;
+
+		return result;
+	},
+
+	LookupSupportedLocales: function(availableLocales, requestedLocales) {
+		let len = requestedLocales.length;
+		let subset = [];
+
+		for (let k = 0; k < len; k++) {
+			let locale = requestedLocales[k];
+
+			// XXX: We don't support the Unicode extensions yet.
+			let noExtensionsLocale = locale;
+
+			let availableLocale = this.BestAvailableLocale(availableLocales, noExtensionsLocale);
+
+			if (availableLocale !== undefined) {
+				subset.push(availableLocale);
+			}
+		}
+
+		// XXX: Do we need to distinguish between List and Array?
+		let subsetArray = subset;
+
+		return subsetArray;
+	},
+
+	BestFitSupportedLocales: function(availableLocales, requestedLocales) {
+		// XXX: Not yet implemented.
+		return undefined;
+	},
+
+	SupportedLocales: function(availableLocales, requestedLocales, options) {
+		if (options !== undefined) {
+			options = Object(options);
+
+			var matcher = options.localeMatcher;
+
+			if (matcher !== undefined) {
+				matcher = String(matcher);
+
+				if (!(matcher === 'lookup' || matcher === 'best fit')) {
+					throw RangeError;
+				}
+			}
+		}
+
+		if (matcher === undefined || matcher === 'best fit') {
+			var subset = this.BestFitSupportedLocales(availableLocales, requestedLocales);
+		} else {
+			var subset = this.LookupSupportedLocales(availableLocales, requestedLocales);
+		}
+
+		// XXX: Make sure this is correct.
+		for (let P in subset) {
+			let desc = Object.getOwnPropertyDescriptor(subset, P);
+
+			desc.writable = false;
+			desc.configurable = false;
+
+			// XXX: Where does the third argument "true" come in?
+			Object.defineProperty(subset, P, desc);
+		}
+
+		return subset;
+	},
+
+	GetOption: function(options, property, type, values, fallback) {
+		let value = options[property];
+
+		if (value !== undefined) {
+			// Type is either boolean or string
+			if (typeof value === 'boolean') {
+				value = Boolean(value);
+			} else if (typeof value == 'string') {
+				value = String(value);
+			}
+
+			if (values !== undefined) {
+				if (!(value in values)) {
+					throw RangeError;
+				}
+			}
+		} else {
+			return fallback;
+		}
+	},
+
+	GetNumberOption: function(options, property, minimum, maximum, fallback) {
+		let value = options[property];
+
+		if (value !== undefined) {
+			value = Number(value);
+
+			if (value == NaN || value < minimum || value > maximum) {
+				throw RangeError;
+			}
+		} else {
+			return fallback;
+		}
+	},
+};
+
+var BCP47 = new BCP47;
+
