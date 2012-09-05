@@ -1,4 +1,4 @@
-2012-08-29
+2012-09-04
 aa	2005-10-16	Afar						
 ab	2005-10-16	Abkhazian	Cyrl					
 ae	2005-10-16	Avestan						
@@ -1997,7 +1997,7 @@ eke	2009-07-29	Ekit
 ekg	2009-07-29	Ekari						
 eki	2009-07-29	Eki						
 ekk	2009-07-29	Standard Estonian			et			
-ekl	2009-07-29	Kol						
+ekl	2009-07-29	Kol (Bangladesh) / Kol						
 ekm	2009-07-29	Elip						
 eko	2009-07-29	Koti						
 ekp	2009-07-29	Ekpeye						
