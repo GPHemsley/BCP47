@@ -82,6 +82,7 @@ la
 lb
 ln
 lt
+ltg
 lv
 lvs
 mai
