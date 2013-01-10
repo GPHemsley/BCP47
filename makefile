@@ -21,7 +21,7 @@ moz-google.txt: FORCE
 # Get list of active wikipedias
 moz-wiki.txt: FORCE
 	wget -O wiki.html 'http://meta.wikimedia.org/wiki/List_of_Wikipedias' 2> /dev/null
-	cat wiki.html | tr -d "\n" | sed 's/<tr>/~&/g' | tr '~' "\n" | egrep 'Special:Stat' | egrep '^<tr><td>[0-9]+</td>' | egrep -o '>[a-z][a-z-]+<' | sed 's/^>//; s/<$$//' | sort -u | egrep -v '^closed$$' > $@
+	cat wiki.html | tr -d "\n" | sed 's/<tr>/~&/g' | tr '~' "\n" | egrep '^<tr><td>[0-9]+<' | sed 's/<\/tr>.*/<\/tr>/' | egrep -o '>[a-z][a-z-]+<'  | sed 's/^>//; s/<$$//' | sort -u > $@
 	rm -f wiki.html
 
 # get list of current Mozilla l10n teams (whoever is committed to l10n-central)

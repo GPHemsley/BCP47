@@ -20,7 +20,6 @@ bar
 bat-smg
 bcl
 be
-be-tarask
 be-x-old
 bg
 bh
@@ -35,7 +34,6 @@ bs
 bug
 bxr
 ca
-cbk
 cbk-zam
 cdo
 ce
@@ -71,7 +69,6 @@ ext
 fa
 ff
 fi
-fiu
 fiu-vro
 fj
 fo
@@ -88,7 +85,6 @@ gl
 glk
 gn
 got
-gsw
 gu
 gv
 ha
@@ -153,8 +149,6 @@ lo
 lt
 ltg
 lv
-lzh
-map
 map-bms
 mdf
 mg
@@ -176,7 +170,6 @@ myv
 mzn
 na
 nah
-nan
 nap
 nds
 nds-nl
@@ -211,12 +204,10 @@ pnt
 ps
 pt
 qu
-rejected
 rm
 rmy
 rn
 ro
-roa
 roa-rup
 roa-tara
 ru
@@ -230,10 +221,8 @@ sco
 sd
 se
 sg
-sgs
 sh
 si
-sibvolgota
 simple
 sk
 sl
@@ -245,14 +234,12 @@ sr
 srn
 ss
 st
-statistics
 stq
 su
 sv
 sw
 szl
 ta
-table
 te
 tet
 tg
@@ -280,7 +267,6 @@ vep
 vi
 vls
 vo
-vro
 wa
 war
 wo
@@ -290,7 +276,6 @@ xh
 xmf
 yi
 yo
-yue
 za
 zea
 zh
