@@ -1,5 +1,6 @@
-2012-09-04
+2012-11-01
 Afak	2011-01-07	Afaka			
+Aghb	2012-11-01	Caucasian Albanian			
 Arab	2005-10-16	Arabic			
 Armi	2007-12-05	Imperial Aramaic			
 Armn	2005-10-16	Armenian			
@@ -51,7 +52,7 @@ Hira	2005-10-16	Hiragana
 Hluw	2011-12-28	Anatolian Hieroglyphs / Luwian Hieroglyphs / Hittite Hieroglyphs			
 Hmng	2005-10-16	Pahawh Hmong			
 Hrkt	2005-10-16	Japanese syllabaries (alias for Hiragana + Katakana)			
-Hung	2005-10-16	Old Hungarian			
+Hung	2005-10-16	Old Hungarian / Hungarian Runic			
 Inds	2005-10-16	Indus / Harappan			
 Ital	2005-10-16	Old Italic (Etruscan, Oscan, etc.)			
 Java	2005-10-16	Javanese			
@@ -79,6 +80,7 @@ Lisu	2009-03-13	Lisu / Fraser
 Loma	2010-04-10	Loma			
 Lyci	2006-07-21	Lycian			
 Lydi	2006-07-21	Lydian			
+Mahj	2012-11-01	Mahajani			
 Mand	2005-10-16	Mandaic / Mandaean			
 Mani	2007-07-28	Manichaean			
 Maya	2005-10-16	Mayan hieroglyphs			

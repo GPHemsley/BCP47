@@ -1,6 +1,7 @@
 ach
 af
 ak
+an
 ar
 as
 ast
@@ -78,6 +79,7 @@ rm
 ro
 ru
 rw
+sah
 si
 sk
 sl
@@ -96,6 +98,7 @@ tn
 tr
 ts
 uk
+ur
 ve
 vi
 wo
