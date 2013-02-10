@@ -1,4 +1,4 @@
-2012-11-01
+2013-01-25
 aa	2005-10-16	Afar						
 ab	2005-10-16	Abkhazian	Cyrl					
 ae	2005-10-16	Avestan						
@@ -7807,6 +7807,7 @@ zeh	2009-07-29	Eastern Hongshuihe Zhuang			za
 zen	2005-10-16	Zenaga						
 zga	2009-07-29	Kinga						
 zgb	2009-07-29	Guibei Zhuang			za			
+zgh	2013-01-25	Standard Moroccan Tamazight						
 zgm	2009-07-29	Minz Zhuang			za			
 zgn	2009-07-29	Guibian Zhuang			za			
 zgr	2009-07-29	Magori						

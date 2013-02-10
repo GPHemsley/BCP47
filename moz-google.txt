@@ -4,6 +4,7 @@ ak
 am
 ar
 az
+ban
 be
 bem
 bg
