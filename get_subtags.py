@@ -88,12 +88,12 @@ def parseRegistry():
 
 	file_date = '1995-03-01'
 
-	languageFile = open( 'language.txt', 'w+' )
-	extlangFile = open( 'extlang.txt', 'w+' )
-	scriptFile = open( 'script.txt', 'w+' )
-	regionFile = open( 'region.txt', 'w+' )
-	variantFile = open( 'variant.txt', 'w+' )
-	grandfatheredFile = open( 'grandfathered.txt', 'w+' )
+	languageFile = open( 'raw/language.txt', 'w+' )
+	extlangFile = open( 'raw/extlang.txt', 'w+' )
+	scriptFile = open( 'raw/script.txt', 'w+' )
+	regionFile = open( 'raw/region.txt', 'w+' )
+	variantFile = open( 'raw/variant.txt', 'w+' )
+	grandfatheredFile = open( 'raw/grandfathered.txt', 'w+' )
 
 	for tag in tags:
 		# Just the date of the file
@@ -235,8 +235,8 @@ def getSubtagNames():
 	}
 
 	for subtagType in subtagTypes:
-		sourceFile = open( subtagType + '.txt', 'r' )
-		targetFile = open( subtagType + 'Names.properties', 'w+' )
+		sourceFile = open( 'raw/' + subtagType + '.txt', 'r' )
+		targetFile = open( 'properties/full/' + subtagType + 'Names.properties', 'w+' )
 
 		targetFile.write( "#\n" )
 		targetFile.write( '# ' + subtagType.capitalize() + ' names from IANA Language Subtag Registry' + "\n" )
@@ -337,8 +337,8 @@ def getSubtagNames():
 def getSuppressScripts():
 	global lineFormat
 
-	sourceFile = open( 'language.txt', 'r' )
-	targetFile = open( 'scriptSuppress.properties', 'w+' )
+	sourceFile = open( 'raw/language.txt', 'r' )
+	targetFile = open( 'properties/full/scriptSuppress.properties', 'w+' )
 
 	targetFile.write( "#\n" )
 	targetFile.write( '# Suppress-Script values from IANA Language Subtag Registry' + "\n" )
@@ -387,8 +387,8 @@ def getDeprecatedSubtags():
 	subtagTypes = ['language', 'extlang', 'script', 'region', 'variant']
 
 	for subtagType in subtagTypes:
-		sourceFile = open( subtagType + '.txt', 'r' )
-		targetFile = open( subtagType + 'Deprecated.properties', 'w+' )
+		sourceFile = open( 'raw/' + subtagType + '.txt', 'r' )
+		targetFile = open( 'properties/full/' + subtagType + 'Deprecated.properties', 'w+' )
 
 		targetFile.write( "#\n" )
 		targetFile.write( '# Deprecated ' + subtagType + ' values from IANA Language Subtag Registry' + "\n" )
@@ -453,8 +453,8 @@ def getScopedSubtags():
 	subtagTypes = ['language', 'extlang']
 
 	for subtagType in subtagTypes:
-		sourceFile = open( subtagType + '.txt', 'r' )
-		targetFile = open( subtagType + 'Scope.properties', 'w+' )
+		sourceFile = open( 'raw/' + subtagType + '.txt', 'r' )
+		targetFile = open( 'properties/full/' + subtagType + 'Scope.properties', 'w+' )
 
 		targetFile.write( "#\n" )
 		targetFile.write( '# Scoped ' + subtagType + ' values from IANA Language Subtag Registry' + "\n" )
