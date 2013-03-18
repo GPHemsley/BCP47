@@ -1,4 +1,4 @@
-2013-01-25
+2013-02-28
 AA	2005-10-16	Private use			
 AC	2009-07-29	Ascension Island			
 AD	2005-10-16	Andorra			
@@ -194,7 +194,7 @@ PL	2005-10-16	Poland
 PM	2005-10-16	Saint Pierre and Miquelon			
 PN	2005-10-16	Pitcairn			
 PR	2005-10-16	Puerto Rico			
-PS	2005-10-16	Occupied Palestinian Territory			
+PS	2005-10-16	State of Palestine			
 PT	2005-10-16	Portugal			
 PW	2005-10-16	Palau			
 PY	2005-10-16	Paraguay			
