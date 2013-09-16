@@ -2,6 +2,7 @@ af
 ak
 als
 am
+an
 ar
 arb
 as
@@ -14,6 +15,7 @@ bg
 bi
 bn
 br
+br-x-unified
 bs
 ca
 ca-valencia
@@ -34,9 +36,12 @@ dyu
 ekk
 el
 en
+en-GB
+en-US
 en-ZA
 eo
 es
+es-ES
 et
 eu
 fa
@@ -111,6 +116,7 @@ pa
 pes
 pl
 plt
+prg
 pt
 pt-BR
 pt-PT
@@ -130,6 +136,7 @@ sma
 smj
 sn
 so
+son
 sq
 sr
 sr-Latn
@@ -152,6 +159,7 @@ ts
 uk
 ur
 uz
+uzn
 ve
 vi
 wa

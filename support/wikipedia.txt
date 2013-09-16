@@ -155,6 +155,7 @@ mg
 mh
 mhr
 mi
+min
 mk
 ml
 mn
@@ -256,6 +257,7 @@ tt
 tum
 tw
 ty
+tyv
 udm
 ug
 uk

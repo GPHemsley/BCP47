@@ -13,6 +13,7 @@ bn
 br
 bs
 ca
+ceb
 chr
 ckb
 co
@@ -82,6 +83,7 @@ mo
 mr
 ms
 mt
+my
 ne
 nl
 nn
