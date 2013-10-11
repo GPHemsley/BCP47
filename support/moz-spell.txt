@@ -113,6 +113,7 @@ oc
 om
 or
 pa
+pap-CW
 pes
 pl
 plt

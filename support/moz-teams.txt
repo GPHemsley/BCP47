@@ -95,6 +95,7 @@ ta
 ta-LK
 te
 th
+tl
 tn
 tr
 ts
