@@ -3,7 +3,10 @@ SUPPORT_DIR = support/
 PROP_FULL_DIR = properties/full/
 PROP_L10N_DIR = properties/l10n/
 
-all: languageNames.properties scriptNames.properties regionNames.properties
+all: languageNames.properties scriptNames.properties regionNames.properties $(SUPPORT_DIR)master.txt
+
+$(SUPPORT_DIR)master.txt: google.txt moz-current.txt moz-spell.txt moz-teams.txt wikipedia.txt
+	sort -u $(SUPPORT_DIR)google.txt $(SUPPORT_DIR)moz-current.txt $(SUPPORT_DIR)moz-spell.txt $(SUPPORT_DIR)moz-teams.txt $(SUPPORT_DIR)wikipedia.txt > $@
 
 # Get version of languageNames.properties before the overhaul
 moz-current.txt: FORCE
