@@ -1,4 +1,4 @@
-2013-12-13
+2014-03-13
 aa	2005-10-16	Afar						
 ab	2005-10-16	Abkhazian	Cyrl					
 ae	2005-10-16	Avestan						
@@ -303,7 +303,7 @@ afd	2009-07-29	Andai
 afe	2009-07-29	Putukwam						
 afg	2009-07-29	Afghan Sign Language						
 afh	2005-10-16	Afrihili						
-afi	2009-07-29	Akrukay						
+afi	2009-07-29	Akrukay / Chini						
 afk	2009-07-29	Nanubae						
 afn	2009-07-29	Defaka						
 afo	2009-07-29	Eloyi						
@@ -538,6 +538,7 @@ aqm	2009-07-29	Atohwaim
 aqn	2009-07-29	Northern Alta						
 aqp	2009-07-29	Atakapa						
 aqr	2009-07-29	Arhâ						
+aqt	2014-02-28	Angaité						
 aqz	2010-03-11	Akuntsu						
 arb	2009-07-29	Standard Arabic			ar			
 arc	2005-10-16	Official Aramaic (700-300 BCE) / Imperial Aramaic (700-300 BCE)						
@@ -833,7 +834,7 @@ bey	2009-07-29	Beli (Papua New Guinea)
 bez	2009-07-29	Bena (Tanzania)						
 bfa	2009-07-29	Bari						
 bfb	2009-07-29	Pauri Bareli						
-bfc	2009-07-29	Northern Bai						
+bfc	2009-07-29	Panyi Bai / Northern Bai						
 bfd	2009-07-29	Bafut						
 bfe	2009-07-29	Betaf / Tena						
 bff	2009-07-29	Bofi						
@@ -1778,7 +1779,7 @@ dgx	2009-07-29	Doghoro
 dgz	2009-07-29	Daga						
 dha	2009-07-29	Dhanwar (India)				2011-08-16		
 dhd	2009-07-29	Dhundari			mwr			
-dhg	2009-07-29	Djangu / Dhangu						
+dhg	2009-07-29	Dhangu / Djangu						
 dhi	2009-07-29	Dhimal						
 dhl	2009-07-29	Dhalandji						
 dhm	2009-07-29	Zemba						
@@ -2033,7 +2034,7 @@ emi	2009-07-29	Mussau-Emira
 emk	2009-07-29	Eastern Maninkakan			man			
 emm	2009-07-29	Mamulique						
 emn	2009-07-29	Eman						
-emo	2009-07-29	Emok						
+emo	2009-07-29	Emok				2014-02-28		
 emp	2009-07-29	Northern Emberá						
 ems	2009-07-29	Pacific Gulf Yupik						
 emu	2009-07-29	Eastern Muria						
@@ -2046,6 +2047,7 @@ enc	2009-07-29	En
 end	2009-07-29	Ende						
 enf	2009-07-29	Forest Enets						
 enh	2009-07-29	Tundra Enets						
+enl	2014-02-28	Enlhet						
 enm	2005-10-16	Middle English (1100-1500)						
 enn	2009-07-29	Engenni						
 eno	2009-07-29	Enggano						
@@ -2054,6 +2056,7 @@ enr	2009-07-29	Emumu / Emem
 enu	2009-07-29	Enu						
 env	2009-07-29	Enwan (Edu State)						
 enw	2009-07-29	Enwan (Akwa Ibom State)						
+enx	2014-02-28	Enxet						
 eot	2009-07-29	Beti (Côte d'Ivoire)						
 epi	2009-07-29	Epie						
 era	2009-07-29	Eravallan						
@@ -2140,7 +2143,7 @@ fli	2009-07-29	Fali
 fll	2009-07-29	North Fali						
 fln	2009-07-29	Flinders Island						
 flr	2009-07-29	Fuliiru						
-fly	2009-07-29	Tsotsitaal						
+fly	2009-07-29	Flaaitaal / Tsotsitaal						
 fmp	2009-07-29	Fe'fe'						
 fmu	2009-07-29	Far Western Muria						
 fng	2009-07-29	Fanagalo						
@@ -2279,6 +2282,7 @@ gel	2009-07-29	ut-Ma'in
 gem	2005-10-16	Germanic languages		collection				
 geq	2009-07-29	Geme						
 ges	2009-07-29	Geser-Gorom						
+gev	2014-02-28	Eviya						
 gew	2009-07-29	Gera						
 gex	2009-07-29	Garre						
 gey	2009-07-29	Enya						
@@ -2295,7 +2299,7 @@ ggk	2009-07-29	Kungarakany
 ggl	2009-07-29	Ganglau						
 ggn	2009-07-29	Eastern Gurung						
 ggo	2009-07-29	Southern Gondi			gon			
-ggr	2009-07-29	Aghu Tharnggalu				2013-09-10		# see ggm, gtu, ikr
+ggr	2009-07-29	Aghu Tharnggalu				2013-09-10		# see gtu, ikr
 ggt	2009-07-29	Gitua						
 ggu	2009-07-29	Gagu / Gban						
 ggw	2009-07-29	Gogodala						
@@ -2356,6 +2360,7 @@ gma	2009-07-29	Gambera
 gmb	2009-07-29	Gula'alaa						
 gmd	2009-07-29	Mághdì						
 gme	2009-07-29	East Germanic languages		collection				
+gmg	2014-02-28	Magɨyi						
 gmh	2005-10-16	Middle High German (ca. 1050-1500)						
 gml	2009-07-29	Middle Low German						
 gmm	2009-07-29	Gbaya-Mbodomo			gba			
@@ -2649,7 +2654,7 @@ how	2009-07-29	Honi
 hoy	2009-07-29	Holiya						
 hoz	2009-07-29	Hozo						
 hpo	2009-07-29	Hpon						
-hps	2009-07-29	Hawai'i Pidgin Sign Language						
+hps	2009-07-29	Hawai'i Sign Language (HSL) / Hawai'i Pidgin Sign Language						
 hra	2009-07-29	Hrangkhol						
 hrc	2013-09-10	Niwer Mil						
 hre	2009-07-29	Hre						
@@ -3682,7 +3687,7 @@ las	2009-07-29	Lama (Togo)
 lau	2009-07-29	Laba						
 law	2009-07-29	Lauje						
 lax	2009-07-29	Tiwa						
-lay	2009-07-29	Lama (Myanmar)						
+lay	2009-07-29	Lama Bai						
 laz	2009-07-29	Aribwatsa						
 lba	2009-07-29	Lui						
 lbb	2009-07-29	Label						
@@ -3737,7 +3742,7 @@ lec	2009-07-29	Leco
 led	2009-07-29	Lendu						
 lee	2009-07-29	Lyélé						
 lef	2009-07-29	Lelemi						
-leg	2009-07-29	Lengua						
+leg	2009-07-29	Lengua				2014-02-28		# see enl, enx
 leh	2009-07-29	Lenje						
 lei	2009-07-29	Lemio						
 lej	2009-07-29	Lengola						
@@ -3862,7 +3867,7 @@ lmi	2009-07-29	Lombi
 lmj	2009-07-29	West Lembata						
 lmk	2009-07-29	Lamkang						
 lml	2009-07-29	Hano						
-lmm	2009-07-29	Lamam						
+lmm	2009-07-29	Lamam				2014-02-28	rmx	
 lmn	2009-07-29	Lambadi						
 lmo	2009-07-29	Lombard						
 lmp	2009-07-29	Limbum						
@@ -4177,7 +4182,7 @@ mhd	2009-07-29	Mbugu
 mhe	2009-07-29	Besisi / Mah Meri						
 mhf	2009-07-29	Mamaa						
 mhg	2009-07-29	Margu						
-mhh	2009-07-29	Maskoy Pidgin						
+mhh	2009-07-29	Maskoy Pidgin				2014-02-28		
 mhi	2009-07-29	Ma'di						
 mhj	2009-07-29	Mogholi						
 mhk	2009-07-29	Mungaka						
@@ -5195,6 +5200,7 @@ olk	2013-09-10	Olkol
 olm	2009-07-29	Oloma						
 olo	2009-07-29	Livvi						
 olr	2009-07-29	Olrat						
+olt	2014-02-28	Old Lithuanian						
 oma	2009-07-29	Omaha-Ponca						
 omb	2009-07-29	East Ambae						
 omc	2009-07-29	Mochica						
@@ -5630,7 +5636,7 @@ puu	2009-07-29	Punu
 puw	2009-07-29	Puluwatese						
 pux	2009-07-29	Puare						
 puy	2009-07-29	Purisimeño						
-puz	2009-07-29	Purum Naga						
+puz	2009-07-29	Purum Naga				2014-02-28	pub	
 pwa	2009-07-29	Pawaia						
 pwb	2009-07-29	Panawa						
 pwg	2009-07-29	Gapapaiwa						
@@ -5877,7 +5883,7 @@ sak	2009-07-29	Sake
 sal	2005-10-16	Salishan languages		collection				
 sam	2005-10-16	Samaritan Aramaic						
 sao	2009-07-29	Sause						
-sap	2009-07-29	Sanapaná						
+sap	2009-07-29	Sanapaná				2014-02-28		# see aqt, spn
 saq	2009-07-29	Samburu						
 sar	2009-07-29	Saraveca						
 sas	2005-10-16	Sasak						
@@ -6197,6 +6203,7 @@ spi	2009-07-29	Saponi
 spk	2009-07-29	Sengo						
 spl	2009-07-29	Selepet						
 spm	2009-07-29	Akukem						
+spn	2014-02-28	Sanapaná						
 spo	2009-07-29	Spokane						
 spp	2009-07-29	Supyire Senoufo						
 spq	2009-07-29	Loreto-Ucayali Spanish						
@@ -6594,6 +6601,7 @@ tkr	2009-07-29	Tsakhur
 tks	2009-07-29	Takestani						
 tkt	2009-07-29	Kathoriya Tharu						
 tku	2009-07-29	Upper Necaxa Totonac						
+tkv	2014-02-28	Mur Pano						
 tkw	2009-07-29	Teanu						
 tkx	2009-07-29	Tangko						
 tkz	2009-07-29	Takua						
@@ -7344,6 +7352,7 @@ xad	2009-07-29	Adai
 xae	2009-07-29	Aequian						
 xag	2009-07-29	Aghwan						
 xai	2009-07-29	Kaimbé						
+xaj	2014-02-28	Ararandewára						
 xal	2005-10-16	Kalmyk / Oirat						
 xam	2009-07-29	/Xam						
 xan	2009-07-29	Xamtanga						
@@ -7411,7 +7420,7 @@ xgf	2009-07-29	Gabrielino-Fernandeño
 xgg	2013-09-10	Goreng						
 xgi	2013-09-10	Garingbal						
 xgl	2009-07-29	Galindan						
-xgm	2013-09-10	Guwinmal						
+xgm	2013-09-10	Dharumbal / Guwinmal						
 xgn	2009-07-29	Mongolian languages		collection				
 xgr	2009-07-29	Garza						
 xgu	2012-08-12	Unggumi						
@@ -7431,6 +7440,7 @@ xil	2009-07-29	Illyrian
 xin	2009-07-29	Xinca						
 xip	2009-07-29	Xipináwa						
 xir	2009-07-29	Xiriâna						
+xis	2014-02-28	Kisan						
 xiv	2009-07-29	Indus Valley Language						
 xiy	2009-07-29	Xipaya						
 xjb	2013-09-10	Minjungbal						
@@ -7712,6 +7722,7 @@ ygl	2009-07-29	Yangum Gel
 ygm	2009-07-29	Yagomi						
 ygp	2009-07-29	Gepo						
 ygr	2009-07-29	Yagaria						
+ygs	2014-02-28	Yolŋu Sign Language						
 ygu	2013-09-10	Yugul						
 ygw	2009-07-29	Yagwoia						
 yha	2009-07-29	Baha Buyang						
@@ -7857,7 +7868,7 @@ yup	2009-07-29	Yukpa
 yuq	2009-07-29	Yuqui						
 yur	2009-07-29	Yurok						
 yut	2009-07-29	Yopno						
-yuu	2009-07-29	Yugh						
+yuu	2009-07-29	Yugh				2014-02-28	yug	
 yuw	2009-07-29	Yau (Morobe Province)						
 yux	2009-07-29	Southern Yukaghir						
 yuy	2009-07-29	East Yugur						

@@ -1,4 +1,4 @@
-2013-12-13
+2014-03-13
 aao	2009-07-29	Algerian Saharan Arabic	ar			ar		aao	
 abh	2009-07-29	Tajiki Arabic	ar			ar		abh	
 abv	2009-07-29	Baharna Arabic	ar			ar		abv	
@@ -91,7 +91,7 @@ hds	2009-07-29	Honduras Sign Language	sgn					hds
 hji	2009-07-29	Haji	ms			ms		hji	
 hks	2009-07-29	Hong Kong Sign Language / Heung Kong Sau Yue	sgn					hks	
 hos	2009-07-29	Ho Chi Minh City Sign Language	sgn					hos	
-hps	2009-07-29	Hawai'i Pidgin Sign Language	sgn					hps	
+hps	2009-07-29	Hawai'i Sign Language (HSL) / Hawai'i Pidgin Sign Language	sgn					hps	
 hsh	2009-07-29	Hungarian Sign Language	sgn					hsh	
 hsl	2009-07-29	Hausa Sign Language	sgn					hsl	
 hsn	2009-07-29	Xiang Chinese	zh			zh		hsn	
@@ -219,6 +219,7 @@ xml	2009-07-29	Malaysian Sign Language	sgn					xml
 xmm	2009-07-29	Manado Malay	ms			ms		xmm	
 xms	2009-07-29	Moroccan Sign Language	sgn					xms	
 yds	2009-07-29	Yiddish Sign Language	sgn					yds	
+ygs	2014-02-28	Yolŋu Sign Language	sgn					ygs	
 ysl	2009-07-29	Yugoslavian Sign Language	sgn					ysl	
 yue	2009-07-29	Yue Chinese	zh			zh		yue	
 zib	2009-07-29	Zimbabwe Sign Language	sgn					zib	

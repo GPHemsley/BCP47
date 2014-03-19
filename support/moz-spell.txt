@@ -13,6 +13,7 @@ be
 ber-Tfng
 bg
 bi
+bm
 bn
 br
 br-x-unified
@@ -81,6 +82,7 @@ km
 kmr
 kn
 ko
+kpv
 ku
 ky
 la
@@ -157,6 +159,7 @@ tn
 tpi
 tr
 ts
+udm
 uk
 ur
 uz

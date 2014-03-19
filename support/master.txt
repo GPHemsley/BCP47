@@ -172,6 +172,7 @@ kn
 ko
 koi
 kok
+kpv
 kr
 krc
 kri
