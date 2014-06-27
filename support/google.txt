@@ -79,7 +79,6 @@ mi
 mk
 ml
 mn
-mo
 mr
 ms
 mt

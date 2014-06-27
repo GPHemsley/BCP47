@@ -1,4 +1,4 @@
-2014-03-13
+2014-04-10
 AA	2005-10-16	Private use			
 AC	2009-07-29	Ascension Island			
 AD	2005-10-16	Andorra			
@@ -56,7 +56,7 @@ CP	2009-07-29	Clipperton Island
 CR	2005-10-16	Costa Rica			
 CS	2005-10-16	Serbia and Montenegro	2006-10-05		# see RS for Serbia or ME for Montenegro
 CU	2005-10-16	Cuba			
-CV	2005-10-16	Cape Verde			
+CV	2005-10-16	Cabo Verde / Cape Verde			
 CW	2011-01-07	Curaçao			
 CX	2005-10-16	Christmas Island			
 CY	2005-10-16	Cyprus			

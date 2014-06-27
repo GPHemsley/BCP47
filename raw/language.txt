@@ -1,4 +1,4 @@
-2014-03-13
+2014-04-10
 aa	2005-10-16	Afar						
 ab	2005-10-16	Abkhazian	Cyrl					
 ae	2005-10-16	Avestan						
@@ -2081,6 +2081,7 @@ esq	2009-07-29	Esselen
 ess	2009-07-29	Central Siberian Yupik						
 esu	2009-07-29	Central Yupik						
 esx	2009-07-29	Eskimo-Aleut languages		collection				
+esy	2014-04-06	Eskayan						
 etb	2009-07-29	Etebi						
 etc	2009-07-29	Etchemin						
 eth	2009-07-29	Ethiopian Sign Language						
@@ -5610,6 +5611,7 @@ pti	2009-07-29	Pintiini
 ptn	2009-07-29	Patani						
 pto	2009-07-29	Zo'é						
 ptp	2009-07-29	Patep						
+ptq	2014-04-06	Pattapu						
 ptr	2009-07-29	Piamatsina						
 ptt	2009-07-29	Enrekang						
 ptu	2009-07-29	Bambam						
