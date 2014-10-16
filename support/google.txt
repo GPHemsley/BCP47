@@ -63,7 +63,6 @@ km
 kn
 ko
 kri
-ku
 ky
 la
 lg
@@ -79,7 +78,6 @@ mi
 mk
 ml
 mn
-mo
 mr
 ms
 mt
