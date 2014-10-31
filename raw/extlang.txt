@@ -1,4 +1,4 @@
-2014-04-10
+2014-10-24
 aao	2009-07-29	Algerian Saharan Arabic	ar			ar		aao	
 abh	2009-07-29	Tajiki Arabic	ar			ar		abh	
 abv	2009-07-29	Baharna Arabic	ar			ar		abv	
@@ -221,7 +221,7 @@ xms	2009-07-29	Moroccan Sign Language	sgn					xms
 yds	2009-07-29	Yiddish Sign Language	sgn					yds	
 ygs	2014-02-28	Yolŋu Sign Language	sgn					ygs	
 ysl	2009-07-29	Yugoslavian Sign Language	sgn					ysl	
-yue	2009-07-29	Yue Chinese	zh			zh		yue	
+yue	2009-07-29	Yue Chinese / Cantonese	zh			zh		yue	
 zib	2009-07-29	Zimbabwe Sign Language	sgn					zib	
 zlm	2009-07-29	Malay (individual language)	ms			ms		zlm	
 zmi	2009-07-29	Negeri Sembilan Malay	ms			ms		zmi	

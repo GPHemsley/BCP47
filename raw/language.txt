@@ -1,4 +1,4 @@
-2014-04-10
+2014-10-24
 aa	2005-10-16	Afar						
 ab	2005-10-16	Abkhazian	Cyrl					
 ae	2005-10-16	Avestan						
@@ -7857,7 +7857,7 @@ yua	2009-07-29	Yucateco / Yucatec Maya
 yub	2009-07-29	Yugambal						
 yuc	2009-07-29	Yuchi						
 yud	2009-07-29	Judeo-Tripolitanian Arabic			jrb			
-yue	2009-07-29	Yue Chinese			zh			
+yue	2009-07-29	Yue Chinese / Cantonese			zh			
 yuf	2009-07-29	Havasupai-Walapai-Yavapai						
 yug	2009-07-29	Yug						
 yui	2009-07-29	Yurutí						
