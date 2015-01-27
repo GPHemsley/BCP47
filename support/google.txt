@@ -105,7 +105,6 @@ ro
 ru
 rw
 sd
-sh
 si
 sk
 sl
@@ -113,6 +112,7 @@ sn
 so
 sq
 sr
+sr-Latn
 sr-ME
 st
 su
@@ -125,6 +125,7 @@ th
 ti
 tk
 tl
+tlh
 tn
 to
 tr
@@ -141,7 +142,6 @@ xh
 xx-bork
 xx-elmer
 xx-hacker
-xx-klingon
 xx-pirate
 yi
 yo

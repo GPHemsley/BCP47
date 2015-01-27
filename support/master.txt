@@ -287,6 +287,7 @@ rue
 rw
 sa
 sah
+sat
 sc
 scn
 sco
@@ -363,7 +364,6 @@ xmf
 xx-bork
 xx-elmer
 xx-hacker
-xx-klingon
 xx-pirate
 yi
 yo
