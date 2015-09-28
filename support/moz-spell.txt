@@ -12,6 +12,7 @@ azj
 be
 ber-Tfng
 bg
+bh
 bi
 bm
 bn
@@ -20,6 +21,7 @@ br-x-unified
 bs
 ca
 ca-valencia
+ce
 cop
 cs
 csb
@@ -32,8 +34,10 @@ de-AT
 de-CH
 de-DE
 dsb
+dv
 dyo
 dyu
+ee
 ekk
 el
 en
@@ -62,6 +66,7 @@ gl
 grc
 gu
 gv
+ha
 haw
 he
 hi
@@ -82,6 +87,7 @@ km
 kmr
 kn
 ko
+kok
 kpv
 ku
 ky

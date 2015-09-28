@@ -1,4 +1,4 @@
-2014-12-17
+2015-03-06
 aao	2009-07-29	Algerian Saharan Arabic	ar			ar		aao	
 abh	2009-07-29	Tajiki Arabic	ar			ar		abh	
 abv	2009-07-29	Baharna Arabic	ar			ar		abv	
@@ -96,6 +96,7 @@ hsh	2009-07-29	Hungarian Sign Language	sgn					hsh
 hsl	2009-07-29	Hausa Sign Language	sgn					hsl	
 hsn	2009-07-29	Xiang Chinese	zh			zh		hsn	
 icl	2009-07-29	Icelandic Sign Language	sgn					icl	
+iks	2015-02-12	Inuit Sign Language	sgn					iks	
 ils	2009-07-29	International Sign	sgn					ils	
 inl	2009-07-29	Indonesian Sign Language	sgn					inl	
 ins	2009-07-29	Indian Sign Language	sgn					ins	
@@ -218,7 +219,7 @@ xki	2009-07-29	Kenyan Sign Language	sgn					xki
 xml	2009-07-29	Malaysian Sign Language	sgn					xml	
 xmm	2009-07-29	Manado Malay	ms			ms		xmm	
 xms	2009-07-29	Moroccan Sign Language	sgn					xms	
-yds	2009-07-29	Yiddish Sign Language	sgn					yds	
+yds	2009-07-29	Yiddish Sign Language	sgn				2015-02-12		
 ygs	2014-02-28	Yolŋu Sign Language	sgn					ygs	
 ysl	2009-07-29	Yugoslavian Sign Language	sgn					ysl	
 yue	2009-07-29	Yue Chinese / Cantonese	zh			zh		yue	
