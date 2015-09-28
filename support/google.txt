@@ -8,7 +8,6 @@ ban
 be
 bem
 bg
-bh
 bn
 br
 bs
