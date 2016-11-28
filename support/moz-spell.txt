@@ -16,6 +16,7 @@ bh
 bi
 bm
 bn
+bn-IN
 br
 br-x-unified
 bs
@@ -169,6 +170,7 @@ udm
 uk
 ur
 uz
+uz-Latn
 uzn
 ve
 vi

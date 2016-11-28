@@ -1,4 +1,4 @@
-2015-03-06
+2016-10-12
 aa	2005-10-16	Afar						
 ab	2005-10-16	Abkhazian	Cyrl					
 ae	2005-10-16	Avestan						
@@ -128,7 +128,7 @@ ny	2005-10-16	Nyanja / Chewa / Chichewa	Latn
 oc	2005-10-16	Occitan (post 1500)						
 oj	2005-10-16	Ojibwa		macrolanguage				
 om	2005-10-16	Oromo	Latn	macrolanguage				
-or	2005-10-16	Oriya (macrolanguage)	Orya	macrolanguage				
+or	2005-10-16	Oriya (macrolanguage) / Odia (macrolanguage)	Orya	macrolanguage				
 os	2005-10-16	Ossetian / Ossetic						
 pa	2005-10-16	Panjabi / Punjabi	Guru					
 pi	2005-10-16	Pali						
@@ -499,7 +499,7 @@ aom	2009-07-29	Ömie
 aon	2009-07-29	Bumbita Arapesh						
 aor	2009-07-29	Aore						
 aos	2009-07-29	Taikat						
-aot	2009-07-29	Atong / A'tong						
+aot	2009-07-29	Atong (India) / A'tong						
 aou	2012-08-12	A'ou						
 aox	2009-07-29	Atorada						
 aoz	2009-07-29	Uab Meto						
@@ -600,7 +600,7 @@ atk	2009-07-29	Ati
 atl	2009-07-29	Mt. Iraya Agta						
 atm	2009-07-29	Ata						
 atn	2009-07-29	Ashtiani						
-ato	2009-07-29	Atong						
+ato	2009-07-29	Atong (Cameroon)						
 atp	2009-07-29	Pudtol Atta						
 atq	2009-07-29	Aralle-Tabulahan						
 atr	2009-07-29	Waimiri-Atroari						
@@ -763,7 +763,7 @@ bcc	2009-07-29	Southern Balochi			bal
 bcd	2009-07-29	North Babar						
 bce	2009-07-29	Bamenyam						
 bcf	2009-07-29	Bamu						
-bcg	2009-07-29	Baga Binari						
+bcg	2009-07-29	Baga Pokur						
 bch	2009-07-29	Bariai						
 bci	2009-07-29	Baoulé						
 bcj	2009-07-29	Bardi						
@@ -868,7 +868,7 @@ bgi	2009-07-29	Giangan
 bgj	2009-07-29	Bangolan						
 bgk	2009-07-29	Bit / Buxinhua						
 bgl	2009-07-29	Bo (Laos)						
-bgm	2009-07-29	Baga Mboteni						
+bgm	2009-07-29	Baga Mboteni				2016-05-30	bcg	
 bgn	2009-07-29	Western Balochi			bal			
 bgo	2009-07-29	Baga Koga						
 bgp	2009-07-29	Eastern Balochi			bal			
@@ -1189,7 +1189,7 @@ bth	2009-07-29	Biatah Bidayuh
 bti	2009-07-29	Burate						
 btj	2009-07-29	Bacanese Malay			ms			
 btk	2005-10-16	Batak languages		collection				
-btl	2009-07-29	Bhatola						
+btl	2009-07-29	Bhatola				2016-05-30		
 btm	2009-07-29	Batak Mandailing						
 btn	2009-07-29	Ratagnon						
 bto	2009-07-29	Rinconada Bikol			bik			
@@ -1382,9 +1382,9 @@ cba	2009-07-29	Chibchan languages		collection
 cbb	2009-07-29	Cabiyarí						
 cbc	2009-07-29	Carapana						
 cbd	2009-07-29	Carijona						
-cbe	2009-07-29	Chipiajes						
+cbe	2009-07-29	Chipiajes				2016-05-30		
 cbg	2009-07-29	Chimila						
-cbh	2009-07-29	Cagua						
+cbh	2009-07-29	Cagua				2016-05-30		
 cbi	2009-07-29	Chachi						
 cbj	2009-07-29	Ede Cabe						
 cbk	2009-07-29	Chavacano						
@@ -1538,7 +1538,7 @@ cna	2009-07-29	Changthang
 cnb	2009-07-29	Chinbon Chin						
 cnc	2009-07-29	Côông						
 cng	2009-07-29	Northern Qiang						
-cnh	2009-07-29	Haka Chin						
+cnh	2009-07-29	Hakha Chin / Haka Chin						
 cni	2009-07-29	Asháninka						
 cnk	2009-07-29	Khumi Chin						
 cnl	2009-07-29	Lalana Chinantec						
@@ -1569,7 +1569,7 @@ cou	2009-07-29	Wamey
 cov	2009-07-29	Cao Miao						
 cow	2009-07-29	Cowlitz						
 cox	2009-07-29	Nanti						
-coy	2009-07-29	Coyaima						
+coy	2009-07-29	Coyaima				2016-05-30	pij	
 coz	2009-07-29	Chochotec						
 cpa	2009-07-29	Palantla Chinantec						
 cpb	2009-07-29	Ucayali-Yurúa Ashéninka						
@@ -1586,7 +1586,7 @@ cpu	2009-07-29	Pichis Ashéninka
 cpx	2009-07-29	Pu-Xian Chinese			zh			
 cpy	2009-07-29	South Ucayali Ashéninka						
 cqd	2009-07-29	Chuanqiandian Cluster Miao			hmn			
-cqu	2009-07-29	Chilean Quechua			qu			
+cqu	2009-07-29	Chilean Quechua			qu	2016-05-30	quh	
 cra	2009-07-29	Chara						
 crb	2009-07-29	Island Carib						
 crc	2009-07-29	Lonwolwol						
@@ -1659,7 +1659,7 @@ cui	2009-07-29	Cuiba
 cuj	2009-07-29	Mashco Piro						
 cuk	2009-07-29	San Blas Kuna						
 cul	2009-07-29	Culina / Kulina						
-cum	2009-07-29	Cumeral						
+cum	2009-07-29	Cumeral				2016-05-30		
 cuo	2009-07-29	Cumanagoto						
 cup	2009-07-29	Cupeño						
 cuq	2009-07-29	Cun						
@@ -1780,7 +1780,7 @@ dgx	2009-07-29	Doghoro
 dgz	2009-07-29	Daga						
 dha	2009-07-29	Dhanwar (India)				2011-08-16		
 dhd	2009-07-29	Dhundari			mwr			
-dhg	2009-07-29	Dhangu / Djangu						
+dhg	2009-07-29	Dhangu-Djangu / Dhangu / Djangu						
 dhi	2009-07-29	Dhimal						
 dhl	2009-07-29	Dhalandji						
 dhm	2009-07-29	Zemba						
@@ -1903,7 +1903,7 @@ drd	2009-07-29	Darmiya
 dre	2009-07-29	Dolpo						
 drg	2009-07-29	Rungus						
 drh	2009-07-29	Darkhat				2010-03-11	khk	
-dri	2009-07-29	C'lela						
+dri	2009-07-29	C'Lela						
 drl	2009-07-29	Paakantyi						
 drn	2009-07-29	West Damar						
 dro	2009-07-29	Daro-Matu Melanau						
@@ -1929,8 +1929,9 @@ dth	2012-08-12	Adithinngithigh
 dti	2009-07-29	Ana Tinga Dogon						
 dtk	2009-07-29	Tene Kan Dogon						
 dtm	2009-07-29	Tomo Kan Dogon						
+dtn	2016-05-30	Daatsʼíin						
 dto	2012-08-12	Tommo So Dogon						
-dtp	2009-07-29	Central Dusun						
+dtp	2009-07-29	Kadazan Dusun / Central Dusun						
 dtr	2009-07-29	Lotud						
 dts	2009-07-29	Toro So Dogon						
 dtt	2009-07-29	Toro Tegu Dogon						
@@ -1945,7 +1946,7 @@ duf	2009-07-29	Dumbea / Drubea
 dug	2009-07-29	Duruma / Chiduruma						
 duh	2009-07-29	Dungra Bhil						
 dui	2009-07-29	Dumun						
-duj	2009-07-29	Dhuwal						
+duj	2009-07-29	Dhuwal				2016-05-30		# see dwu, dwy
 duk	2009-07-29	Uyajitaya						
 dul	2009-07-29	Alabat Island Agta						
 dum	2005-10-16	Middle Dutch (ca. 1050-1350)						
@@ -1960,13 +1961,15 @@ duv	2009-07-29	Duvle
 duw	2009-07-29	Dusun Witu						
 dux	2009-07-29	Duungooma						
 duy	2009-07-29	Dicamay Agta						
-duz	2009-07-29	Duli						
+duz	2009-07-29	Duli-Gey						
 dva	2009-07-29	Duau						
 dwa	2009-07-29	Diri						
 dwl	2009-07-29	Walo Kumbe Dogon				2012-08-12		# see dbt, dbw
 dwr	2009-07-29	Dawro						
 dws	2009-07-29	Dutton World Speedwords						
+dwu	2016-05-30	Dhuwal						
 dww	2009-07-29	Dawawa						
+dwy	2016-05-30	Dhuwaya						
 dya	2009-07-29	Dyan						
 dyb	2009-07-29	Dyaberdyaber						
 dyd	2009-07-29	Dyugun						
@@ -2071,6 +2074,7 @@ ers	2009-07-29	Ersu
 ert	2009-07-29	Eritai						
 erw	2009-07-29	Erokwanas						
 ese	2009-07-29	Ese Ejja						
+esg	2016-05-30	Aheri Gondi			gon			
 esh	2009-07-29	Eshtehardi						
 esi	2009-07-29	North Alaskan Inupiatun			ik			
 esk	2009-07-29	Northwest Alaska Inupiatun			ik			
@@ -2148,6 +2152,7 @@ flr	2009-07-29	Fuliiru
 fly	2009-07-29	Flaaitaal / Tsotsitaal						
 fmp	2009-07-29	Fe'fe'						
 fmu	2009-07-29	Far Western Muria						
+fnb	2016-05-30	Fanbak						
 fng	2009-07-29	Fanagalo						
 fni	2009-07-29	Fania						
 fod	2009-07-29	Foodo						
@@ -2279,7 +2284,7 @@ geg	2009-07-29	Gengle
 geh	2009-07-29	Hutterite German / Hutterisch						
 gei	2009-07-29	Gebe						
 gej	2009-07-29	Gen						
-gek	2009-07-29	Yiwom						
+gek	2009-07-29	Ywom						
 gel	2009-07-29	ut-Ma'in						
 gem	2005-10-16	Germanic languages		collection				
 geq	2009-07-29	Geme						
@@ -2299,8 +2304,8 @@ gge	2009-07-29	Guragone
 ggg	2009-07-29	Gurgula						
 ggk	2009-07-29	Kungarakany						
 ggl	2009-07-29	Ganglau						
-ggn	2009-07-29	Eastern Gurung						
-ggo	2009-07-29	Southern Gondi			gon			
+ggn	2009-07-29	Eastern Gurung				2016-05-30	gvr	
+ggo	2009-07-29	Southern Gondi				2016-05-30		# see esg, wsg
 ggr	2009-07-29	Aghu Tharnggalu				2013-09-10		# see gtu, ikr
 ggt	2009-07-29	Gitua						
 ggu	2009-07-29	Gagu / Gban						
@@ -2340,6 +2345,7 @@ gji	2009-07-29	Geji
 gjk	2009-07-29	Kachi Koli						
 gjm	2013-09-10	Gunditjmara						
 gjn	2009-07-29	Gonja						
+gjr	2016-05-30	Gurindji Kriol						
 gju	2009-07-29	Gujari			raj			
 gka	2009-07-29	Guya						
 gke	2009-07-29	Ndai						
@@ -2452,7 +2458,7 @@ gse	2009-07-29	Ghanaian Sign Language
 gsg	2009-07-29	German Sign Language						
 gsl	2009-07-29	Gusilay						
 gsm	2009-07-29	Guatemalan Sign Language						
-gsn	2009-07-29	Gusan						
+gsn	2009-07-29	Nema / Gusan						
 gso	2009-07-29	Southwest Gbaya			gba			
 gsp	2009-07-29	Wasembo						
 gss	2009-07-29	Greek Sign Language						
@@ -2480,7 +2486,7 @@ gur	2009-07-29	Farefare
 gus	2009-07-29	Guinean Sign Language						
 gut	2009-07-29	Maléku Jaíka						
 guu	2009-07-29	Yanomamö						
-guv	2009-07-29	Gey						
+guv	2009-07-29	Gey				2016-05-30	duz	
 guw	2009-07-29	Gun						
 gux	2009-07-29	Gourmanchéma						
 guz	2009-07-29	Gusii / Ekegusii						
@@ -2494,7 +2500,7 @@ gvm	2009-07-29	Gurmana
 gvn	2009-07-29	Kuku-Yalanji						
 gvo	2009-07-29	Gavião Do Jiparaná						
 gvp	2009-07-29	Pará Gavião						
-gvr	2009-07-29	Western Gurung						
+gvr	2009-07-29	Gurung						
 gvs	2009-07-29	Gumawana						
 gvy	2009-07-29	Guyani						
 gwa	2009-07-29	Mbato						
@@ -2717,7 +2723,7 @@ hya	2009-07-29	Hya
 hyx	2009-07-29	Armenian (family)		collection				
 iai	2009-07-29	Iaai						
 ian	2009-07-29	Iatmul						
-iap	2009-07-29	Iapama						
+iap	2009-07-29	Iapama				2016-05-30		
 iar	2009-07-29	Purari						
 iba	2005-10-16	Iban						
 ibb	2009-07-29	Ibibio						
@@ -2792,8 +2798,10 @@ ilb	2009-07-29	Ila
 ilg	2009-07-29	Garig-Ilgar						
 ili	2009-07-29	Ili Turki						
 ilk	2009-07-29	Ilongot						
-ill	2009-07-29	Iranun						
+ill	2009-07-29	Iranun				2016-05-30		# see ilm, ilp
+ilm	2016-05-30	Iranun (Malaysia)						
 ilo	2005-10-16	Iloko						
+ilp	2016-05-30	Iranun (Philippines)						
 ils	2009-07-29	International Sign						
 ilu	2009-07-29	Ili'uun						
 ilv	2009-07-29	Ilue						
@@ -2855,6 +2863,7 @@ ist	2009-07-29	Istriot
 isu	2009-07-29	Isu (Menchum Division)						
 itb	2009-07-29	Binongan Itneg						
 itc	2009-07-29	Italic languages		collection				
+itd	2016-05-30	Southern Tidung						
 ite	2009-07-29	Itene						
 iti	2009-07-29	Inlaod Itneg						
 itk	2009-07-29	Judeo-Italian						
@@ -2956,6 +2965,7 @@ jiv	2009-07-29	Shuar
 jiy	2009-07-29	Buyuan Jinuo						
 jje	2015-02-12	Jejueo						
 jjr	2012-08-12	Bankal						
+jka	2016-05-30	Kaera						
 jkm	2012-08-12	Mobwa Karen						
 jko	2009-07-29	Kubo						
 jkp	2012-08-12	Paku Karen						
@@ -2983,6 +2993,7 @@ jnl	2009-07-29	Rawat
 jns	2009-07-29	Jaunsari						
 job	2009-07-29	Joba						
 jod	2009-07-29	Wojenaka						
+jog	2015-05-27	Jogi						
 jor	2009-07-29	Jorá						
 jos	2009-07-29	Jordanian Sign Language						
 jow	2009-07-29	Jowulu						
@@ -3030,7 +3041,7 @@ kag	2009-07-29	Kajaman
 kah	2009-07-29	Kara (Central African Republic)						
 kai	2009-07-29	Karekare						
 kaj	2009-07-29	Jju						
-kak	2009-07-29	Kayapa Kallahan						
+kak	2009-07-29	Kalanguya / Kayapa Kallahan						
 kam	2005-10-16	Kamba (Kenya)						
 kao	2009-07-29	Xaasongaxango						
 kap	2009-07-29	Bezhta						
@@ -3159,7 +3170,7 @@ kfn	2009-07-29	Kuk
 kfo	2009-07-29	Koro (Côte d'Ivoire)						
 kfp	2009-07-29	Korwa						
 kfq	2009-07-29	Korku						
-kfr	2009-07-29	Kachchi						
+kfr	2009-07-29	Kachhi / Kutchi						
 kfs	2009-07-29	Bilaspuri						
 kft	2009-07-29	Kanjari						
 kfu	2009-07-29	Katkari						
@@ -3170,7 +3181,7 @@ kfy	2009-07-29	Kumaoni
 kfz	2009-07-29	Koromfé						
 kga	2009-07-29	Koyaga						
 kgb	2009-07-29	Kawe						
-kgc	2009-07-29	Kasseng						
+kgc	2009-07-29	Kasseng				2016-05-30	tdf	
 kgd	2009-07-29	Kataang						
 kge	2009-07-29	Komering						
 kgf	2009-07-29	Kube						
@@ -3388,7 +3399,7 @@ kot	2009-07-29	Lagwan
 kou	2009-07-29	Koke						
 kov	2009-07-29	Kudu-Camo						
 kow	2009-07-29	Kugama						
-kox	2009-07-29	Coxima						
+kox	2009-07-29	Coxima				2016-05-30		
 koy	2009-07-29	Koyukon						
 koz	2009-07-29	Korak						
 kpa	2009-07-29	Kutto						
@@ -3510,7 +3521,7 @@ ktn	2009-07-29	Karitiâna
 kto	2009-07-29	Kuot						
 ktp	2009-07-29	Kaduo						
 ktq	2009-07-29	Katabaga						
-ktr	2009-07-29	Kota Marudu Tinagas						
+ktr	2009-07-29	Kota Marudu Tinagas				2016-05-30	dtp	
 kts	2009-07-29	South Muyu						
 ktt	2009-07-29	Ketum						
 ktu	2009-07-29	Kituba (Democratic Republic of Congo)						
@@ -3561,7 +3572,7 @@ kvo	2009-07-29	Dobel
 kvp	2009-07-29	Kompane						
 kvq	2009-07-29	Geba Karen						
 kvr	2009-07-29	Kerinci			ms			
-kvs	2009-07-29	Kunggara						
+kvs	2009-07-29	Kunggara				2016-05-30	gdj	
 kvt	2009-07-29	Lahta Karen / Lahta						
 kvu	2009-07-29	Yinbaw Karen						
 kvv	2009-07-29	Kola						
@@ -3655,7 +3666,7 @@ kzf	2009-07-29	Da'a Kaili
 kzg	2009-07-29	Kikai						
 kzh	2009-07-29	Kenuzi-Dongola				2012-08-12		# see dgl, xnz
 kzi	2009-07-29	Kelabit						
-kzj	2009-07-29	Coastal Kadazan						
+kzj	2009-07-29	Coastal Kadazan				2016-05-30	dtp	
 kzk	2009-07-29	Kazukuru						
 kzl	2009-07-29	Kayeli						
 kzm	2009-07-29	Kais						
@@ -3665,7 +3676,7 @@ kzp	2009-07-29	Kaidipang
 kzq	2009-07-29	Kaike						
 kzr	2009-07-29	Karang						
 kzs	2009-07-29	Sugut Dusun						
-kzt	2009-07-29	Tambunan Dusun						
+kzt	2009-07-29	Tambunan Dusun				2016-05-30	dtp	
 kzu	2009-07-29	Kayupulau						
 kzv	2009-07-29	Komyandaret						
 kzw	2009-07-29	Karirí-Xocó						
@@ -3720,7 +3731,7 @@ lby	2009-07-29	Lamu-Lamu
 lbz	2009-07-29	Lardil						
 lcc	2009-07-29	Legenyem						
 lcd	2009-07-29	Lola						
-lce	2009-07-29	Loncong			ms			
+lce	2009-07-29	Loncong / Sekak			ms			
 lcf	2009-07-29	Lubu			ms			
 lch	2009-07-29	Luchazi						
 lcl	2009-07-29	Lisela						
@@ -3919,7 +3930,7 @@ loq	2009-07-29	Lobala
 lor	2009-07-29	Téén						
 los	2009-07-29	Loniu						
 lot	2009-07-29	Otuho						
-lou	2009-07-29	Louisiana Creole French						
+lou	2009-07-29	Louisiana Creole						
 lov	2009-07-29	Lopi						
 low	2009-07-29	Tampias Lobu						
 lox	2009-07-29	Loun						
@@ -4232,6 +4243,7 @@ mix	2009-07-29	Mixtepec Mixtec
 miy	2009-07-29	Ayutla Mixtec						
 miz	2009-07-29	Coatzospan Mixtec						
 mja	2009-07-29	Mahei				2011-08-16		
+mjb	2016-05-30	Makalero						
 mjc	2009-07-29	San Juan Colorado Mixtec						
 mjd	2009-07-29	Northwest Maidu						
 mje	2009-07-29	Muskum						
@@ -4655,7 +4667,7 @@ mzz	2009-07-29	Maiadomu
 naa	2009-07-29	Namla						
 nab	2009-07-29	Southern Nambikuára						
 nac	2009-07-29	Narak						
-nad	2009-07-29	Nijadali						
+nad	2009-07-29	Nijadali				2016-05-30	xny	
 nae	2009-07-29	Naka'ela						
 naf	2009-07-29	Nabak						
 nag	2009-07-29	Naga Pidgin						
@@ -5041,6 +5053,7 @@ nsw	2009-07-29	Navut
 nsx	2009-07-29	Nsongo						
 nsy	2009-07-29	Nasal						
 nsz	2009-07-29	Nisenan						
+ntd	2016-05-30	Northern Tidung						
 nte	2009-07-29	Nathembo						
 ntg	2013-09-10	Ngantangarra						
 nti	2009-07-29	Natioro						
@@ -5050,7 +5063,7 @@ ntm	2009-07-29	Nateni
 nto	2009-07-29	Ntomba						
 ntp	2009-07-29	Northern Tepehuan						
 ntr	2009-07-29	Delo						
-nts	2009-07-29	Natagaimas						
+nts	2009-07-29	Natagaimas				2016-05-30	pij	
 ntu	2009-07-29	Natügu						
 ntw	2009-07-29	Nottoway						
 ntx	2012-08-12	Tangkhul Naga (Myanmar)						# see nmf
@@ -5209,10 +5222,11 @@ olm	2009-07-29	Oloma
 olo	2009-07-29	Livvi						
 olr	2009-07-29	Olrat						
 olt	2014-02-28	Old Lithuanian						
+olu	2016-05-30	Kuvale						
 oma	2009-07-29	Omaha-Ponca						
 omb	2009-07-29	East Ambae						
 omc	2009-07-29	Mochica						
-ome	2009-07-29	Omejes						
+ome	2009-07-29	Omejes				2016-05-30		
 omg	2009-07-29	Omagua						
 omi	2009-07-29	Omi						
 omk	2009-07-29	Omok						
@@ -5268,7 +5282,7 @@ oru	2009-07-29	Ormuri
 orv	2009-07-29	Old Russian						
 orw	2009-07-29	Oro Win						
 orx	2009-07-29	Oro						
-ory	2012-08-12	Oriya (individual language)			or			
+ory	2012-08-12	Odia (individual language) / Oriya (individual language)			or			
 orz	2009-07-29	Ormu						
 osa	2005-10-16	Osage						
 osc	2009-07-29	Oscan						
@@ -5303,6 +5317,7 @@ oue	2009-07-29	Oune
 oui	2009-07-29	Old Uighur						
 oum	2009-07-29	Ouma						
 oun	2009-07-29	!O!ung				2015-02-12	vaj	
+ovd	2016-06-16	Övdalian / Elfdalian						
 owi	2009-07-29	Owiniga						
 owl	2009-07-29	Old Welsh						
 oyb	2009-07-29	Oy						
@@ -5409,6 +5424,7 @@ pgn	2009-07-29	Paelignian
 pgs	2009-07-29	Pangseng						
 pgu	2009-07-29	Pagu						
 pgy	2009-07-29	Pongyong				2012-08-12		
+pgz	2016-05-30	Papua New Guinean Sign Language						
 pha	2009-07-29	Pa-Hng						
 phd	2009-07-29	Phudagi						
 phg	2009-07-29	Phuong						
@@ -5487,7 +5503,7 @@ ply	2009-07-29	Bolyu
 plz	2009-07-29	Paluan						
 pma	2009-07-29	Paama						
 pmb	2009-07-29	Pambia						
-pmc	2009-07-29	Palumata						
+pmc	2009-07-29	Palumata				2016-05-30	huw	
 pmd	2012-08-12	Pallanganmiddang						
 pme	2009-07-29	Pwaamei						
 pmf	2009-07-29	Pamona						
@@ -5533,7 +5549,7 @@ pnx	2009-07-29	Phong-Kniang
 pny	2009-07-29	Pinyin						# a Niger-Congo language spoken in Cameroon; not to be confused with the Pinyin romanization systems used for Chinese and Tibetan
 pnz	2009-07-29	Pana (Central African Republic)						
 poc	2009-07-29	Poqomam						
-pod	2009-07-29	Ponares						
+pod	2009-07-29	Ponares				2016-05-30		
 poe	2009-07-29	San Juan Atzingo Popoloca						
 pof	2009-07-29	Poke						
 pog	2009-07-29	Potiguára						
@@ -5552,7 +5568,7 @@ pow	2009-07-29	San Felipe Otlaltepec Popoloca
 pox	2009-07-29	Polabian						
 poy	2009-07-29	Pogolo						
 poz	2009-07-29	Malayo-Polynesian languages		collection				
-ppa	2009-07-29	Pao						
+ppa	2009-07-29	Pao				2016-05-30	bfy	
 ppe	2009-07-29	Papi						
 ppi	2009-07-29	Paipai						
 ppk	2009-07-29	Uma						
@@ -5592,7 +5608,7 @@ prt	2009-07-29	Phai
 pru	2009-07-29	Puragi						
 prw	2009-07-29	Parawen						
 prx	2009-07-29	Purik						
-pry	2009-07-29	Pray 3						
+pry	2009-07-29	Pray 3				2016-05-30	prt	
 prz	2009-07-29	Providencia Sign Language						
 psa	2009-07-29	Asue Awyu						
 psc	2009-07-29	Persian Sign Language						
@@ -5821,7 +5837,7 @@ rmw	2009-07-29	Welsh Romani			rom
 rmx	2009-07-29	Romam						
 rmy	2009-07-29	Vlax Romani			rom			
 rmz	2009-07-29	Marma						
-rna	2009-07-29	Runa						
+rna	2009-07-29	Runa				2016-05-30		
 rnd	2009-07-29	Ruund						
 rng	2009-07-29	Ronga						
 rnl	2009-07-29	Ranglong						
@@ -5851,6 +5867,7 @@ rrt	2012-08-12	Arritinngithigh
 rsb	2009-07-29	Romano-Serbian						
 rsi	2009-07-29	Rennellese Sign Language						
 rsl	2009-07-29	Russian Sign Language						
+rsm	2016-05-30	Miriwoong Sign Language						
 rtc	2012-08-12	Rungtu Chin						
 rth	2009-07-29	Ratahan						
 rtm	2009-07-29	Rotuman						
@@ -5881,6 +5898,7 @@ rxw	2013-09-10	Karuwali
 ryn	2009-07-29	Northern Amami-Oshima						
 rys	2009-07-29	Yaeyama						
 ryu	2009-07-29	Central Okinawan						
+rzh	2016-05-30	Rāziḥī						
 saa	2009-07-29	Saba						
 sab	2009-07-29	Buglere						
 sac	2009-07-29	Meskwaki						
@@ -6333,7 +6351,7 @@ svc	2009-07-29	Vincentian Creole English
 sve	2009-07-29	Serili						
 svk	2009-07-29	Slovakian Sign Language						
 svm	2013-09-10	Slavomolisano						
-svr	2009-07-29	Savara						
+svr	2009-07-29	Savara				2016-05-30		
 svs	2009-07-29	Savosavo						
 svx	2009-07-29	Skalvian						
 swb	2009-07-29	Maore Comorian						
@@ -6481,13 +6499,14 @@ tdi	2009-07-29	Tomadino
 tdj	2009-07-29	Tajio						
 tdk	2009-07-29	Tambas						
 tdl	2009-07-29	Sur						
+tdm	2016-05-30	Taruma						
 tdn	2009-07-29	Tondano						
 tdo	2009-07-29	Teme						
 tdq	2009-07-29	Tita						
 tdr	2009-07-29	Todrah						
 tds	2009-07-29	Doutai						
 tdt	2009-07-29	Tetun Dili						
-tdu	2009-07-29	Tempasuk Dusun						
+tdu	2009-07-29	Tempasuk Dusun				2016-05-30	dtp	
 tdv	2009-07-29	Toro						
 tdx	2009-07-29	Tandroy-Mahafaly Malagasy			mg			
 tdy	2009-07-29	Tadyawan						
@@ -6542,7 +6561,7 @@ tgw	2009-07-29	Tagwana Senoufo
 tgx	2009-07-29	Tagish						
 tgy	2009-07-29	Togoyo						
 tgz	2012-08-12	Tagalaka						
-thc	2009-07-29	Tai Hang Tong						
+thc	2009-07-29	Tai Hang Tong				2016-05-30	tpo	
 thd	2009-07-29	Thayore						
 the	2009-07-29	Chitwania Tharu						
 thf	2009-07-29	Thangmi						
@@ -6565,7 +6584,7 @@ thy	2009-07-29	Tha
 thz	2009-07-29	Tayart Tamajeq			tmh			
 tia	2009-07-29	Tidikelt Tamazight						
 tic	2009-07-29	Tira						
-tid	2009-07-29	Tidong						
+tid	2009-07-29	Tidong				2016-05-30		# see itd, ntd
 tie	2009-07-29	Tingal				2011-08-16	ras	
 tif	2009-07-29	Tifal						
 tig	2005-10-16	Tigre						
@@ -6635,7 +6654,7 @@ tlp	2009-07-29	Filomena Mata-Coahuitlán Totonac
 tlq	2009-07-29	Tai Loi						
 tlr	2009-07-29	Talise						
 tls	2009-07-29	Tambotalo						
-tlt	2009-07-29	Teluti						
+tlt	2009-07-29	Sou Nama / Teluti						
 tlu	2009-07-29	Tulehu						
 tlv	2009-07-29	Taliabu						
 tlw	2009-07-29	South Wemale				2012-08-12	weo	
@@ -6656,7 +6675,7 @@ tml	2009-07-29	Tamnim Citak
 tmm	2009-07-29	Tai Thanh						
 tmn	2009-07-29	Taman (Indonesia)						
 tmo	2009-07-29	Temoq						
-tmp	2009-07-29	Tai Mène						
+tmp	2009-07-29	Tai Mène				2016-05-30	tyj	
 tmq	2009-07-29	Tumleo						
 tmr	2009-07-29	Jewish Babylonian Aramaic (ca. 200-1200 CE)						
 tms	2009-07-29	Tima						
@@ -6670,7 +6689,7 @@ tna	2009-07-29	Tacana
 tnb	2009-07-29	Western Tunebo						
 tnc	2009-07-29	Tanimuca-Retuarã						
 tnd	2009-07-29	Angosturas Tunebo						
-tne	2009-07-29	Tinoc Kallahan						
+tne	2009-07-29	Tinoc Kallahan				2016-05-30	kak	
 tnf	2009-07-29	Tangshewi				2010-03-11	prs	
 tng	2009-07-29	Tobanga						
 tnh	2009-07-29	Maiani						
@@ -6690,11 +6709,11 @@ tnv	2009-07-29	Tangchangya
 tnw	2009-07-29	Tonsawang						
 tnx	2009-07-29	Tanema						
 tny	2009-07-29	Tongwe						
-tnz	2009-07-29	Tonga (Thailand)						
+tnz	2009-07-29	Ten'edn						
 tob	2009-07-29	Toba						
 toc	2009-07-29	Coyutla Totonac						
 tod	2009-07-29	Toma						
-toe	2009-07-29	Tomedes						
+toe	2009-07-29	Tomedes				2016-05-30		
 tof	2009-07-29	Gizrra						
 tog	2005-10-16	Tonga (Nyasa)						
 toh	2009-07-29	Gitonga						
@@ -6900,7 +6919,7 @@ tya	2009-07-29	Tauya
 tye	2009-07-29	Kyanga						
 tyh	2009-07-29	O'du						
 tyi	2009-07-29	Teke-Tsaayi						
-tyj	2009-07-29	Tai Do						
+tyj	2009-07-29	Tai Do / Tai Yo						
 tyl	2009-07-29	Thu Lao						
 tyn	2009-07-29	Kombai						
 typ	2009-07-29	Thaypan						
@@ -7207,7 +7226,7 @@ wgo	2009-07-29	Waigeo
 wgu	2012-08-12	Wirangu						
 wgw	2009-07-29	Wagawaga				2010-03-11		# see wgb, ylb
 wgy	2009-07-29	Warrgamay						
-wha	2009-07-29	Manusela						
+wha	2009-07-29	Sou Upaa / Manusela						
 whg	2009-07-29	North Wahgi						
 whk	2009-07-29	Wahau Kenyah						
 whu	2009-07-29	Wahau Kayan						
@@ -7320,6 +7339,7 @@ wrx	2009-07-29	Wae Rana
 wry	2009-07-29	Merwari			mwr			
 wrz	2009-07-29	Waray (Australia)						
 wsa	2009-07-29	Warembori						
+wsg	2016-05-30	Adilabad Gondi			gon			
 wsi	2009-07-29	Wusi						
 wsk	2009-07-29	Waskia						
 wsr	2009-07-29	Owenia						
@@ -7366,6 +7386,7 @@ xae	2009-07-29	Aequian
 xag	2009-07-29	Aghwan						
 xai	2009-07-29	Kaimbé						
 xaj	2014-02-28	Ararandewára						
+xak	2016-05-30	Máku						
 xal	2005-10-16	Kalmyk / Oirat						
 xam	2009-07-29	/Xam / ǀXam						
 xan	2009-07-29	Xamtanga						
@@ -7379,7 +7400,7 @@ xau	2009-07-29	Kauwera
 xav	2009-07-29	Xavánte						
 xaw	2009-07-29	Kawaiisu						
 xay	2009-07-29	Kayan Mahakam						
-xba	2009-07-29	Kamba (Brazil)						
+xba	2009-07-29	Kamba (Brazil)				2016-05-30	cax	
 xbb	2010-03-11	Lower Burdekin						
 xbc	2009-07-29	Bactrian						
 xbd	2013-09-10	Bindal						
@@ -7393,7 +7414,7 @@ xbo	2009-07-29	Bolgarian
 xbp	2013-09-10	Bibbulman						
 xbr	2009-07-29	Kambera						
 xbw	2009-07-29	Kambiwá						
-xbx	2009-07-29	Kabixí						
+xbx	2009-07-29	Kabixí				2016-05-30		
 xby	2013-09-10	Batyala						
 xcb	2009-07-29	Cumbric						
 xcc	2009-07-29	Camunic						
@@ -7451,7 +7472,7 @@ xib	2009-07-29	Iberian
 xii	2009-07-29	Xiri						
 xil	2009-07-29	Illyrian						
 xin	2009-07-29	Xinca						
-xip	2009-07-29	Xipináwa						
+xip	2009-07-29	Xipináwa				2016-05-30		
 xir	2009-07-29	Xiriâna						
 xis	2014-02-28	Kisan						
 xiv	2009-07-29	Indus Valley Language						
@@ -7465,7 +7486,7 @@ xkd	2009-07-29	Mendalam Kayan
 xke	2009-07-29	Kereho						
 xkf	2009-07-29	Khengkha						
 xkg	2009-07-29	Kagoro						
-xkh	2009-07-29	Karahawyana						
+xkh	2009-07-29	Karahawyana				2016-05-30	waw	
 xki	2009-07-29	Kenyan Sign Language						
 xkj	2009-07-29	Kajali						
 xkk	2009-07-29	Kaco'						
@@ -7741,6 +7762,7 @@ ygw	2009-07-29	Yagwoia
 yha	2009-07-29	Baha Buyang						
 yhd	2009-07-29	Judeo-Iraqi Arabic			jrb			
 yhl	2009-07-29	Hlepho Phowa						
+yhs	2015-04-17	Yan-nhaŋu Sign Language						
 yia	2009-07-29	Yinggarda						
 yif	2009-07-29	Ache						
 yig	2009-07-29	Wusa Nasu						
@@ -7841,11 +7863,12 @@ ypz	2009-07-29	Phuza
 yra	2009-07-29	Yerakai						
 yrb	2009-07-29	Yareba						
 yre	2009-07-29	Yaouré						
-yri	2009-07-29	Yarí						
+yri	2009-07-29	Yarí				2016-05-30		
 yrk	2009-07-29	Nenets						
 yrl	2009-07-29	Nhengatu						
 yrm	2013-09-10	Yirrk-Mel						
 yrn	2009-07-29	Yerong						
+yro	2016-05-30	Yaroamë						
 yrs	2009-07-29	Yarsun						
 yrw	2009-07-29	Yarawata						
 yry	2013-09-10	Yarluyandi						
@@ -7909,7 +7932,7 @@ yyz	2009-07-29	Ayizi
 yzg	2009-07-29	E'ma Buyang						
 yzk	2009-07-29	Zokhuo						
 zaa	2009-07-29	Sierra de Juárez Zapotec			zap			
-zab	2009-07-29	San Juan Guelavía Zapotec			zap			
+zab	2009-07-29	Western Tlacolula Valley Zapotec / San Juan Guelavía Zapotec			zap			
 zac	2009-07-29	Ocotlán Zapotec			zap			
 zad	2009-07-29	Cajonos Zapotec			zap			
 zae	2009-07-29	Yareni Zapotec			zap			

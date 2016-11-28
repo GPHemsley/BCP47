@@ -1,6 +1,7 @@
 aa
 ab
 ace
+ady
 af
 ak
 als
@@ -15,12 +16,13 @@ ast
 av
 ay
 az
+azb
 ba
 bar
 bat-smg
 bcl
 be
-be-x-old
+be-tarask
 bg
 bh
 bi
@@ -84,6 +86,7 @@ gd
 gl
 glk
 gn
+gom
 got
 gu
 gv
@@ -112,6 +115,7 @@ is
 it
 iu
 ja
+jam
 jbo
 jv
 ka
@@ -146,6 +150,7 @@ lij
 lmo
 ln
 lo
+lrc
 lt
 ltg
 lv
@@ -187,6 +192,7 @@ nso
 nv
 ny
 oc
+olo
 om
 or
 os
@@ -242,6 +248,7 @@ sv
 sw
 szl
 ta
+tcy
 te
 tet
 tg
