@@ -1,4 +1,4 @@
-2016-10-12
+2017-01-20
 aa	2005-10-16	Afar						
 ab	2005-10-16	Abkhazian	Cyrl					
 ae	2005-10-16	Avestan						
@@ -17,7 +17,7 @@ bg	2005-10-16	Bulgarian	Cyrl
 bh	2005-10-16	Bihari languages		collection				
 bi	2005-10-16	Bislama						
 bm	2005-10-16	Bambara						
-bn	2005-10-16	Bengali	Beng					
+bn	2005-10-16	Bengali / Bangla	Beng					
 bo	2005-10-16	Tibetan						
 br	2005-10-16	Breton						
 bs	2005-10-16	Bosnian	Latn		sh			

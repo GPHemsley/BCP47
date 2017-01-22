@@ -1,4 +1,4 @@
-2016-10-12
+2017-01-20
 Adlm	2014-12-11	Adlam			
 Afak	2011-01-07	Afaka			
 Aghb	2012-11-01	Caucasian Albanian			
@@ -12,7 +12,7 @@ Bali	2005-10-16	Balinese
 Bamu	2009-07-30	Bamum			
 Bass	2010-04-10	Bassa Vah			
 Batk	2005-10-16	Batak			
-Beng	2005-10-16	Bengali			
+Beng	2005-10-16	Bengali / Bangla			
 Bhks	2015-07-24	Bhaiksuki			
 Blis	2005-10-16	Blissymbols			
 Bopo	2005-10-16	Bopomofo			
@@ -31,6 +31,7 @@ Cprt	2005-10-16	Cypriot
 Cyrl	2005-10-16	Cyrillic			
 Cyrs	2005-10-16	Cyrillic (Old Church Slavonic variant)			
 Deva	2005-10-16	Devanagari / Nagari			
+Dogr	2017-01-13	Dogra			
 Dsrt	2005-10-16	Deseret / Mormon			
 Dupl	2010-08-16	Duployan shorthand / Duployan stenography			
 Egyd	2005-10-16	Egyptian demotic			
@@ -39,8 +40,10 @@ Egyp	2005-10-16	Egyptian hieroglyphs
 Elba	2010-08-16	Elbasan			
 Ethi	2005-10-16	Ethiopic / Geʻez / Ge'ez			
 Geok	2005-10-16	Khutsuri (Asomtavruli and Nuskhuri)			
-Geor	2005-10-16	Georgian (Mkhedruli)			
+Geor	2005-10-16	Georgian (Mkhedruli and Mtavruli)			
 Glag	2005-10-16	Glagolitic			
+Gong	2017-01-13	Gunjala Gondi			
+Gonm	2017-01-13	Masaram Gondi			
 Goth	2005-10-16	Gothic			
 Gran	2009-12-09	Grantha			
 Grek	2005-10-16	Greek			
@@ -91,10 +94,12 @@ Loma	2010-04-10	Loma
 Lyci	2006-07-21	Lycian			
 Lydi	2006-07-21	Lydian			
 Mahj	2012-11-01	Mahajani			
+Maka	2017-01-13	Makasar			
 Mand	2005-10-16	Mandaic / Mandaean			
 Mani	2007-07-28	Manichaean			
 Marc	2014-12-11	Marchen			
 Maya	2005-10-16	Mayan hieroglyphs			
+Medf	2017-01-13	Medefaidrin / Oberi Okaime / Oberi Ɔkaimɛ			
 Mend	2010-04-10	Mende Kikakui			
 Merc	2009-12-09	Meroitic Cursive			
 Mero	2005-10-16	Meroitic Hieroglyphs			
@@ -115,7 +120,7 @@ Nshu	2011-01-07	Nüshu
 Ogam	2005-10-16	Ogham			
 Olck	2006-07-21	Ol Chiki / Ol Cemet' / Ol / Santali			
 Orkh	2009-07-30	Old Turkic / Orkhon Runic			
-Orya	2005-10-16	Oriya			
+Orya	2005-10-16	Oriya / Odia			
 Osge	2014-12-11	Osage			
 Osma	2005-10-16	Osmanya			
 Palm	2010-04-10	Palmyrene			
@@ -144,6 +149,7 @@ Sidd	2013-12-02	Siddham / Siddhaṃ / Siddhamātṛkā
 Sind	2010-08-16	Khudawadi / Sindhi			
 Sinh	2005-10-16	Sinhala			
 Sora	2011-01-07	Sora Sompeng			
+Soyo	2017-01-13	Soyombo			
 Sund	2006-07-21	Sundanese			
 Sylo	2005-10-16	Syloti Nagri			
 Syrc	2005-10-16	Syriac			
@@ -173,6 +179,7 @@ Wole	2011-01-07	Woleai
 Xpeo	2005-10-16	Old Persian			
 Xsux	2005-10-16	Sumero-Akkadian cuneiform			
 Yiii	2005-10-16	Yi			
+Zanb	2017-01-13	Zanabazar Square / Zanabazarin Dörböljin Useg / Xewtee Dörböljin Bicig / Horizontal Square Script			
 Zinh	2009-04-03	Code for inherited script			# Not intended for use as a language subtag
 Zmth	2007-12-05	Mathematical notation			
 Zsye	2016-01-04	Symbols (Emoji variant)			

@@ -1,4 +1,4 @@
-2016-10-12
+2017-01-20
 1606nict	2007-03-20	Late Middle French (to 1606)	frm			# 16th century French as in Jean Nicot, "Thresor de la langue francoyse", 1606, but also including some French similar to that of Rabelais
 1694acad	2007-03-20	Early Modern French	fr			# 17th century French, as catalogued in the "Dictionnaire de l'académie françoise", 4eme ed. 1694; frequently includes elements of Middle French, as this is a transitional period
 1901	2005-10-16	Traditional German orthography	de			
@@ -51,6 +51,9 @@ njiva	2007-07-05	The Gniva dialect of Resian / The Njiva dialect of Resian	sl-ro
 nulik	2012-01-28	Volapük nulik / Volapük perevidöl / Volapük nulädik / de Jong's Volapük / New Volapük / Revised Volapük / Modern Volapük	vo			
 osojs	2007-07-05	The Oseacco dialect of Resian / The Osojane dialect of Resian	sl-rozaj			# The dialect of Oseacco/Osojane is one of the four major local dialects of Resian
 oxendict	2015-04-17	Oxford English Dictionary spelling	en			
+pahawh2	2017-01-13	Pahawh Hmong Second Stage Reduced orthography	mww / hnj			
+pahawh3	2017-01-13	Pahawh Hmong Third Stage Reduced orthography	mww / hnj			
+pahawh4	2017-01-13	Pahawh Hmong Final Version orthography	mww / hnj			
 pamaka	2009-09-05	Pamaka dialect	djk			# Pamaka dialect of the "Busi Nenge Tongo" English-based Creole continuum in Eastern Suriname and Western French Guiana
 petr1708	2010-10-10	Petrine orthography	ru			# Russian orthography from the Petrine orthographic reforms of 1708 to the 1917 orthographic reform
 pinyin	2008-10-14	Pinyin romanization	zh-Latn / bo-Latn			
