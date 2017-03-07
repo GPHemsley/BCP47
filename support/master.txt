@@ -383,6 +383,7 @@ xx-pirate
 yi
 yo
 za
+zam
 zea
 zh
 zh-CN

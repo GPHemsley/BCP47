@@ -122,6 +122,7 @@ ve
 vi
 wo
 xh
+zam
 zh-CN
 zh-TW
 zu
