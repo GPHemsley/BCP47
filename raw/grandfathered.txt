@@ -1,0 +1,27 @@
+2017-04-19
+art-lojban	2001-11-11	Lojban	2003-09-02	jbo	
+cel-gaulish	2001-05-25	Gaulish	2015-03-29		# see xcg, xga, xtg
+en-GB-oed	2003-07-09	English, Oxford English Dictionary spelling	2015-04-17	en-GB-oxendict	
+i-ami	1999-05-25	Amis	2009-07-29	ami	
+i-bnn	1999-05-25	Bunun	2009-07-29	bnn	
+i-default	1998-03-10	Default Language			
+i-enochian	2002-07-03	Enochian	2015-03-29		
+i-hak	1999-01-31	Hakka	2000-01-10	hak	
+i-klingon	1999-05-26	Klingon	2004-02-24	tlh	
+i-lux	1997-09-19	Luxembourgish	1998-09-09	lb	
+i-mingo	1997-09-19	Mingo			
+i-navajo	1997-09-19	Navajo	2000-02-18	nv	
+i-pwn	1999-05-25	Paiwan	2009-07-29	pwn	
+i-tao	1999-05-25	Tao	2009-07-29	tao	
+i-tay	1999-05-25	Tayal	2009-07-29	tay	
+i-tsu	1999-05-25	Tsou	2009-07-29	tsu	
+no-bok	1995-08-23	Norwegian Bokmal	2000-02-18	nb	
+no-nyn	1995-08-23	Norwegian Nynorsk	2000-02-18	nn	
+sgn-BE-FR	2001-11-11	Belgian-French Sign Language	2009-07-29	sfb	
+sgn-BE-NL	2001-11-11	Belgian-Flemish Sign Language	2009-07-29	vgt	
+sgn-CH-DE	2001-11-11	Swiss German Sign Language	2009-07-29	sgg	
+zh-guoyu	1999-12-18	Mandarin or Standard Chinese	2005-07-15	cmn	
+zh-hakka	1999-12-18	Hakka	2009-07-29	hak	
+zh-min	1999-12-18	Min, Fuzhou, Hokkien, Amoy, or Taiwanese	2009-07-29		# see cdo, cpx, czo, mnp, nan
+zh-min-nan	2001-03-26	Minnan, Hokkien, Amoy, Taiwanese, Southern Min, Southern Fujian, Hoklo, Southern Fukien, Ho-lo	2009-07-29	nan	
+zh-xiang	1999-12-18	Xiang or Hunanese	2009-07-29	hsn	

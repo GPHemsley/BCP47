@@ -41,7 +41,7 @@
 
 import string, re, urllib
 
-lineFormat = "^([A-Za-z0-9]{2,8}(?:\.\.[A-Za-z0-9]{2,8})?)\t(\d{4}-\d{2}-\d{2})\t(.*?)(?:\t([A-Za-z0-9 /-]+)?)?(?:\t([A-Za-z]{4})?\t(macrolanguage|collection|special|private-use)?\t([A-Za-z]{2,3})?)?\t(\d{4}-\d{2}-\d{2})?\t([A-Za-z0-9-]+)?\t(# .*)?$"
+lineFormat = "^([A-Za-z0-9]{2,8}(?:\.\.[A-Za-z0-9]{2,8})?|(?:en-GB-oed|i-ami|i-bnn|i-default|i-enochian|i-hak|i-klingon|i-lux|i-mingo|i-navajo|i-pwn|i-tao|i-tay|i-tsu|sgn-BE-FR|sgn-BE-NL|sgn-CH-DE|art-lojban|cel-gaulish|no-bok|no-nyn|zh-guoyu|zh-hakka|zh-min|zh-min-nan|zh-xiang))\t(\d{4}-\d{2}-\d{2})\t(.*?)(?:\t([A-Za-z0-9 /-]+)?)?(?:\t([A-Za-z]{4})?\t(macrolanguage|collection|special|private-use)?\t([A-Za-z]{2,3})?)?\t(\d{4}-\d{2}-\d{2})?\t([A-Za-z0-9-]+)?\t(# .*)?$"
 
 def parseRegistry():
 	registryFile = urllib.urlopen( 'http://www.iana.org/assignments/language-subtag-registry' )
@@ -104,17 +104,15 @@ def parseRegistry():
 			scriptFile.write( file_date + "\n" )
 			regionFile.write( file_date + "\n" )
 			variantFile.write( file_date + "\n" )
+			grandfatheredFile.write( file_date + "\n" )
+		# Redundant tag
+		elif tag['Type'] == 'redundant':
+			# We don't care about redundant tags
 			continue
-		# Grandfathered or redundant tag
-		elif( 'Tag' in tag ):
-			if( tag['Type'] == 'redundant' ):
-				# We don't care about redundant tags
-				continue
-			# TODO: Handle grandfathered tags
-			pass
 		# Regular tag
-		elif( 'Subtag' in tag ):
-			line = tag['Subtag'] + "\t" + tag['Added'] + "\t" + ' / '.join( tag['Description'] )
+		else:
+			line = tag['Tag'] if 'Tag' in tag else tag['Subtag']
+			line += "\t" + tag['Added'] + "\t" + ' / '.join( tag['Description'] )
 
 			if( tag['Type'] in ['extlang', 'variant'] ):
 				line += "\t"
@@ -158,6 +156,8 @@ def parseRegistry():
 				regionFile.write( line )
 			elif( tag['Type'] == 'variant' ):
 				variantFile.write( line )
+			elif( tag['Type'] == 'grandfathered' ):
+				grandfatheredFile.write( line )
 
 	print 'Registry:', file_date
 
@@ -171,7 +171,7 @@ def parseRegistry():
 def getSubtagNames():
 	global lineFormat
 
-	subtagTypes = ['language', 'extlang', 'script', 'region', 'variant']
+	subtagTypes = [ 'language', 'extlang', 'script', 'region', 'variant', 'grandfathered' ]
 
 	override_choice = {
 		'language':	{
@@ -193,6 +193,9 @@ def getSubtagNames():
 
 		},
 		'variant':	{
+
+		},
+		'grandfathered':	{
 
 		},
 	}
@@ -230,6 +233,9 @@ def getSubtagNames():
 			'VN':	'Vietnam',
 		},
 		'variant':	{
+
+		},
+		'grandfathered':	{
 
 		},
 	}
@@ -384,7 +390,7 @@ def getSuppressScripts():
 def getDeprecatedSubtags():
 	global lineFormat
 
-	subtagTypes = ['language', 'extlang', 'script', 'region', 'variant']
+	subtagTypes = [ 'language', 'extlang', 'script', 'region', 'variant', 'grandfathered' ]
 
 	for subtagType in subtagTypes:
 		sourceFile = open( 'raw/' + subtagType + '.txt', 'r' )
