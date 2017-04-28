@@ -76,6 +76,7 @@ de-CH
 de-DE
 diq
 dsb
+dty
 dv
 dyo
 dyu
