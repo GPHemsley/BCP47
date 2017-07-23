@@ -16,6 +16,7 @@ arc
 arz
 as
 ast
+atj
 av
 ay
 az
@@ -74,6 +75,7 @@ de
 de-AT
 de-CH
 de-DE
+din
 diq
 dsb
 dty
@@ -169,6 +171,7 @@ ka
 kaa
 kab
 kbd
+kbp
 kg
 ki
 kj
