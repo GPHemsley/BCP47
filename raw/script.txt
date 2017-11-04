@@ -1,4 +1,4 @@
-2017-06-07
+2017-08-15
 Adlm	2014-12-11	Adlam			
 Afak	2011-01-07	Afaka			
 Aghb	2012-11-01	Caucasian Albanian			
@@ -27,7 +27,8 @@ Cham	2005-10-16	Cham
 Cher	2005-10-16	Cherokee			
 Cirt	2005-10-16	Cirth			
 Copt	2005-10-16	Coptic			
-Cprt	2005-10-16	Cypriot			
+Cpmn	2017-08-13	Cypro-Minoan			
+Cprt	2005-10-16	Cypriot syllabary			
 Cyrl	2005-10-16	Cyrillic			
 Cyrs	2005-10-16	Cyrillic (Old Church Slavonic variant)			
 Deva	2005-10-16	Devanagari / Nagari			
@@ -60,6 +61,7 @@ Hebr	2005-10-16	Hebrew
 Hira	2005-10-16	Hiragana			
 Hluw	2011-12-28	Anatolian Hieroglyphs / Luwian Hieroglyphs / Hittite Hieroglyphs			
 Hmng	2005-10-16	Pahawh Hmong			
+Hmnp	2017-08-13	Nyiakeng Puachue Hmong			
 Hrkt	2005-10-16	Japanese syllabaries (alias for Hiragana + Katakana)			
 Hung	2005-10-16	Old Hungarian / Hungarian Runic			
 Inds	2005-10-16	Indus / Harappan			
@@ -114,7 +116,8 @@ Mymr	2005-10-16	Myanmar / Burmese
 Narb	2010-04-10	Old North Arabian / Ancient North Arabian			
 Nbat	2010-04-10	Nabataean			
 Newa	2016-01-04	Newa / Newar / Newari / Nepāla lipi			
-Nkgb	2009-03-13	Nakhi Geba / 'Na-'Khi ²Ggŏ-¹baw / Naxi Geba			
+Nkdb	2017-08-13	Naxi Dongba / na²¹ɕi³³ to³³ba²¹ / Nakhi Tomba			
+Nkgb	2009-03-13	Naxi Geba / na²¹ɕi³³ gʌ²¹ba²¹ / 'Na-'Khi ²Ggŏ-¹baw / Nakhi Geba			
 Nkoo	2005-10-16	N’Ko / N'Ko			
 Nshu	2011-01-07	Nüshu			
 Ogam	2005-10-16	Ogham			
@@ -145,6 +148,7 @@ Saur	2006-07-21	Saurashtra
 Sgnw	2006-10-17	SignWriting			
 Shaw	2005-10-16	Shavian / Shaw			
 Shrd	2011-01-07	Sharada / Śāradā			
+Shui	2017-08-13	Shuishu			
 Sidd	2013-12-02	Siddham / Siddhaṃ / Siddhamātṛkā			
 Sind	2010-08-16	Khudawadi / Sindhi			
 Sinh	2005-10-16	Sinhala			
@@ -175,6 +179,7 @@ Ugar	2005-10-16	Ugaritic
 Vaii	2005-10-16	Vai			
 Visp	2005-10-16	Visible Speech			
 Wara	2009-12-09	Warang Citi / Varang Kshiti			
+Wcho	2017-08-13	Wancho			
 Wole	2011-01-07	Woleai			
 Xpeo	2005-10-16	Old Persian			
 Xsux	2005-10-16	Sumero-Akkadian cuneiform			
