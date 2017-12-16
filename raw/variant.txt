@@ -1,4 +1,4 @@
-2017-08-15
+2017-12-14
 1606nict	2007-03-20	Late Middle French (to 1606)	frm			# 16th century French as in Jean Nicot, "Thresor de la langue francoyse", 1606, but also including some French similar to that of Rabelais
 1694acad	2007-03-20	Early Modern French	fr			# 17th century French, as catalogued in the "Dictionnaire de l'académie françoise", 4eme ed. 1694; frequently includes elements of Middle French, as this is a transitional period
 1901	2005-10-16	Traditional German orthography	de			
@@ -37,6 +37,7 @@ hognorsk	2010-01-02	Norwegian in Høgnorsk (High Norwegian) orthography	nn			# N
 hsistemo	2017-03-14	Standard H-system orthographic fallback for spelling Esperanto	eo			
 ijekavsk	2013-12-02	Serbian with Ijekavian pronunciation	sr / sr-Latn / sr-Cyrl			
 itihasa	2010-07-28	Epic Sanskrit	sa			
+ivanchov	2017-12-13	Bulgarian in 1899 orthography	bg			# Bulgarian orthography introduced by Todor Ivanchov in 1899
 jauer	2010-06-29	Jauer dialect of Romansh	rm			# The spoken dialect of the Val Müstair, which has no written standard.
 jyutping	2010-10-23	Jyutping Cantonese Romanization	yue			# Jyutping romanization of Cantonese
 kkcor	2008-10-14	Common Cornish orthography of Revived Cornish	kw			

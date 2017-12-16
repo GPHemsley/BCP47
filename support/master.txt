@@ -224,7 +224,6 @@ min
 mk
 ml
 mn
-mo
 mos
 mr
 mrj

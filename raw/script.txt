@@ -1,4 +1,4 @@
-2017-08-15
+2017-12-14
 Adlm	2014-12-11	Adlam			
 Afak	2011-01-07	Afaka			
 Aghb	2012-11-01	Caucasian Albanian			
@@ -139,6 +139,7 @@ Plrd	2005-10-16	Miao / Pollard
 Prti	2007-12-05	Inscriptional Parthian			
 Qaaa..Qabx	2005-10-16	Private use			
 Rjng	2006-10-17	Rejang / Redjang / Kaganga			
+Rohg	2017-12-13	Hanifi Rohingya			
 Roro	2005-10-16	Rongorongo			
 Runr	2005-10-16	Runic			
 Samr	2007-07-28	Samaritan			
@@ -152,6 +153,8 @@ Shui	2017-08-13	Shuishu
 Sidd	2013-12-02	Siddham / Siddhaṃ / Siddhamātṛkā			
 Sind	2010-08-16	Khudawadi / Sindhi			
 Sinh	2005-10-16	Sinhala			
+Sogd	2017-12-13	Sogdian			
+Sogo	2017-12-13	Old Sogdian			
 Sora	2011-01-07	Sora Sompeng			
 Soyo	2017-01-13	Soyombo			
 Sund	2006-07-21	Sundanese			
