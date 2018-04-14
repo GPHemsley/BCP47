@@ -1,4 +1,4 @@
-2017-12-14
+2018-03-30
 aao	2009-07-29	Algerian Saharan Arabic	ar			ar		aao	
 abh	2009-07-29	Tajiki Arabic	ar			ar		abh	
 abv	2009-07-29	Baharna Arabic	ar			ar		abv	
@@ -24,7 +24,7 @@ ars	2009-07-29	Najdi Arabic	ar			ar		ars
 ary	2009-07-29	Moroccan Arabic	ar			ar		ary	
 arz	2009-07-29	Egyptian Arabic	ar			ar		arz	
 ase	2009-07-29	American Sign Language	sgn					ase	
-asf	2009-07-29	Australian Sign Language	sgn					asf	
+asf	2009-07-29	Auslan / Australian Sign Language	sgn					asf	
 asp	2009-07-29	Algerian Sign Language	sgn					asp	
 asq	2009-07-29	Austrian Sign Language	sgn					asq	
 asw	2009-07-29	Australian Aborigines Sign Language	sgn					asw	
@@ -122,7 +122,7 @@ lce	2009-07-29	Loncong / Sekak	ms			ms		lce
 lcf	2009-07-29	Lubu	ms			ms		lcf	
 liw	2009-07-29	Col	ms			ms		liw	
 lls	2009-07-29	Lithuanian Sign Language	sgn					lls	
-lsg	2009-07-29	Lyons Sign Language	sgn					lsg	
+lsg	2009-07-29	Lyons Sign Language	sgn				2018-03-08		
 lsl	2009-07-29	Latvian Sign Language	sgn					lsl	
 lso	2009-07-29	Laos Sign Language	sgn					lso	
 lsp	2009-07-29	Panamanian Sign Language / Lengua de Señas Panameñas	sgn					lsp	
@@ -130,6 +130,7 @@ lst	2009-07-29	Trinidad and Tobago Sign Language	sgn					lst
 lsy	2010-03-11	Mauritian Sign Language	sgn					lsy	
 ltg	2010-03-11	Latgalian	lv			lv		ltg	
 lvs	2010-03-11	Standard Latvian	lv			lv		lvs	
+lws	2018-03-08	Malawian Sign Language	sgn					lws	
 lzh	2009-07-29	Literary Chinese	zh			zh		lzh	
 max	2009-07-29	North Moluccan Malay	ms			ms		max	
 mdl	2009-07-29	Maltese Sign Language	sgn					mdl	

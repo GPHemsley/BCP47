@@ -1,4 +1,4 @@
-2017-12-14
+2018-03-30
 aa	2005-10-16	Afar						
 ab	2005-10-16	Abkhazian	Cyrl					
 ae	2005-10-16	Avestan						
@@ -61,7 +61,7 @@ ho	2005-10-16	Hiri Motu
 hr	2005-10-16	Croatian	Latn		sh			
 ht	2005-10-16	Haitian / Haitian Creole	Latn					
 hu	2005-10-16	Hungarian	Latn					
-hy	2005-10-16	Armenian	Armn					
+hy	2005-10-16	Armenian	Armn					# see also hyw
 hz	2005-10-16	Herero						
 ia	2005-10-16	Interlingua (International Auxiliary Language Association)						
 id	2005-10-16	Indonesian	Latn		ms			
@@ -85,7 +85,7 @@ ki	2005-10-16	Kikuyu / Gikuyu
 kj	2005-10-16	Kuanyama / Kwanyama						
 kk	2005-10-16	Kazakh	Cyrl					
 kl	2005-10-16	Kalaallisut / Greenlandic	Latn					
-km	2005-10-16	Central Khmer	Khmr					
+km	2005-10-16	Khmer / Central Khmer	Khmr					
 kn	2005-10-16	Kannada	Knda					
 ko	2005-10-16	Korean	Kore					
 kr	2005-10-16	Kanuri		macrolanguage				
@@ -154,7 +154,7 @@ sm	2005-10-16	Samoan	Latn
 sn	2005-10-16	Shona						
 so	2005-10-16	Somali	Latn					
 sq	2005-10-16	Albanian	Latn	macrolanguage				
-sr	2005-10-16	Serbian			sh			
+sr	2005-10-16	Serbian			sh			# see cnr for Montenegrin
 ss	2005-10-16	Swati	Latn					
 st	2005-10-16	Southern Sotho	Latn					
 su	2005-10-16	Sundanese						
@@ -261,7 +261,7 @@ acy	2009-07-29	Cypriot Arabic			ar
 acz	2009-07-29	Acheron						
 ada	2005-10-16	Adangme						
 adb	2009-07-29	Adabe						
-add	2009-07-29	Dzodinka						
+add	2009-07-29	Lidzonka / Dzodinka						
 ade	2009-07-29	Adele						
 adf	2009-07-29	Dhofari Arabic			ar			
 adg	2009-07-29	Andegerebinha						
@@ -375,7 +375,7 @@ ait	2009-07-29	Arikem
 aiw	2009-07-29	Aari						
 aix	2009-07-29	Aighon						
 aiy	2009-07-29	Ali						
-aja	2009-07-29	Aja (Sudan)						
+aja	2009-07-29	Aja (South Sudan)						
 ajg	2009-07-29	Aja (Benin)						
 aji	2009-07-29	Ajië						
 ajn	2012-08-12	Andajin						
@@ -567,7 +567,7 @@ asb	2009-07-29	Assiniboine
 asc	2009-07-29	Casuarina Coast Asmat						
 asd	2009-07-29	Asas						
 ase	2009-07-29	American Sign Language						
-asf	2009-07-29	Australian Sign Language						
+asf	2009-07-29	Auslan / Australian Sign Language						
 asg	2009-07-29	Cishingini						
 ash	2009-07-29	Abishira						
 asi	2009-07-29	Buruwai						
@@ -789,9 +789,9 @@ bdd	2009-07-29	Bunama
 bde	2009-07-29	Bade						
 bdf	2010-03-11	Biage						
 bdg	2009-07-29	Bonggi						
-bdh	2009-07-29	Baka (Sudan)						
+bdh	2009-07-29	Baka (South Sudan)						
 bdi	2009-07-29	Burun						
-bdj	2009-07-29	Bai						
+bdj	2009-07-29	Bai (South Sudan) / Bai						
 bdk	2009-07-29	Budukh						
 bdl	2009-07-29	Indonesian Bajau						
 bdm	2009-07-29	Buduma						
@@ -994,7 +994,7 @@ bli	2009-07-29	Bolia
 blj	2009-07-29	Bolongan						
 blk	2009-07-29	Pa'o Karen / Pa'O						
 bll	2009-07-29	Biloxi						
-blm	2009-07-29	Beli (Sudan)						
+blm	2009-07-29	Beli (South Sudan)						
 bln	2009-07-29	Southern Catanduanes Bikol			bik			
 blo	2009-07-29	Anii						
 blp	2009-07-29	Blablanga						
@@ -1543,6 +1543,7 @@ cni	2009-07-29	Asháninka
 cnk	2009-07-29	Khumi Chin						
 cnl	2009-07-29	Lalana Chinantec						
 cno	2009-07-29	Con						
+cnr	2018-01-23	Montenegrin			sh			# see sr for Serbian
 cns	2009-07-29	Central Asmat						
 cnt	2009-07-29	Tepetotutla Chinantec						
 cnu	2009-07-29	Chenoua						
@@ -1670,6 +1671,7 @@ cuu	2009-07-29	Tai Ya
 cuv	2009-07-29	Cuvok						
 cuw	2009-07-29	Chukwa						
 cux	2009-07-29	Tepeuxila Cuicatec						
+cuy	2018-03-08	Cuitlatec						
 cvg	2009-07-29	Chug						
 cvn	2009-07-29	Valle Nacional Chinantec						
 cwa	2009-07-29	Kabwa						
@@ -2120,7 +2122,7 @@ fak	2009-07-29	Fang (Cameroon)
 fal	2009-07-29	South Fali						
 fam	2009-07-29	Fam						
 fan	2005-10-16	Fang (Equatorial Guinea)						
-fap	2009-07-29	Palor						
+fap	2009-07-29	Paloor						
 far	2009-07-29	Fataleka						
 fat	2005-10-16	Fanti			ak			
 fau	2009-07-29	Fayu						
@@ -2349,6 +2351,7 @@ gjn	2009-07-29	Gonja
 gjr	2016-05-30	Gurindji Kriol						
 gju	2009-07-29	Gujari			raj			
 gka	2009-07-29	Guya						
+gkd	2018-03-08	Magɨ (Madang Province)						
 gke	2009-07-29	Ndai						
 gkn	2009-07-29	Gokana						
 gko	2012-08-12	Kok-Nar						
@@ -2390,6 +2393,7 @@ gne	2009-07-29	Ganang
 gng	2009-07-29	Ngangam						
 gnh	2009-07-29	Lere						
 gni	2009-07-29	Gooniyandi						
+gnj	2018-03-08	Ngen						
 gnk	2009-07-29	//Gana / ǁGana						
 gnl	2009-07-29	Gangulu						
 gnm	2009-07-29	Ginuman						
@@ -2531,6 +2535,7 @@ gyi	2009-07-29	Gyele
 gyl	2009-07-29	Gayil						
 gym	2009-07-29	Ngäbere						
 gyn	2009-07-29	Guyanese Creole English						
+gyo	2018-03-08	Gyalsumdo						
 gyr	2009-07-29	Guarayu						
 gyy	2009-07-29	Gunya						
 gza	2009-07-29	Ganza						
@@ -2601,6 +2606,7 @@ hji	2009-07-29	Haji			ms
 hka	2009-07-29	Kahe						
 hke	2009-07-29	Hunde						
 hkk	2009-07-29	Hunjara-Kaina Ke						
+hkn	2018-03-08	Mel-Khaonh						
 hks	2009-07-29	Hong Kong Sign Language / Heung Kong Sau Yue						
 hla	2009-07-29	Halia						
 hlb	2009-07-29	Halbi						
@@ -2721,6 +2727,7 @@ hwa	2009-07-29	Wané
 hwc	2009-07-29	Hawai'i Creole English / Hawai'i Pidgin						
 hwo	2009-07-29	Hwana						
 hya	2009-07-29	Hya						
+hyw	2018-03-08	Western Armenian						# see also hy
 hyx	2009-07-29	Armenian (family)		collection				
 iai	2009-07-29	Iaai						
 ian	2009-07-29	Iatmul						
@@ -2841,7 +2848,7 @@ iqw	2013-09-10	Ikwo
 ira	2005-10-16	Iranian languages		collection				
 ire	2009-07-29	Iresim						
 irh	2009-07-29	Irarutu						
-iri	2009-07-29	Irigwe						
+iri	2009-07-29	Rigwe / Irigwe						
 irk	2009-07-29	Iraqw						
 irn	2009-07-29	Irántxe						
 iro	2005-10-16	Iroquoian languages		collection				
@@ -3908,7 +3915,7 @@ lnj	2009-07-29	Leningitij
 lnl	2009-07-29	South Central Banda						
 lnm	2009-07-29	Langam						
 lnn	2009-07-29	Lorediakarkar						
-lno	2009-07-29	Lango (Sudan)						
+lno	2009-07-29	Lango (South Sudan)						
 lns	2009-07-29	Lamnso'						
 lnu	2009-07-29	Longuda						
 lnw	2013-09-10	Lanima						
@@ -3960,7 +3967,7 @@ lrz	2009-07-29	Lemerig
 lsa	2009-07-29	Lasgerdi						
 lsd	2009-07-29	Lishana Deni						
 lse	2009-07-29	Lusengo						
-lsg	2009-07-29	Lyons Sign Language						
+lsg	2009-07-29	Lyons Sign Language				2018-03-08		
 lsh	2009-07-29	Lish						
 lsi	2009-07-29	Lashi						
 lsl	2009-07-29	Latvian Sign Language						
@@ -4012,6 +4019,7 @@ lwh	2009-07-29	White Lachi
 lwl	2009-07-29	Eastern Lawa						
 lwm	2009-07-29	Laomian						
 lwo	2009-07-29	Luwo						
+lws	2018-03-08	Malawian Sign Language						
 lwt	2009-07-29	Lewotobi						
 lwu	2013-09-10	Lawu						
 lww	2009-07-29	Lewo						
@@ -4022,7 +4030,7 @@ lzh	2009-07-29	Literary Chinese			zh
 lzl	2009-07-29	Litzlitz						
 lzn	2009-07-29	Leinong Naga						
 lzz	2009-07-29	Laz						
-maa	2009-07-29	San Jerónimo Tecóatl Mazatec						
+maa	2009-07-29	San Jerónimo Tecóatl Mazatec						# see also pbm
 mab	2009-07-29	Yutanduchi Mixtec						
 mad	2005-10-16	Madurese						
 mae	2009-07-29	Bo-Rukul						
@@ -4588,8 +4596,8 @@ mwt	2009-07-29	Moken
 mwu	2009-07-29	Mittu						
 mwv	2009-07-29	Mentawai						
 mww	2009-07-29	Hmong Daw			hmn			
-mwx	2009-07-29	Mediak						
-mwy	2009-07-29	Mosiro						
+mwx	2009-07-29	Mediak				2018-03-08		
+mwy	2009-07-29	Mosiro				2018-03-08		
 mwz	2009-07-29	Moingi						
 mxa	2009-07-29	Northwest Oaxaca Mixtec						
 mxb	2009-07-29	Tezoatlán Mixtec						
@@ -4730,7 +4738,7 @@ ncl	2009-07-29	Michoacán Nahuatl
 ncm	2009-07-29	Nambo						
 ncn	2009-07-29	Nauna						
 nco	2009-07-29	Sibe						
-ncp	2009-07-29	Ndaktup						
+ncp	2009-07-29	Ndaktup				2018-03-08	kdz	
 ncq	2017-02-23	Northern Katang						
 ncr	2009-07-29	Ncane						
 ncs	2009-07-29	Nicaraguan Sign Language						
@@ -4914,6 +4922,7 @@ nli	2009-07-29	Grangali
 nlj	2009-07-29	Nyali						
 nlk	2009-07-29	Ninia Yali						
 nll	2009-07-29	Nihali						
+nlm	2018-03-08	Mankiyali						
 nln	2009-07-29	Durango Nahuatl				2012-08-12		# see azd, azn
 nlo	2009-07-29	Ngul						
 nlq	2013-09-10	Lao Naga						
@@ -5155,6 +5164,7 @@ nyx	2009-07-29	Nganyaywana
 nyy	2009-07-29	Nyakyusa-Ngonde						
 nza	2009-07-29	Tigon Mbembe						
 nzb	2009-07-29	Njebi						
+nzd	2018-03-08	Nzadi						
 nzi	2005-10-16	Nzima						
 nzk	2009-07-29	Nzakara						
 nzm	2009-07-29	Zeme Naga						
@@ -5363,6 +5373,7 @@ pbg	2009-07-29	Paraujano
 pbh	2009-07-29	E'ñapa Woromaipu						
 pbi	2009-07-29	Parkwa						
 pbl	2009-07-29	Mak (Nigeria)						
+pbm	2018-03-08	Puebla Mazatec						# see also maa
 pbn	2009-07-29	Kpasam						
 pbo	2009-07-29	Papel						
 pbp	2009-07-29	Badyara						
@@ -5966,7 +5977,7 @@ sck	2009-07-29	Sadri
 scl	2009-07-29	Shina						
 scn	2005-10-16	Sicilian						
 sco	2005-10-16	Scots						
-scp	2009-07-29	Helambu Sherpa						
+scp	2009-07-29	Hyolmo / Helambu Sherpa						
 scq	2009-07-29	Sa'och						
 scs	2009-07-29	North Slavey			den			
 sct	2017-02-23	Southern Katang						
@@ -6386,7 +6397,7 @@ swy	2009-07-29	Sarua
 sxb	2009-07-29	Suba						
 sxc	2009-07-29	Sicanian						
 sxe	2009-07-29	Sighu						
-sxg	2009-07-29	Shixing						
+sxg	2009-07-29	Shuhi / Shixing						
 sxk	2009-07-29	Southern Kalapuya						
 sxl	2009-07-29	Selian						
 sxm	2009-07-29	Samre						
@@ -6541,6 +6552,7 @@ tev	2009-07-29	Teor
 tew	2009-07-29	Tewa (USA)						
 tex	2009-07-29	Tennet						
 tey	2009-07-29	Tulishi						
+tez	2018-03-08	Tetserret						
 tfi	2009-07-29	Tofin Gbe						
 tfn	2009-07-29	Tanaina						
 tfo	2009-07-29	Tefaro						
@@ -6650,7 +6662,7 @@ tlc	2009-07-29	Yecuatla Totonac
 tld	2009-07-29	Talaud						
 tlf	2009-07-29	Telefol						
 tlg	2009-07-29	Tofanma						
-tlh	2005-10-16	Klingon / tlhIngan-Hol						
+tlh	2005-10-16	Klingon / tlhIngan Hol						
 tli	2005-10-16	Tlingit						
 tlj	2009-07-29	Talinga-Bwisi						
 tlk	2009-07-29	Taloki						
