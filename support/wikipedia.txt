@@ -90,6 +90,7 @@ gl
 glk
 gn
 gom
+gor
 got
 gu
 gv
@@ -113,6 +114,7 @@ ig
 ii
 ik
 ilo
+inh
 io
 is
 it
@@ -148,6 +150,7 @@ lad
 lb
 lbe
 lez
+lfn
 lg
 li
 lij

@@ -1,4 +1,4 @@
-2018-03-30
+2018-04-23
 1606nict	2007-03-20	Late Middle French (to 1606)	frm			# 16th century French as in Jean Nicot, "Thresor de la langue francoyse", 1606, but also including some French similar to that of Rabelais
 1694acad	2007-03-20	Early Modern French	fr			# 17th century French, as catalogued in the "Dictionnaire de l'académie françoise", 4eme ed. 1694; frequently includes elements of Middle French, as this is a transitional period
 1901	2005-10-16	Traditional German orthography	de			
@@ -10,9 +10,11 @@ alalc97	2009-12-09	ALA-LC Romanization, 1997 edition				# Romanizations recommen
 aluku	2009-09-05	Aluku dialect / Boni dialect	djk			# Aluku dialect of the "Busi Nenge Tongo" English-based Creole continuum in Eastern Suriname and Western French Guiana
 akuapem	2017-06-05	Akuapem Twi	tw			
 ao1990	2015-05-06	Portuguese Language Orthographic Agreement of 1990 (Acordo Ortográfico da Língua Portuguesa de 1990)	pt / gl			# Portuguese orthography conventions established in 1990 but not brought into effect until 2009
+aranes	2018-04-22	Aranese	oc			# Occitan variant spoken in the Val d'Aran
 arevela	2006-09-18	Eastern Armenian	hy	2018-03-24	hy	
 arevmda	2006-09-18	Western Armenian	hy	2018-03-24	hyw	
 asante	2017-06-05	Asante Twi / Ashanti Twi	tw			
+auvern	2018-04-22	Auvergnat	oc			# Occitan variant spoken in Auvergne
 baku1926	2007-04-18	Unified Turkic Latin Alphabet (Historical)	az / ba / crh / kk / krc / ky / sah / tk / tt / uz			# Denotes alphabet used in Turkic republics/regions of the former USSR in late 1920s, and throughout 1930s, which aspired to represent equivalent phonemes in a unified fashion. Also known as: New Turkic Alphabet; Birlәşdirilmiş Jeni Tyrk Әlifbasь (Birlesdirilmis Jeni Tyrk Elifbasi); Jaŋalif (Janalif).
 balanka	2014-02-15	The Balanka dialect of Anii	blo			# Balanka is one of 19 Anii dialects.
 barla	2013-12-10	The Barlavento dialect group of Kabuverdianu	kea			# Barlavento is one of the two main dialect groups of Kabuverdianu.
@@ -22,15 +24,22 @@ biscayan	2010-04-13	Biscayan dialect of Basque	eu
 biske	2007-07-05	The San Giorgio dialect of Resian / The Bila dialect of Resian	sl-rozaj			# The dialect of San Giorgio/Bila is one of the four major local dialects of Resian
 bohoric	2012-06-27	Slovene in Bohorič alphabet	sl			# The subtag represents the alphabet codified by Adam Bohorič in 1584 and used from the first printed Slovene book and up to the mid-19th century.
 boont	2006-09-18	Boontling	en			# Jargon embedded in American English
+cisaup	2018-04-22	Cisalpine	oc			# Occitan variant spoken in northwestern Italy
 colb1945	2015-05-06	Portuguese-Brazilian Orthographic Convention of 1945 (Convenção Ortográfica Luso-Brasileira de 1945)	pt			# Portuguese orthography conventions established in 1945, generally in effect until 2009. This reform was not ratified in Brazil.
 cornu	2015-12-07	Cornu-English / Cornish English / Anglo-Cornish	en			
+creiss	2018-04-22	Occitan variants of the Croissant area	oc			
 dajnko	2012-06-27	Slovene in Dajnko alphabet	sl			# The subtag represents the alphabet codified by Peter Dajnko and used from 1824 to 1839 mostly in Styria (in what is now Eastern Slovenia).
 ekavsk	2013-12-02	Serbian with Ekavian pronunciation	sr / sr-Latn / sr-Cyrl			
 emodeng	2012-02-05	Early Modern English (1500-1700)	en			
 fonipa	2006-12-11	International Phonetic Alphabet				
+fonkirsh	2018-04-22	Kirshenbaum Phonetic Alphabet				
 fonnapa	2016-06-24	North American Phonetic Alphabet / Americanist Phonetic Notation				
 fonupa	2006-12-11	Uralic Phonetic Alphabet				
 fonxsamp	2010-10-23	X-SAMPA transcription				# Indicates that the content is transcribed according to X-SAMPA
+gascon	2018-04-22	Gascon	oc			# Occitan variant spoken in Gascony
+grclass	2018-04-22	Classical Occitan orthography	oc			# Classical written standard for Occitan developed in 1935 by Alibèrt
+grital	2018-04-22	Italian-inspired Occitan orthography	oc			
+grmistr	2018-04-22	Mistralian or Mistralian-inspired Occitan orthography	oc			# Written standard developed by Romanilha in 1853 and used by Mistral and the Félibres, including derived standards such as Escolo dóu Po, Escolo Gaston Febus, and others
 hepburn	2009-10-01	Hepburn romanization	ja-Latn			
 heploc	2009-10-01	Hepburn romanization, Library of Congress method	ja-Latn-hepburn	2010-02-07	alalc97	# Preferred tag is ja-Latn-alalc97
 hognorsk	2010-01-02	Norwegian in Høgnorsk (High Norwegian) orthography	nn			# Norwegian following Ivar Aasen's orthographical principles, including modern usage.
@@ -44,6 +53,8 @@ kkcor	2008-10-14	Common Cornish orthography of Revived Cornish	kw
 kociewie	2014-11-27	The Kociewie dialect of Polish	pl			# The dialect of Kociewie is spoken in the region around Starogard Gdański, Tczew and Świecie in northern Poland.
 kscor	2012-06-27	Standard Cornish orthography of Revived Cornish / Kernowek Standard	kw			
 laukika	2010-07-28	Classical Sanskrit	sa			
+lemosin	2018-04-22	Limousin	oc			# Occitan variant spoken in Limousin
+lengadoc	2018-04-22	Languedocien	oc			# Occitan variant spoken in Languedoc
 lipaw	2007-08-11	The Lipovaz dialect of Resian / The Lipovec dialect of Resian	sl-rozaj			# The dialect of Lipovaz/Lipovec is one of the minor local dialects of Resian
 luna1918	2010-10-10	Post-1917 Russian orthography	ru			# Russian orthography as established by the 1917/1918 orthographic reforms
 metelko	2012-06-27	Slovene in Metelko alphabet	sl			# The subtag represents the alphabet codified by Franc Serafin Metelko and used from 1825 to 1833.
@@ -51,6 +62,7 @@ monoton	2006-12-11	Monotonic Greek	el
 ndyuka	2009-09-05	Ndyuka dialect / Aukan dialect	djk			# Ndyuka dialect of the "Busi Nenge Tongo" English-based Creole continuum in Eastern Suriname and Western French Guiana
 nedis	2005-10-16	Natisone dialect / Nadiza dialect	sl			
 newfound	2015-11-25	Newfoundland English	en-CA			
+nicard	2018-04-22	Niçard	oc			# Occitan variant spoken in Nice
 njiva	2007-07-05	The Gniva dialect of Resian / The Njiva dialect of Resian	sl-rozaj			# The dialect of Gniva/Njiva is one of the four major local dialects of Resian
 nulik	2012-01-28	Volapük nulik / Volapük perevidöl / Volapük nulädik / de Jong's Volapük / New Volapük / Revised Volapük / Modern Volapük	vo			
 osojs	2007-07-05	The Oseacco dialect of Resian / The Osojane dialect of Resian	sl-rozaj			# The dialect of Oseacco/Osojane is one of the four major local dialects of Resian
@@ -62,6 +74,7 @@ pamaka	2009-09-05	Pamaka dialect	djk			# Pamaka dialect of the "Busi Nenge Tongo
 petr1708	2010-10-10	Petrine orthography	ru			# Russian orthography from the Petrine orthographic reforms of 1708 to the 1917 orthographic reform
 pinyin	2008-10-14	Pinyin romanization	zh-Latn / bo-Latn			
 polyton	2006-12-11	Polytonic Greek	el			
+provenc	2018-04-22	Provençal	oc			# Occitan variant spoken in Provence
 puter	2010-06-29	Puter idiom of Romansh	rm			# Puter is one of the five traditional written standards or "idioms" of the Romansh language.
 rigik	2012-01-28	Volapük rigik / Schleyer's Volapük / Original Volapük / Classic Volapük	vo			
 rozaj	2005-10-16	Resian / Resianic / Rezijan	sl			
@@ -83,5 +96,6 @@ unifon	2013-10-02	Unifon phonetic alphabet	en / hup / kyh / tol / yur
 vaidika	2010-07-28	Vedic Sanskrit	sa			# The most ancient dialect of Sanskrit used in verse and prose composed until about the 4th century B.C.E.
 valencia	2007-03-06	Valencian	ca			# Variety spoken in the "Comunidad Valenciana" region of Spain, where it is co-official with Spanish.
 vallader	2010-06-29	Vallader idiom of Romansh	rm			# Vallader is one of the five traditional written standards or "idioms" of the Romansh language.
+vivaraup	2018-04-22	Vivaro-Alpine	oc			# Occitan variant spoken in northeastern Occitania
 wadegile	2008-10-03	Wade-Giles romanization	zh-Latn			
 xsistemo	2017-03-14	Standard X-system orthographic fallback for spelling Esperanto	eo			
