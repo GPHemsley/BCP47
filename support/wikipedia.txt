@@ -229,6 +229,7 @@ rue
 rw
 sa
 sah
+sat
 sc
 scn
 sco

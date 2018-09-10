@@ -21,9 +21,9 @@ moz-spell.txt: FORCE
 
 # Get list of languages in which the Google search interface is available
 google.txt: FORCE
-	wget -O google.html 'http://www.google.com/preferences' 2> /dev/null
-	egrep -o '<option value=[a-z][^>]+>' google.html | sed 's/^<option value=//' | sed 's/>//' | sed 's/ .*//' | LC_ALL=C sort -u > $(SUPPORT_DIR)$@
-	rm -f preferences google.html
+	wget -O - 'https://www.google.com/preferences#languages' 2> /dev/null | iconv -f ISO-8859-1 -t US-ASCII//TRANSLIT > google.html
+	egrep -o '<input[^>]+ value="[a-z][^"]+" name="lang"[^>]+>' google.html | perl -pe '$$_ =~ s/^<input[^>]+ value="([a-z][^"]+)" name="lang"[^>]+>$$/\1/' | LC_ALL=C sort -u > $(SUPPORT_DIR)$@
+	rm -f google.html
 
 # Get list of active wikipedias
 wikipedia.txt: FORCE
