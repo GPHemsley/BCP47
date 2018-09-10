@@ -1,4 +1,4 @@
-2018-04-23
+2018-08-08
 AA	2005-10-16	Private use			
 AC	2009-07-29	Ascension Island			
 AD	2005-10-16	Andorra			
@@ -227,7 +227,7 @@ SU	2005-10-16	Union of Soviet Socialist Republics	1992-08-30
 SV	2005-10-16	El Salvador			
 SX	2011-01-07	Sint Maarten (Dutch part)			
 SY	2005-10-16	Syrian Arab Republic			
-SZ	2005-10-16	Swaziland			
+SZ	2005-10-16	Eswatini / eSwatini / Swaziland			
 TA	2009-07-29	Tristan da Cunha			
 TC	2005-10-16	Turks and Caicos Islands			
 TD	2005-10-16	Chad			
