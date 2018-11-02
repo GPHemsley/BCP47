@@ -15,9 +15,9 @@ moz-current.txt: FORCE
 
 # Stable URL on my site that lists language codes for which there is a
 # FLOSS spell checker in existence (summarizing the more extensive
-# http://borel.slu.edu/crubadan/stadas.html
+# http://crubadan.org/writingsystems
 moz-spell.txt: FORCE
-	wget -O $(SUPPORT_DIR)$@ 'http://borel.slu.edu/ispell/spell.txt' 2> /dev/null
+	wget -O $(SUPPORT_DIR)$@ 'https://cadhan.com/gaelspell/spell.txt' 2> /dev/null
 
 # Get list of languages in which the Google search interface is available
 google.txt: FORCE
