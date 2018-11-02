@@ -1,4 +1,4 @@
-2018-08-08
+2018-10-31
 aa	2005-10-16	Afar						
 ab	2005-10-16	Abkhazian	Cyrl					
 ae	2005-10-16	Avestan						
@@ -616,7 +616,7 @@ aua	2009-07-29	Asumboa
 aub	2009-07-29	Alugu						
 auc	2009-07-29	Waorani						
 aud	2009-07-29	Anuta						
-aue	2009-07-29	=/Kx'au//'ein				2015-02-12	ktz	
+aue	2009-07-29	ǂKxʼauǁʼein				2015-02-12	ktz	
 auf	2009-07-29	Arauan languages		collection				
 aug	2009-07-29	Aguna						
 auh	2009-07-29	Aushi						
@@ -1870,6 +1870,7 @@ dni	2009-07-29	Lower Grand Valley Dani
 dnj	2013-09-10	Dan						
 dnk	2009-07-29	Dengka						
 dnn	2009-07-29	Dzùùngoo						
+dno	2018-10-28	Ndrulo / Northern Lendu						
 dnr	2009-07-29	Danaru						
 dnt	2009-07-29	Mid Grand Valley Dani						
 dnu	2009-07-29	Danau						
@@ -1972,6 +1973,7 @@ dws	2009-07-29	Dutton World Speedwords
 dwu	2016-05-30	Dhuwal						
 dww	2009-07-29	Dawawa						
 dwy	2016-05-30	Dhuwaya						
+dwz	2018-10-28	Dewas Rai						
 dya	2009-07-29	Dyan						
 dyb	2009-07-29	Dyaberdyaber						
 dyd	2009-07-29	Dyugun						
@@ -2298,7 +2300,7 @@ gey	2009-07-29	Enya
 gez	2005-10-16	Geez						
 gfk	2009-07-29	Patpatar						
 gft	2009-07-29	Gafat						
-gfx	2012-08-12	Mangetti Dune !Xung				2015-02-12	vaj	
+gfx	2012-08-12	Mangetti Dune ǃXung				2015-02-12	vaj	
 gga	2009-07-29	Gao						
 ggb	2009-07-29	Gbii						
 ggd	2009-07-29	Gugadj						
@@ -2356,7 +2358,7 @@ gke	2009-07-29	Ndai
 gkn	2009-07-29	Gokana						
 gko	2012-08-12	Kok-Nar						
 gkp	2009-07-29	Guinea Kpelle			kpe			
-gku	2015-02-12	ǂUngkue / =/Ungkue						
+gku	2015-02-12	ǂUngkue						
 glc	2009-07-29	Bon Gula						
 gld	2009-07-29	Nanai						
 glh	2009-07-29	Northwest Pashai / Northwest Pashayi						
@@ -2394,7 +2396,7 @@ gng	2009-07-29	Ngangam
 gnh	2009-07-29	Lere						
 gni	2009-07-29	Gooniyandi						
 gnj	2018-03-08	Ngen						
-gnk	2009-07-29	//Gana / ǁGana						
+gnk	2009-07-29	ǁGana						
 gnl	2009-07-29	Gangulu						
 gnm	2009-07-29	Ginuman						
 gnn	2009-07-29	Gumatj						
@@ -2516,7 +2518,7 @@ gwe	2009-07-29	Gweno
 gwf	2009-07-29	Gowro						
 gwg	2009-07-29	Moo						
 gwi	2005-10-16	Gwichʼin						
-gwj	2009-07-29	/Gwi / ǀGwi						
+gwj	2009-07-29	ǀGwi						
 gwm	2012-08-12	Awngthim						
 gwn	2009-07-29	Gwandara						
 gwr	2009-07-29	Gwere						
@@ -2581,7 +2583,7 @@ heg	2009-07-29	Helong
 heh	2009-07-29	Hehe						
 hei	2009-07-29	Heiltsuk						
 hem	2009-07-29	Hemba						
-hgm	2009-07-29	Hai//om / Haiǁom						
+hgm	2009-07-29	Haiǁom						
 hgw	2009-07-29	Haigwai						
 hhi	2009-07-29	Hoia Hoia						
 hhr	2009-07-29	Kerak						
@@ -2642,7 +2644,7 @@ hmz	2009-07-29	Hmong Shua / Sinicized Miao			hmn
 hna	2009-07-29	Mina (Cameroon)						
 hnd	2009-07-29	Southern Hindko			lah			
 hne	2009-07-29	Chhattisgarhi						
-hnh	2009-07-29	//Ani / ǁAni						
+hnh	2009-07-29	ǁAni						
 hni	2009-07-29	Hani						
 hnj	2009-07-29	Hmong Njua / Mong Leng / Mong Njua			hmn			
 hnn	2009-07-29	Hanunoo						
@@ -2695,7 +2697,7 @@ hts	2009-07-29	Hadza
 htu	2009-07-29	Hitu						
 htx	2009-07-29	Middle Hittite						
 hub	2009-07-29	Huambisa						
-huc	2009-07-29	=/Hua / ǂHua						
+huc	2009-07-29	ǂHua						
 hud	2009-07-29	Huaulu						
 hue	2009-07-29	San Francisco Del Mar Huave						
 huf	2009-07-29	Humene						
@@ -3538,7 +3540,7 @@ ktv	2009-07-29	Eastern Katu
 ktw	2009-07-29	Kato						
 ktx	2009-07-29	Kaxararí						
 kty	2009-07-29	Kango (Bas-Uélé District)						
-ktz	2009-07-29	Ju/'hoan / Juǀʼhoan / Juǀʼhoansi						
+ktz	2009-07-29	Juǀʼhoan / Juǀʼhoansi						
 kub	2009-07-29	Kutep						
 kuc	2009-07-29	Kwinsu						
 kud	2009-07-29	'Auhelawa						
@@ -4806,7 +4808,7 @@ ngd	2009-07-29	Ngando (Central African Republic)
 nge	2009-07-29	Ngemba						
 ngf	2009-07-29	Trans-New Guinea languages		collection				
 ngg	2009-07-29	Ngbaka Manza						
-ngh	2009-07-29	N/u / Nǀu						
+ngh	2009-07-29	Nǀu						
 ngi	2009-07-29	Ngizim						
 ngj	2009-07-29	Ngie						
 ngk	2009-07-29	Dalabon						
@@ -4946,7 +4948,7 @@ nmj	2009-07-29	Ngombe (Central African Republic)
 nmk	2009-07-29	Namakura						
 nml	2009-07-29	Ndemli						
 nmm	2009-07-29	Manangba						
-nmn	2009-07-29	!Xóõ / ǃXóõ						
+nmn	2009-07-29	ǃXóõ						
 nmo	2009-07-29	Moyon Naga						
 nmp	2009-07-29	Nimanbur						
 nmq	2009-07-29	Nambya						
@@ -5332,7 +5334,7 @@ oub	2009-07-29	Glio-Oubi
 oue	2009-07-29	Oune						
 oui	2009-07-29	Old Uighur						
 oum	2009-07-29	Ouma						
-oun	2009-07-29	!O!ung				2015-02-12	vaj	
+oun	2009-07-29	ǃOǃung				2015-02-12	vaj	
 ovd	2016-06-16	Elfdalian / Övdalian						
 owi	2009-07-29	Owiniga						
 owl	2009-07-29	Old Welsh						
@@ -7090,7 +7092,7 @@ vaf	2009-07-29	Vafsi
 vag	2009-07-29	Vagla						
 vah	2009-07-29	Varhadi-Nagpuri						
 vai	2005-10-16	Vai						
-vaj	2009-07-29	Sekele / Northwestern !Kung / Northwestern ǃKung / Vasekele						
+vaj	2009-07-29	Sekele / Northwestern ǃKung / Vasekele						
 val	2009-07-29	Vehes						
 vam	2009-07-29	Vanimo						
 van	2009-07-29	Valman						
@@ -7410,7 +7412,7 @@ xai	2009-07-29	Kaimbé
 xaj	2014-02-28	Ararandewára						
 xak	2016-05-30	Máku						
 xal	2005-10-16	Kalmyk / Oirat						
-xam	2009-07-29	/Xam / ǀXam						
+xam	2009-07-29	ǀXam						
 xan	2009-07-29	Xamtanga						
 xao	2009-07-29	Khao						
 xap	2009-07-29	Apalachee						
@@ -7461,7 +7463,7 @@ xdo	2017-02-23	Kwandu
 xdy	2009-07-29	Malayic Dayak						
 xeb	2009-07-29	Eblan						
 xed	2009-07-29	Hdi						
-xeg	2009-07-29	//Xegwi / ǁXegwi						
+xeg	2009-07-29	ǁXegwi						
 xel	2009-07-29	Kelo						
 xem	2009-07-29	Kembayan						
 xep	2009-07-29	Epi-Olmec						

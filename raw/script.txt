@@ -1,4 +1,4 @@
-2018-08-08
+2018-10-31
 Adlm	2014-12-11	Adlam			
 Afak	2011-01-07	Afaka			
 Aghb	2012-11-01	Caucasian Albanian			
@@ -39,6 +39,7 @@ Egyd	2005-10-16	Egyptian demotic
 Egyh	2005-10-16	Egyptian hieratic			
 Egyp	2005-10-16	Egyptian hieroglyphs			
 Elba	2010-08-16	Elbasan			
+Elym	2018-10-28	Elymaic			
 Ethi	2005-10-16	Ethiopic / Geʻez / Ge'ez			
 Geok	2005-10-16	Khutsuri (Asomtavruli and Nuskhuri)			
 Geor	2005-10-16	Georgian (Mkhedruli and Mtavruli)			
@@ -113,6 +114,7 @@ Mroo	2011-01-07	Mro / Mru
 Mtei	2007-01-26	Meitei Mayek / Meithei / Meetei			
 Mult	2013-12-02	Multani			
 Mymr	2005-10-16	Myanmar / Burmese			
+Nand	2018-10-28	Nandinagari			
 Narb	2010-04-10	Old North Arabian / Ancient North Arabian			
 Nbat	2010-04-10	Nabataean			
 Newa	2016-01-04	Newa / Newar / Newari / Nepāla lipi			
