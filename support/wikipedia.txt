@@ -19,6 +19,7 @@ ay
 az
 azb
 ba
+ban
 bar
 bat-smg
 bcl
@@ -85,6 +86,7 @@ fy
 ga
 gag
 gan
+gcr
 gd
 gl
 glk
@@ -106,6 +108,7 @@ hsb
 ht
 hu
 hy
+hyw
 hz
 ia
 id
@@ -172,6 +175,7 @@ min
 mk
 ml
 mn
+mnw
 mr
 mrj
 ms
@@ -193,6 +197,7 @@ nl
 nn
 no
 nov
+nqo
 nrm
 nso
 nv
@@ -237,6 +242,7 @@ sd
 se
 sg
 sh
+shn
 si
 simple
 sk
@@ -254,6 +260,7 @@ su
 sv
 sw
 szl
+szy
 ta
 tcy
 te

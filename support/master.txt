@@ -122,6 +122,7 @@ ga-IE
 gaa
 gag
 gan
+gcr
 gd
 gl
 glk
@@ -150,6 +151,7 @@ hu
 hus
 hy
 hy-AM
+hyw
 hz
 ia
 id
@@ -228,6 +230,7 @@ min
 mk
 ml
 mn
+mnw
 mos
 mr
 mrj
@@ -255,6 +258,7 @@ nn
 nn-NO
 no
 nov
+nqo
 nr
 nrm
 nso
@@ -313,6 +317,7 @@ sd
 se
 sg
 sh
+shn
 shs
 si
 simple
@@ -338,6 +343,7 @@ sv-SE
 sw
 swh
 szl
+szy
 ta
 ta-LK
 tcy
