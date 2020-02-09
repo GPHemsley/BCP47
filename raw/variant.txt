@@ -1,4 +1,4 @@
-2018-10-31
+2019-09-16
 1606nict	2007-03-20	Late Middle French (to 1606)	frm			# 16th century French as in Jean Nicot, "Thresor de la langue francoyse", 1606, but also including some French similar to that of Rabelais
 1694acad	2007-03-20	Early Modern French	fr			# 17th century French, as catalogued in the "Dictionnaire de l'académie françoise", 4eme ed. 1694; frequently includes elements of Middle French, as this is a transitional period
 1901	2005-10-16	Traditional German orthography	de			
@@ -11,8 +11,8 @@ aluku	2009-09-05	Aluku dialect / Boni dialect	djk			# Aluku dialect of the "Busi
 akuapem	2017-06-05	Akuapem Twi	tw			
 ao1990	2015-05-06	Portuguese Language Orthographic Agreement of 1990 (Acordo Ortográfico da Língua Portuguesa de 1990)	pt / gl			# Portuguese orthography conventions established in 1990 but not brought into effect until 2009
 aranes	2018-04-22	Aranese	oc			# Occitan variant spoken in the Val d'Aran
-arevela	2006-09-18	Eastern Armenian	hy	2018-03-24	hy	
-arevmda	2006-09-18	Western Armenian	hy	2018-03-24	hyw	
+arevela	2006-09-18	Eastern Armenian	hy	2018-03-24		# Preferred tag is hy
+arevmda	2006-09-18	Western Armenian	hy	2018-03-24		# Preferred tag is hyw
 asante	2017-06-05	Asante Twi / Ashanti Twi	tw			
 auvern	2018-04-22	Auvergnat	oc			# Occitan variant spoken in Auvergne
 baku1926	2007-04-18	Unified Turkic Latin Alphabet (Historical)	az / ba / crh / kk / krc / ky / sah / tk / tt / uz			# Denotes alphabet used in Turkic republics/regions of the former USSR in late 1920s, and throughout 1930s, which aspired to represent equivalent phonemes in a unified fashion. Also known as: New Turkic Alphabet; Birlәşdirilmiş Jeni Tyrk Әlifbasь (Birlesdirilmis Jeni Tyrk Elifbasi); Jaŋalif (Janalif).
@@ -24,6 +24,7 @@ biscayan	2010-04-13	Biscayan dialect of Basque	eu
 biske	2007-07-05	The San Giorgio dialect of Resian / The Bila dialect of Resian	sl-rozaj			# The dialect of San Giorgio/Bila is one of the four major local dialects of Resian
 bohoric	2012-06-27	Slovene in Bohorič alphabet	sl			# The subtag represents the alphabet codified by Adam Bohorič in 1584 and used from the first printed Slovene book and up to the mid-19th century.
 boont	2006-09-18	Boontling	en			# Jargon embedded in American English
+bornholm	2019-03-27	Bornholmsk	da			
 cisaup	2018-04-22	Cisalpine	oc			# Occitan variant spoken in northwestern Italy
 colb1945	2015-05-06	Portuguese-Brazilian Orthographic Convention of 1945 (Convenção Ortográfica Luso-Brasileira de 1945)	pt			# Portuguese orthography conventions established in 1945, generally in effect until 2009. This reform was not ratified in Brazil.
 cornu	2015-12-07	Cornu-English / Cornish English / Anglo-Cornish	en			

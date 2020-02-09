@@ -1,4 +1,4 @@
-2018-10-31
+2019-09-16
 Adlm	2014-12-11	Adlam			
 Afak	2011-01-07	Afaka			
 Aghb	2012-11-01	Caucasian Albanian			
@@ -25,6 +25,7 @@ Cans	2005-10-16	Unified Canadian Aboriginal Syllabics
 Cari	2006-07-21	Carian			
 Cham	2005-10-16	Cham			
 Cher	2005-10-16	Cherokee			
+Chrs	2019-09-11	Chorasmian			
 Cirt	2005-10-16	Cirth			
 Copt	2005-10-16	Coptic			
 Cpmn	2017-08-13	Cypro-Minoan			
@@ -32,6 +33,7 @@ Cprt	2005-10-16	Cypriot syllabary
 Cyrl	2005-10-16	Cyrillic			
 Cyrs	2005-10-16	Cyrillic (Old Church Slavonic variant)			
 Deva	2005-10-16	Devanagari / Nagari			
+Diak	2019-09-11	Dives Akuru			
 Dogr	2017-01-13	Dogra			
 Dsrt	2005-10-16	Deseret / Mormon			
 Dupl	2010-08-16	Duployan shorthand / Duployan stenography			
@@ -188,6 +190,7 @@ Wcho	2017-08-13	Wancho
 Wole	2011-01-07	Woleai			
 Xpeo	2005-10-16	Old Persian			
 Xsux	2005-10-16	Sumero-Akkadian cuneiform			
+Yezi	2019-09-11	Yezidi			
 Yiii	2005-10-16	Yi			
 Zanb	2017-01-13	Zanabazar Square / Zanabazarin Dörböljin Useg / Xewtee Dörböljin Bicig / Horizontal Square Script			
 Zinh	2009-04-03	Code for inherited script			# Not intended for use as a language subtag
