@@ -1,4 +1,4 @@
-2019-09-16
+2020-04-01
 aao	2009-07-29	Algerian Saharan Arabic	ar			ar		aao	
 abh	2009-07-29	Tajiki Arabic	ar			ar		abh	
 abv	2009-07-29	Baharna Arabic	ar			ar		abv	
@@ -34,7 +34,7 @@ ayh	2009-07-29	Hadrami Arabic	ar			ar		ayh
 ayl	2009-07-29	Libyan Arabic	ar			ar		ayl	
 ayn	2009-07-29	Sanaani Arabic	ar			ar		ayn	
 ayp	2009-07-29	North Mesopotamian Arabic	ar			ar		ayp	
-bbz	2009-07-29	Babalia Creole Arabic	ar			ar		bbz	
+bbz	2009-07-29	Babalia Creole Arabic	ar			ar	2020-03-28	bbz	
 bfi	2009-07-29	British Sign Language	sgn					bfi	
 bfk	2009-07-29	Ban Khor Sign Language	sgn					bfk	
 bjn	2009-07-29	Banjar	ms			ms		bjn	
@@ -50,6 +50,7 @@ cdo	2009-07-29	Min Dong Chinese	zh			zh		cdo
 cds	2009-07-29	Chadian Sign Language	sgn					cds	
 cjy	2009-07-29	Jinyu Chinese	zh			zh		cjy	
 cmn	2009-07-29	Mandarin Chinese	zh			zh		cmn	
+cnp	2020-03-28	Northern Ping Chinese / Northern Pinghua	zh			zh		cnp	
 coa	2009-07-29	Cocos Islands Malay	ms			ms		coa	
 cpx	2009-07-29	Pu-Xian Chinese	zh			zh		cpx	
 csc	2009-07-29	Catalan Sign Language / Lengua de señas catalana / Llengua de Signes Catalana	sgn					csc	
@@ -59,6 +60,7 @@ csf	2009-07-29	Cuba Sign Language	sgn					csf
 csg	2009-07-29	Chilean Sign Language	sgn					csg	
 csl	2009-07-29	Chinese Sign Language	sgn					csl	
 csn	2009-07-29	Colombian Sign Language	sgn					csn	
+csp	2020-03-28	Southern Ping Chinese / Southern Pinghua	zh			zh		csp	
 csq	2009-07-29	Croatia Sign Language	sgn					csq	
 csr	2009-07-29	Costa Rican Sign Language	sgn					csr	
 czh	2009-07-29	Huizhou Chinese	zh			zh		czh	
