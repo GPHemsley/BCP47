@@ -88,6 +88,7 @@ ekk
 el
 eml
 en
+en-CA
 en-GB
 en-US
 en-ZA
@@ -151,6 +152,7 @@ hu
 hus
 hy
 hy-AM
+hye
 hyw
 hz
 ia
@@ -166,6 +168,7 @@ is
 it
 iu
 iw
+ixl
 ja
 ja-JP-mac
 jam
@@ -221,12 +224,14 @@ lvs
 mai
 map-bms
 mdf
+meh
 mfe
 mg
 mh
 mhr
 mi
 min
+mix
 mk
 ml
 mn
@@ -274,6 +279,7 @@ os
 pa
 pa-IN
 pag
+pai
 pam
 pap
 pap-CW
@@ -290,6 +296,7 @@ plt
 pms
 pnb
 pnt
+ppl
 prg
 ps
 pt
@@ -297,6 +304,7 @@ pt-BR
 pt-PT
 qu
 quh
+quy
 qvi
 rm
 rmy
@@ -387,6 +395,7 @@ wen
 wo
 wuu
 xal
+xcl
 xh
 xmf
 xx-bork
