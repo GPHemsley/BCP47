@@ -34,7 +34,7 @@ wikipedia.txt: FORCE
 # get list of current Mozilla l10n teams (whoever is committed to l10n-central)
 moz-teams.txt: FORCE
 	wget -O l10n.html 'http://hg.mozilla.org/releases/l10n/mozilla-aurora/' 2> /dev/null
-	egrep -o '/mozilla-aurora/[^/]+' l10n.html | sed 's/^\/mozilla-aurora\///' | egrep -v '^(static|x-testing)$$' | sort -u > $(SUPPORT_DIR)$@
+	egrep -o '/mozilla-aurora/[^/"]+' l10n.html | sed 's/^\/mozilla-aurora\///' | egrep -v '^(static|x-testing)$$' | sort -u > $(SUPPORT_DIR)$@
 	rm -f l10n.html
 
 # * Google adds some deprecated codes; iw, jw, sh (so be it)
