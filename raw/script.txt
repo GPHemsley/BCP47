@@ -1,4 +1,4 @@
-2020-04-01
+2020-05-12
 Adlm	2014-12-11	Adlam			
 Afak	2011-01-07	Afaka			
 Aghb	2012-11-01	Caucasian Albanian			
@@ -182,6 +182,7 @@ Thaa	2005-10-16	Thaana
 Thai	2005-10-16	Thai			
 Tibt	2005-10-16	Tibetan			
 Tirh	2011-08-16	Tirhuta			
+Toto	2020-05-12	Toto			
 Ugar	2005-10-16	Ugaritic			
 Vaii	2005-10-16	Vai			
 Visp	2005-10-16	Visible Speech			
