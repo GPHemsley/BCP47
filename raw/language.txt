@@ -1,4 +1,4 @@
-2020-05-12
+2020-09-29
 aa	2005-10-16	Afar						
 ab	2005-10-16	Abkhazian	Cyrl					
 ae	2005-10-16	Avestan						
@@ -2146,6 +2146,7 @@ ffm	2009-07-29	Maasina Fulfulde			ff
 fgr	2009-07-29	Fongoro						
 fia	2009-07-29	Nobiin						
 fie	2009-07-29	Fyer						
+fif	2020-06-08	Faifi						
 fil	2005-10-16	Filipino / Pilipino						
 fip	2009-07-29	Fipa						
 fir	2009-07-29	Firan						
@@ -6617,7 +6618,7 @@ ths	2009-07-29	Thakali
 tht	2009-07-29	Tahltan						
 thu	2009-07-29	Thuri						
 thv	2009-07-29	Tahaggart Tamahaq			tmh			
-thw	2009-07-29	Thudam						
+thw	2009-07-29	Thudam				2020-06-08	ola	
 thx	2009-07-29	The				2015-02-12	oyb	
 thy	2009-07-29	Tha						
 thz	2009-07-29	Tayart Tamajeq			tmh			
