@@ -10,11 +10,14 @@ an
 ang
 ar
 arc
+ary
 arz
 as
 ast
 atj
 av
+avk
+awa
 ay
 az
 azb
@@ -157,6 +160,7 @@ lfn
 lg
 li
 lij
+lld
 lmo
 ln
 lo
